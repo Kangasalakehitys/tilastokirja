@@ -26,7 +26,7 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
-<link href="./alue.html" rel="next">
+<link href="./vaalit.html" rel="next">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
       <a href="./">Kangasalan kaupunki - Tilastokirja 2023</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://twitter.com" title="" class="sidebar-tool px-1"><i class="bi bi-twitter"></i></a>
-    <a href="https://github.com/Kangasalakehitys/tilastokirja/" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/Kangasalakehitys/{{< var url.repo >}}" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
     <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
     <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
         <li>
@@ -113,32 +113,27 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./alue.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Alue</span></a>
+  <a href="./vaalit.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Vaalit</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./vaalit.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Vaalit</span></a>
+  <a href="./vaesto.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Väestö ja väestönmuutokset</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./vaesto.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Väestö ja väestönmuutokset</span></a>
+  <a href="./muuttoliike.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Muuttoliike</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./muuttoliike.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Muuttoliike</span></a>
+  <a href="./vaestoskenaario.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Väestöskenaario</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./vaestoskenaario.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Väestöskenaario</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tyossakaynti.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Tyossakaynti</span></a>
+  <a href="./tyossakaynti.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Tyossakaynti</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -167,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#alkusanat" id="toc-alkusanat" class="nav-link active" data-scroll-target="#alkusanat">Alkusanat</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Kangasalakehitys/tilastokirja/edit/main/index.qmd" class="toc-action">Muokkaa sivua</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Kangasalakehitys/{{< var url.repo >}}/edit/main/index.qmd" class="toc-action">Muokkaa sivua</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -175,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title d-none d-lg-block">Kangasalan kaupunki - Tilastokirja 2023</h1>
-<p class="subtitle lead">v. 0.2</p>
+<p class="subtitle lead">0.3</p>
 </div>
 
 
@@ -198,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="alkusanat" class="level2 unnumbered">
-<p><img src="themes/cover_tilastokirja.png" title="Kangasalan kaupunki - Tilastokirja 2023" class="quarto-cover-image img-fluid"></p><h2 class="unnumbered anchored" data-anchor-id="alkusanat">Alkusanat</h2>
+<p><img src="themes/cover_kangasala.png" title="{{< var general.city >}} - {{< var general.title >}} {{< var general.year >}}" class="quarto-cover-image img-fluid"></p><h2 class="unnumbered anchored" data-anchor-id="alkusanat">Alkusanat</h2>
 <p>Kangasalan kaupunki - Tilastokirja 2023 tarjoaa tilastotietoa väestöstä, työmarkkinoista, asumisesta, rakentamisesta ja taloudesta. Julkaisun lopussa on luettelo kaupungin luottamushenkilöistä.</p>
 <p>Tilastokirja täydentää toimintakertomuksessa annettua informaatiota. Tietolähteinä on käytetty esimerkiksi Kangasalan kaupunkin, Digi- ja väestötietoviraston, Tilastokeskuksen, Verohallinnon, Kunta- ja Pirkanmaan liiton sekä kuntayhtymien tilastoaineistoa.</p>
 <p>Julkaisija: Kangasalan kaupunki</p>
@@ -208,7 +203,7 @@ Puhelin (03) 5655 3000<br>
 Sähköposti etunimi.sukunimi@kangasala.fi<br>
 Kotisivu https://www.kangasala.fi</p>
 <p>Painatus: Kangasalan kaupunki, 2023</p>
-<p>Verkkosivut: <a href="https://www.kangasala.fi/kaupunki-ja-paatoksenteko/hallinto-ja-talous/ talous-ja-tilastot/tilastot-ja-tutkimus/tilastokirjat/">https://www.kangasala.fi/kaupunki-ja-paatoksenteko/hallinto-ja-talous/ talous-ja-tilastot/tilastot-ja-tutkimus/tilastokirjat/</a></p>
+<p>Verkkosivut: <a href="https://www.kangasala.fi">https://www.kangasala.fi</a></p>
 
 
 </section>
@@ -351,8 +346,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./alue.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Alue</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./vaalit.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Vaalit</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
