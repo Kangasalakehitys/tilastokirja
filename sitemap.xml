@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kangasalakehitys.github.io/{{< var url.site >}}/index.html</loc>
-    <lastmod>2023-04-05T12:20:09.284Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilastokirja/index.html</loc>
+    <lastmod>2023-04-16T15:15:27.508Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/{{< var url.site >}}/vaalit.html</loc>
-    <lastmod>2023-04-05T12:20:09.285Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilastokirja/alue.html</loc>
+    <lastmod>2023-04-16T15:15:27.511Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/{{< var url.site >}}/vaesto.html</loc>
-    <lastmod>2023-04-05T12:20:09.289Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilastokirja/vaalit.html</loc>
+    <lastmod>2023-04-16T15:15:27.512Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/{{< var url.site >}}/muuttoliike.html</loc>
-    <lastmod>2023-04-05T12:20:09.292Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilastokirja/vaesto.html</loc>
+    <lastmod>2023-04-16T15:15:27.517Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/{{< var url.site >}}/vaestoskenaario.html</loc>
-    <lastmod>2023-04-05T12:20:09.293Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilastokirja/muuttoliike.html</loc>
+    <lastmod>2023-04-16T15:15:27.518Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/{{< var url.site >}}/tyossakaynti.html</loc>
-    <lastmod>2023-04-05T12:20:09.296Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilastokirja/vaestoskenaario.html</loc>
+    <lastmod>2023-04-16T15:15:27.519Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/{{< var url.site >}}/lahteet.html</loc>
-    <lastmod>2023-04-05T12:20:09.296Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilastokirja/tyossakaynti.html</loc>
+    <lastmod>2023-04-16T15:15:27.523Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kangasalakehitys.github.io/tilastokirja/lahteet.html</loc>
+    <lastmod>2023-04-16T15:15:27.524Z</lastmod>
   </url>
 </urlset>

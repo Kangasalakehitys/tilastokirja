@@ -1,1 +1,1 @@
-Sitemap: https://kangasalakehitys.github.io/{{< var url.site >}}/sitemap.xml
+Sitemap: https://kangasalakehitys.github.io/tilastokirja/sitemap.xml
