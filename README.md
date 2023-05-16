@@ -1,5 +1,8 @@
 # Tilastokirja - updates
 
+Tilastokirja on kunnille suunnattu tietopaketti. Pääosa tiedoista on haettu Tilastokeskuksen rajapinnoilta. Tilastokirjaa kehitetään eteenpäin toiveiden mukaan.
+Kirjan voi ajaa [quart](https://quarto.org/) ohjelmistolla. Pääosa koodista on markdown ja r-koodia.
+
 ## 8.5.2023 - Added greenhouse gases
 #Tilastokeskus: 121z -- Kasvihuonekaasupäästöt alueittain, päästökaupan ulkopuoliset tiedot, 2011-2020
 CHARTS - \_chart_ilmasto_paastot.qmd
