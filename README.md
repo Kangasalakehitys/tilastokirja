@@ -4,7 +4,9 @@ Tilastokirja on kunnille suunnattu tietopaketti. Pääosa tiedoista on haettu Ti
 Kirjan voi ajaa [Quarto](https://quarto.org/) ohjelmistolla. Pääosa koodista on Markdownia ja r-koodia. Kirjan HTML-versiota voi tarkistella osoitteesta: https://kangasalakehitys.github.io/tilastokirja/
 Kirja on tehty Kangasalla ja käännettävissä mille tahansa kunnalle. Sovelluksen lisenssi on [LGPL 2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) - muotoa. Kysymykset ja kehitysehdotukset: [juuso.heinisuo@kangasala.fi](juuso.heinisuo@kangasala.fi)
 
-## 16.5.2023 - Added site-search
+## 16.5.2023 - Added site-search and financial data
+#Valtiokonttori - KKNR - Kuntien ja kuntayhtymien neljännesvuosiraportointi
+TABLES - \_tbl_tuloslaskelma.qmd
 
 ## 8.5.2023 - Added greenhouse gases
 #Tilastokeskus: 121z -- Kasvihuonekaasupäästöt alueittain, päästökaupan ulkopuoliset tiedot, 2011-2020
