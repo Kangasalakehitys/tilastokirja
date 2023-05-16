@@ -1,10 +1,15 @@
 # Tilastokirja - updates
 
-## 3.5.2023 - Added väestöpyramidi
+## 8.5.2023 - Added greenhouse gases
+#Tilastokeskus: 121z -- Kasvihuonekaasupäästöt alueittain, päästökaupan ulkopuoliset tiedot, 2011-2020
+CHARTS - \_chart_ilmasto_paastot.qmd
+TABLES - \_tbl_ilmasto_paastot.qmd
+
+## 3.5.2023 - Added population pyramid
 
 CHARTS - \_chart_vaestopyramidi.qmd
 
-## 27.4.2023 - Added ikäryhmät - 5luokkaa
+## 27.4.2023 - Added population 5 classes
 
 #StatFin / Väestörakenne / 11ra -- Tunnuslukuja väestöstä alueittain, 1990-2022 stat_url_11ra: "https://pxdata.stat.fi:443/PxWeb/api/v1/fi/StatFin/vaerak/statfin_vaerak_pxt_11ra.px"
 
