@@ -4,7 +4,10 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.3.30">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>Kangasalan kaupunki - Tilastokirja 2023 - 1&nbsp; Alue</title>
+<meta name="author" content="Juuso Heinisuo">
+<meta name="keywords" content="Tilastokirja, Kangasalan kaupunki">
+<meta name="description" content="Tämä on Kangasalan kaupungin tilastokirja. Tilastokirjaan on koottu tilastotietoa kaupungin eri osa-alueista.. Tilastokirja on julkaistu LGPL-2.1-or-later lisenssi alla. Copyright 2023 Kangasalan kaupunki">
+<title>Kangasalan kaupunki - Tilastokirja 2023</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,9 +24,13 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
 <link href="./vaalit.html" rel="next">
 <link href="./index.html" rel="prev">
-<script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -33,6 +40,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "overlay",
+  "limit": 20,
   "language": {
     "search-no-results-text": "Ei tuloksia",
     "search-matching-documents-text": "tulokset",
@@ -63,10 +76,9 @@ ul.task-list li input[type="checkbox"] {
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./themes/images/kangasala/kangasala_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none"></a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Kangasalan kaupunki - Tilastokirja 2023</a> 
-        <div class="sidebar-tools-main tools-wide">
-    <a href="https://twitter.com" title="" class="sidebar-tool px-1"><i class="bi bi-twitter"></i></a>
-    <a href="https://github.com/Kangasalakehitys/tilastokirja" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+      <a href="./">Tilastokirja 2023</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/Kangasalakehitys/tilastokirjateams" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
     <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
     <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
 <li>
@@ -90,6 +102,11 @@ ul.task-list li input[type="checkbox"] {
     </ul>
 </div>
     </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
@@ -138,6 +155,16 @@ ul.task-list li input[type="checkbox"] {
   <a href="./asuminen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Asuminen ja rakentaminen</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ilmasto.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Ilmasto</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./talous.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Talous</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Liitteet</a>
@@ -167,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#kaupungin-maanomistus" id="toc-kaupungin-maanomistus" class="nav-link" data-scroll-target="#kaupungin-maanomistus"><span class="toc-section-number">1.6</span>  Kaupungin maanomistus</a></li>
   <li><a href="#muiden-kuin-kaupungin-maanomistus" id="toc-muiden-kuin-kaupungin-maanomistus" class="nav-link" data-scroll-target="#muiden-kuin-kaupungin-maanomistus"><span class="toc-section-number">1.7</span>  Muiden kuin kaupungin maanomistus</a></li>
   <li><a href="#kaupungin-omistama-maa--ja-mets%C3%A4talousmaa" id="toc-kaupungin-omistama-maa--ja-metsätalousmaa" class="nav-link" data-scroll-target="#kaupungin-omistama-maa--ja-mets%C3%A4talousmaa"><span class="toc-section-number">1.8</span>  Kaupungin omistama maa- ja metsätalousmaa</a></li>
-  </ul><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Kangasalakehitys/tilastokirja/edit/main/alue.qmd" class="toc-action">Muokkaa sivua</a></p></div></div></nav>
+  </ul><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Kangasalakehitys/tilastokirjateams/edit/main/alue.qmd" class="toc-action">Muokkaa sivua</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
@@ -191,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Kangasala sijaitsee hämeessä Pirkanmaan maakunnassa Tampereen kaupunkiseudulla.</p>
 </section><section id="maa--ja-vesipinta-alat-sekä-väestötiheys" class="level2" data-number="1.2"><h2 data-number="1.2" class="anchored" data-anchor-id="maa--ja-vesipinta-alat-sekä-väestötiheys">
 <span class="header-section-number">1.2</span> Maa- ja vesipinta-alat sekä väestötiheys</h2>
-<div class="cell" data-hash="alue_cache/html/1.2 Kaupungin alue_b2fe819f0d614b0bc3ab4ff722be99f7">
+<div class="cell" data-hash="alue_cache/html/1.2 Kaupungin alue_f8b76ee4e5743959576b8f5f3b518b77">
 <div class="cell-output-display">
 
 <table class=" lightable-classic lightable-striped" style="font-size: 10px; font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto;border-bottom: 0;">
@@ -280,7 +307,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section><section id="kaupungin-alueet-maankäyttötarkoituksen-mukaan" class="level2" data-number="1.3"><h2 data-number="1.3" class="anchored" data-anchor-id="kaupungin-alueet-maankäyttötarkoituksen-mukaan">
 <span class="header-section-number">1.3</span> Kaupungin alueet maankäyttötarkoituksen mukaan</h2>
-<div class="cell" data-hash="alue_cache/html/1.3 Kaupungin alue käyttötarkoituksen mukaan_9f7c7f031c3ac4ba5eeb735c5e2523a8">
+<div class="cell" data-hash="alue_cache/html/1.3 Kaupungin alue käyttötarkoituksen mukaan_5a3a1767d3cdbf250c82dca3f25ac2aa">
 <div class="cell-output-display">
 
 <table class=" lightable-classic lightable-striped" style="font-size: 10px; font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto;border-bottom: 0;">
@@ -417,7 +444,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section><section id="hyväksytyt-yleis--ja-asemakaavat" class="level2" data-number="1.4"><h2 data-number="1.4" class="anchored" data-anchor-id="hyväksytyt-yleis--ja-asemakaavat">
 <span class="header-section-number">1.4</span> Hyväksytyt yleis- ja asemakaavat</h2>
-<div class="cell" data-hash="alue_cache/html/1.4 Hyväksytyt kaavat_637ede4a7cee34c70f21c4874ba35ce7">
+<div class="cell" data-hash="alue_cache/html/1.4 Hyväksytyt kaavat_acb1bf7558f47c8a56de03a861321ece">
 <div class="cell-output-display">
 
 <table class=" lightable-classic lightable-striped" style="font-size: 10px; font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto;border-bottom: 0;">
@@ -530,7 +557,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section><section id="hyväksytyt-oikeusvaikutteiset-yleiskaavat-ja-asemakaavat-yhteensä-hehtaaria" class="level2" data-number="1.5"><h2 data-number="1.5" class="anchored" data-anchor-id="hyväksytyt-oikeusvaikutteiset-yleiskaavat-ja-asemakaavat-yhteensä-hehtaaria">
 <span class="header-section-number">1.5</span> Hyväksytyt oikeusvaikutteiset yleiskaavat ja asemakaavat yhteensä (hehtaaria)</h2>
-<div class="cell" data-hash="alue_cache/html/1.5 Kaavoitettu maa-alue yhteensä_2eaeca9a34c2ceeeea78c63410bf3dff">
+<div class="cell" data-hash="alue_cache/html/1.5 Kaavoitettu maa-alue yhteensä_ffcee276ff86524087e2d399c8d5f91e">
 <div class="cell-output-display">
 
 <table class=" lightable-classic lightable-striped" style="font-size: 10px; font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto;border-bottom: 0;">
@@ -631,7 +658,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section><section id="kaupungin-maanomistus" class="level2" data-number="1.6"><h2 data-number="1.6" class="anchored" data-anchor-id="kaupungin-maanomistus">
 <span class="header-section-number">1.6</span> Kaupungin maanomistus</h2>
-<div class="cell" data-hash="alue_cache/html/1.6 Kaupungin maanomistus_5f7ef336330d283fad29d5d91384fd32">
+<div class="cell" data-hash="alue_cache/html/1.6 Kaupungin maanomistus_4f0e3fc1cd685cd46100d1425e15d6e2">
 <div class="cell-output-display">
 
 <table class=" lightable-classic lightable-striped" style="font-size: 10px; font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto;border-bottom: 0;">
@@ -840,7 +867,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section><section id="muiden-kuin-kaupungin-maanomistus" class="level2" data-number="1.7"><h2 data-number="1.7" class="anchored" data-anchor-id="muiden-kuin-kaupungin-maanomistus">
 <span class="header-section-number">1.7</span> Muiden kuin kaupungin maanomistus</h2>
-<div class="cell" data-hash="alue_cache/html/1.7 Muiden kuin kaupungin maanomistus_12c63eaf0aff63b37dfa69372dd08f43">
+<div class="cell" data-hash="alue_cache/html/1.7 Muiden kuin kaupungin maanomistus_232b00a16721afcd5e0713b9283cb3b9">
 <div class="cell-output-display">
 
 <table class=" lightable-classic lightable-striped" style="font-size: 10px; font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto;border-bottom: 0;">
@@ -977,7 +1004,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section><section id="kaupungin-omistama-maa--ja-metsätalousmaa" class="level2" data-number="1.8"><h2 data-number="1.8" class="anchored" data-anchor-id="kaupungin-omistama-maa--ja-metsätalousmaa">
 <span class="header-section-number">1.8</span> Kaupungin omistama maa- ja metsätalousmaa</h2>
-<div class="cell" data-hash="alue_cache/html/1.8 Kaupungin omistama maa- ja metsätalousmaa_5d86a2cab4ed26f419a5e1d8b8c0343f">
+<div class="cell" data-hash="alue_cache/html/1.8 Kaupungin omistama maa- ja metsätalousmaa_c4d4649024ca28508718e250a1915a78">
 <div class="cell-output-display">
 
 <table class=" lightable-classic lightable-striped" style="font-size: 10px; font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto;border-bottom: 0;">
@@ -1210,7 +1237,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-
+<footer class="footer"><div class="nav-footer">
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+<li class="nav-item">
+ Kangasalan kaupunki 2023
+  </li>  
+</ul>
+</div>
+  </div>
+</footer>
 
 
 </body></html>

@@ -2,46 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kangasalakehitys.github.io/tilastokirja/index.html</loc>
-    <lastmod>2023-05-16T11:57:34.657Z</lastmod>
+    <lastmod>2023-05-21T07:28:12.770Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kangasalakehitys.github.io/tilastokirja/alue.html</loc>
+    <lastmod>2023-05-21T07:28:12.770Z</lastmod>
   </url>
   <url>
     <loc>https://kangasalakehitys.github.io/tilastokirja/vaalit.html</loc>
-    <lastmod>2023-05-16T11:57:34.657Z</lastmod>
+    <lastmod>2023-05-21T07:28:12.770Z</lastmod>
   </url>
   <url>
     <loc>https://kangasalakehitys.github.io/tilastokirja/vaesto.html</loc>
-    <lastmod>2023-05-16T11:57:34.663Z</lastmod>
+    <lastmod>2023-05-21T07:28:12.770Z</lastmod>
   </url>
   <url>
     <loc>https://kangasalakehitys.github.io/tilastokirja/muuttoliike.html</loc>
-    <lastmod>2023-05-16T11:57:34.666Z</lastmod>
+    <lastmod>2023-05-21T07:28:12.770Z</lastmod>
   </url>
   <url>
     <loc>https://kangasalakehitys.github.io/tilastokirja/koulutus.html</loc>
-    <lastmod>2023-05-16T11:57:34.666Z</lastmod>
+    <lastmod>2023-05-21T07:28:12.770Z</lastmod>
   </url>
   <url>
     <loc>https://kangasalakehitys.github.io/tilastokirja/vaestoskenaario.html</loc>
-    <lastmod>2023-05-16T11:57:34.669Z</lastmod>
+    <lastmod>2023-05-21T07:28:12.770Z</lastmod>
   </url>
   <url>
     <loc>https://kangasalakehitys.github.io/tilastokirja/tyossakaynti.html</loc>
-    <lastmod>2023-05-16T11:57:34.674Z</lastmod>
+    <lastmod>2023-05-21T07:28:12.786Z</lastmod>
   </url>
   <url>
     <loc>https://kangasalakehitys.github.io/tilastokirja/asuminen.html</loc>
-    <lastmod>2023-05-16T11:57:34.678Z</lastmod>
+    <lastmod>2023-05-21T07:28:12.795Z</lastmod>
   </url>
   <url>
     <loc>https://kangasalakehitys.github.io/tilastokirja/ilmasto.html</loc>
-    <lastmod>2023-05-16T11:57:34.679Z</lastmod>
+    <lastmod>2023-05-21T07:28:12.795Z</lastmod>
   </url>
   <url>
     <loc>https://kangasalakehitys.github.io/tilastokirja/talous.html</loc>
-    <lastmod>2023-05-16T11:57:34.679Z</lastmod>
+    <lastmod>2023-05-21T07:28:12.801Z</lastmod>
   </url>
   <url>
     <loc>https://kangasalakehitys.github.io/tilastokirja/lahteet.html</loc>
-    <lastmod>2023-05-16T11:57:34.679Z</lastmod>
+    <lastmod>2023-05-21T07:28:12.801Z</lastmod>
   </url>
 </urlset>
