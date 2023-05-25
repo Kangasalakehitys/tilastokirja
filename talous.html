@@ -20,6 +20,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -58,6 +77,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Lähetä"
   }
 }</script><script src="site_libs/kePrint-0.0.1/kePrint.js"></script><link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.0/htmlwidgets.js"></script><script src="site_libs/plotly-binding-4.10.1/plotly.js"></script><script src="site_libs/typedarray-0.1/typedarray.min.js"></script><script src="site_libs/jquery-3.5.1/jquery.min.js"></script><link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script><link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 </head>
 <body class="nav-sidebar floating">
 
@@ -188,6 +210,29 @@ ul.task-list li input[type="checkbox"] {
   <ul>
 <li><a href="#tuloslaskelma" id="toc-tuloslaskelma" class="nav-link active" data-scroll-target="#tuloslaskelma"><span class="toc-section-number">10.1</span>  Tuloslaskelma</a></li>
   <li><a href="#tilinp%C3%A4%C3%A4t%C3%B6s-talousarvio---ja--suunnitelma" id="toc-tilinpäätös-talousarvio---ja--suunnitelma" class="nav-link" data-scroll-target="#tilinp%C3%A4%C3%A4t%C3%B6s-talousarvio---ja--suunnitelma"><span class="toc-section-number">10.2</span>  Tilinpäätös, talousarvio - ja -suunnitelma</a></li>
+  <li>
+<a href="#kuntavertailu---talous" id="toc-kuntavertailu---talous" class="nav-link" data-scroll-target="#kuntavertailu---talous"><span class="toc-section-number">10.3</span>  Kuntavertailu - talous</a>
+  <ul class="collapse">
+<li><a href="#tilikauden-yli--alij%C3%A4%C3%A4m%C3%A4" id="toc-tilikauden-yli--alijäämä" class="nav-link" data-scroll-target="#tilikauden-yli--alij%C3%A4%C3%A4m%C3%A4"><span class="toc-section-number">10.3.1</span>  Tilikauden yli -alijäämä</a></li>
+  <li><a href="#toimintakate" id="toc-toimintakate" class="nav-link" data-scroll-target="#toimintakate"><span class="toc-section-number">10.3.2</span>  Toimintakate</a></li>
+  <li><a href="#toimintakate---asukas" id="toc-toimintakate---asukas" class="nav-link" data-scroll-target="#toimintakate---asukas"><span class="toc-section-number">10.3.3</span>  Toimintakate - €/asukas</a></li>
+  <li><a href="#toimintakulut" id="toc-toimintakulut" class="nav-link" data-scroll-target="#toimintakulut"><span class="toc-section-number">10.3.4</span>  Toimintakulut</a></li>
+  <li><a href="#toimintakulut---asukas" id="toc-toimintakulut---asukas" class="nav-link" data-scroll-target="#toimintakulut---asukas"><span class="toc-section-number">10.3.5</span>  Toimintakulut - €/asukas</a></li>
+  <li><a href="#toimintakulut--osuus-toimintakuluista" id="toc-toimintakulut--osuus-toimintakuluista" class="nav-link" data-scroll-target="#toimintakulut--osuus-toimintakuluista"><span class="toc-section-number">10.3.6</span>  Toimintakulut %-osuus toimintakuluista</a></li>
+  <li><a href="#henkil%C3%B6st%C3%B6kulut" id="toc-henkilöstökulut" class="nav-link" data-scroll-target="#henkil%C3%B6st%C3%B6kulut"><span class="toc-section-number">10.3.7</span>  Henkilöstökulut</a></li>
+  <li><a href="#henkil%C3%B6st%C3%B6kulut---asukas" id="toc-henkilöstökulut---asukas" class="nav-link" data-scroll-target="#henkil%C3%B6st%C3%B6kulut---asukas"><span class="toc-section-number">10.3.8</span>  Henkilöstökulut - €/asukas</a></li>
+  <li><a href="#palvelujen-ostot" id="toc-palvelujen-ostot" class="nav-link" data-scroll-target="#palvelujen-ostot"><span class="toc-section-number">10.3.9</span>  Palvelujen ostot</a></li>
+  <li><a href="#palvelujen-ostot---asukas" id="toc-palvelujen-ostot---asukas" class="nav-link" data-scroll-target="#palvelujen-ostot---asukas"><span class="toc-section-number">10.3.10</span>  Palvelujen ostot - €/asukas</a></li>
+  <li><a href="#toimintatulot" id="toc-toimintatulot" class="nav-link" data-scroll-target="#toimintatulot"><span class="toc-section-number">10.3.11</span>  Toimintatulot</a></li>
+  <li><a href="#toimintatulot---asukas" id="toc-toimintatulot---asukas" class="nav-link" data-scroll-target="#toimintatulot---asukas"><span class="toc-section-number">10.3.12</span>  Toimintatulot - €/asukas</a></li>
+  <li><a href="#verotulot" id="toc-verotulot" class="nav-link" data-scroll-target="#verotulot"><span class="toc-section-number">10.3.13</span>  Verotulot</a></li>
+  <li><a href="#verotulot---asukas" id="toc-verotulot---asukas" class="nav-link" data-scroll-target="#verotulot---asukas"><span class="toc-section-number">10.3.14</span>  Verotulot - €/asukas</a></li>
+  <li><a href="#valtionosuudet" id="toc-valtionosuudet" class="nav-link" data-scroll-target="#valtionosuudet"><span class="toc-section-number">10.3.15</span>  Valtionosuudet</a></li>
+  <li><a href="#valtionosuudet---asukas" id="toc-valtionosuudet---asukas" class="nav-link" data-scroll-target="#valtionosuudet---asukas"><span class="toc-section-number">10.3.16</span>  Valtionosuudet - €/asukas</a></li>
+  <li><a href="#lainakanta" id="toc-lainakanta" class="nav-link" data-scroll-target="#lainakanta"><span class="toc-section-number">10.3.17</span>  Lainakanta</a></li>
+  <li><a href="#lainakanta---asukas" id="toc-lainakanta---asukas" class="nav-link" data-scroll-target="#lainakanta---asukas"><span class="toc-section-number">10.3.18</span>  Lainakanta - €/asukas</a></li>
+  </ul>
+</li>
   </ul><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Kangasalakehitys/tilastokirjateams/edit/main/talous.qmd" class="toc-action">Muokkaa sivua</a></p></div></div></nav>
     </div>
 <!-- main -->
@@ -207,139 +252,142 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
-</header><section id="tuloslaskelma" class="level2" data-number="10.1"><h2 data-number="10.1" class="anchored" data-anchor-id="tuloslaskelma">
+</header><p>Kirjanpitovelvollisuuteen, kirjanpitoon ja tilinpäätökseen sovelletaan kuntalain lisäksi kirjanpitolakia. Tilinpäätökseen kuuluu tase, tuloslaskelma, rahoituslaskelma ja liitetiedot sekä talousarvion toteutumisvertailu ja toimintakertomus. Lisäksi kunnan tytäryhteisöjen kanssa muodostettavan kuntakonsernin konsernitilinpäätös on sisällytettävä tilinpäätökseen.</p>
+<p>Tilikausi on kalenterivuosi. Hallituksen on laadittava tilinpäätös tilikautta seuraavan vuoden maaliskuun loppuun menessä. Valtuuston on käsiteltävä tilinpäätös kesäkuun loppuun mennessä.</p>
+<p><span class="citation" data-cites="kirjanpito_ja_tilinpaatos">(Lähde: <a href="lahteet.html#ref-kirjanpito_ja_tilinpaatos" role="doc-biblioref">Kuntaliitto 2023</a>)</span></p>
+<section id="tuloslaskelma" class="level2" data-number="10.1"><h2 data-number="10.1" class="anchored" data-anchor-id="tuloslaskelma">
 <span class="header-section-number">10.1</span> Tuloslaskelma</h2>
 <p>Kunnat raportoivat vuodesta 2021 alkaen Valtiokonttorille neljännesvuosittain kuluvan vuoden talouden toteumatietoja.</p>
-<div class="cell" data-hash="talous_cache/html/Tuloslaskelma lyhyt - table_b53be32d835f70429c2e5c79489bbe95">
+<div class="cell" data-hash="talous_cache/html/Tuloslaskelma lyhyt - table_749f357c0753acf26a6caef2d48d8399">
 <div class="cell-output-display">
 
 <table class=" lightable-classic lightable-striped" style="font-size: 10px; font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto;border-bottom: 0;">
 <caption style="font-size: initial !important;">Tuloslaskelman tilien saldot</caption>
  <thead><tr>
 <th style="text-align:left;">   </th>
-   <th style="text-align:left;"> 2022C03 </th>
+   <th style="text-align:left;"> 2022C09 </th>
    <th style="text-align:right;"> 2021C12 </th>
   </tr></thead>
 <tbody>
 <tr>
 <td style="text-align:left;"> Toimintatuotot </td>
-   <td style="text-align:left;"> 11869 </td>
-   <td style="text-align:right;"> 53261 </td>
+   <td style="text-align:left;"> 53261 </td>
+   <td style="text-align:right;"> 33989 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Myyntituotot </td>
-   <td style="text-align:left;"> 6762 </td>
-   <td style="text-align:right;"> 28600 </td>
+   <td style="text-align:left;"> 28600 </td>
+   <td style="text-align:right;"> 19877 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Maksutuotot </td>
-   <td style="text-align:left;"> 3045 </td>
-   <td style="text-align:right;"> 11647 </td>
+   <td style="text-align:left;"> 11647 </td>
+   <td style="text-align:right;"> 8399 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Tuet ja avustukset </td>
-   <td style="text-align:left;"> 1053 </td>
-   <td style="text-align:right;"> 6508 </td>
+   <td style="text-align:left;"> 6508 </td>
+   <td style="text-align:right;"> 2733 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Muut toimintatuotot </td>
-   <td style="text-align:left;"> 1010 </td>
-   <td style="text-align:right;"> 6505 </td>
+   <td style="text-align:left;"> 6505 </td>
+   <td style="text-align:right;"> 2980 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Toimintakulut </td>
-   <td style="text-align:left;"> -56173 </td>
-   <td style="text-align:right;"> -227246 </td>
+   <td style="text-align:left;"> -227246 </td>
+   <td style="text-align:right;"> -169183 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Henkilöstökulut </td>
-   <td style="text-align:left;"> -22407 </td>
-   <td style="text-align:right;"> -93739 </td>
+   <td style="text-align:left;"> -93739 </td>
+   <td style="text-align:right;"> -73744 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Palvelujen ostot </td>
-   <td style="text-align:left;"> -27139 </td>
-   <td style="text-align:right;"> -106030 </td>
+   <td style="text-align:left;"> -106030 </td>
+   <td style="text-align:right;"> -75581 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Aineet, tarvikkeet ja tavarat </td>
-   <td style="text-align:left;"> -3080 </td>
-   <td style="text-align:right;"> -12437 </td>
+   <td style="text-align:left;"> -12437 </td>
+   <td style="text-align:right;"> -8640 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Avustukset </td>
-   <td style="text-align:left;"> -2072 </td>
-   <td style="text-align:right;"> -10620 </td>
+   <td style="text-align:left;"> -10620 </td>
+   <td style="text-align:right;"> -7239 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Muut toimintakulut </td>
-   <td style="text-align:left;"> -1475 </td>
-   <td style="text-align:right;"> -4421 </td>
+   <td style="text-align:left;"> -4421 </td>
+   <td style="text-align:right;"> -3978 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Toimintakate </td>
-   <td style="text-align:left;"> -44304 </td>
-   <td style="text-align:right;"> -173985 </td>
+   <td style="text-align:left;"> -173985 </td>
+   <td style="text-align:right;"> -135194 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Verotulot </td>
-   <td style="text-align:left;"> 41815 </td>
-   <td style="text-align:right;"> 143281 </td>
+   <td style="text-align:left;"> 143281 </td>
+   <td style="text-align:right;"> 113405 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Valtionosuudet </td>
-   <td style="text-align:left;"> 12279 </td>
-   <td style="text-align:right;"> 45224 </td>
+   <td style="text-align:left;"> 45224 </td>
+   <td style="text-align:right;"> 37110 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Rahoitustuotot ja -kulut </td>
-   <td style="text-align:left;"> 214 </td>
-   <td style="text-align:right;"> 3814 </td>
+   <td style="text-align:left;"> 3814 </td>
+   <td style="text-align:right;"> 128 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Korkotuotot </td>
-   <td style="text-align:left;"> 1 </td>
-   <td style="text-align:right;"> 212 </td>
+   <td style="text-align:left;"> 212 </td>
+   <td style="text-align:right;"> 109 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Muut rahoitustuotot </td>
-   <td style="text-align:left;"> 776 </td>
-   <td style="text-align:right;"> 4331 </td>
+   <td style="text-align:left;"> 4331 </td>
+   <td style="text-align:right;"> 5350 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Korkokulut </td>
-   <td style="text-align:left;"> 0 </td>
-   <td style="text-align:right;"> -550 </td>
+   <td style="text-align:left;"> -550 </td>
+   <td style="text-align:right;"> -259 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Muut rahoituskulut </td>
-   <td style="text-align:left;"> -563 </td>
-   <td style="text-align:right;"> -178 </td>
+   <td style="text-align:left;"> -178 </td>
+   <td style="text-align:right;"> -5072 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Vuosikate </td>
-   <td style="text-align:left;"> 10005 </td>
-   <td style="text-align:right;"> 18334 </td>
+   <td style="text-align:left;"> 18334 </td>
+   <td style="text-align:right;"> 15449 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Poistot ja arvonalentumiset </td>
-   <td style="text-align:left;"> -3667 </td>
-   <td style="text-align:right;"> -14313 </td>
+   <td style="text-align:left;"> -14313 </td>
+   <td style="text-align:right;"> -10989 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Tilikauden tulos </td>
-   <td style="text-align:left;"> 6338 </td>
-   <td style="text-align:right;"> 4021 </td>
+   <td style="text-align:left;"> 4021 </td>
+   <td style="text-align:right;"> 4460 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Varausten ja rahastojen muutokset </td>
-   <td style="text-align:left;"> 156 </td>
-   <td style="text-align:right;"> 1940 </td>
+   <td style="text-align:left;"> 1940 </td>
+   <td style="text-align:right;"> 469 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Tilikauden yli- alijäämä </td>
-   <td style="text-align:left;"> 6495 </td>
-   <td style="text-align:right;"> 5961 </td>
+   <td style="text-align:left;"> 5961 </td>
+   <td style="text-align:right;"> 4929 </td>
   </tr>
 </tbody>
 <tfoot>
@@ -359,7 +407,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Rarportointikauden ja talousarvion erotus = TP-TA</li>
 <li>Taloussuunnitelma = TS</li>
 </ul>
-<div class="cell" data-hash="talous_cache/html/Tilinpäätös, talousarvio - ja -suunnitelma - table_8f6e77b55b4f2635b8b0771cd6df147b">
+<div class="cell" data-hash="talous_cache/html/Tilinpäätös, talousarvio - ja -suunnitelma - table_1c6974b311730e0ae944d92a436cad23">
 <div class="cell-output-display">
 
 <table class=" lightable-classic lightable-striped" style="font-size: 10px; font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto;border-bottom: 0;">
@@ -367,183 +415,183 @@ ul.task-list li input[type="checkbox"] {
  <thead><tr>
 <th style="text-align:left;"> Tunnusluvut </th>
    <th style="text-align:center;"> 2021C12 </th>
-   <th style="text-align:center;"> Laadintakausi TA 2021 </th>
-   <th style="text-align:center;"> TA 2022 </th>
+   <th style="text-align:center;"> Laadintakausi TA 2020 </th>
+   <th style="text-align:center;"> TA 2021 </th>
    <th style="text-align:center;"> TP-TA </th>
+   <th style="text-align:center;"> TS 2022 </th>
    <th style="text-align:center;"> TS 2023 </th>
-   <th style="text-align:center;"> TS 2024 </th>
   </tr></thead>
 <tbody>
 <tr>
 <td style="text-align:left;"> Toimintatulot </td>
    <td style="text-align:center;"> 53261 </td>
-   <td style="text-align:center;"> 45904 </td>
-   <td style="text-align:center;"> 45950 </td>
-   <td style="text-align:center;"> 7311 </td>
-   <td style="text-align:center;"> 21453 </td>
-   <td style="text-align:center;"> 22343 </td>
+   <td style="text-align:center;"> 41951 </td>
+   <td style="text-align:center;"> 44714 </td>
+   <td style="text-align:center;"> 8547 </td>
+   <td style="text-align:center;"> 45142 </td>
+   <td style="text-align:center;"> 46347 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Myyntitulot </td>
    <td style="text-align:center;"> 28600 </td>
-   <td style="text-align:center;"> 27251 </td>
-   <td style="text-align:center;"> 28619 </td>
-   <td style="text-align:center;"> -19 </td>
-   <td style="text-align:center;"> 10666 </td>
-   <td style="text-align:center;"> 11046 </td>
+   <td style="text-align:center;"> 26579 </td>
+   <td style="text-align:center;"> 27381 </td>
+   <td style="text-align:center;"> 1219 </td>
+   <td style="text-align:center;"> 27731 </td>
+   <td style="text-align:center;"> 28591 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Maksutulot </td>
    <td style="text-align:center;"> 11647 </td>
-   <td style="text-align:center;"> 10594 </td>
-   <td style="text-align:center;"> 10336 </td>
-   <td style="text-align:center;"> 1311 </td>
-   <td style="text-align:center;"> 2852 </td>
-   <td style="text-align:center;"> 2863 </td>
+   <td style="text-align:center;"> 11385 </td>
+   <td style="text-align:center;"> 11429 </td>
+   <td style="text-align:center;"> 218 </td>
+   <td style="text-align:center;"> 11429 </td>
+   <td style="text-align:center;"> 11429 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Tuet ja avustukset </td>
    <td style="text-align:center;"> 6508 </td>
-   <td style="text-align:center;"> 3218 </td>
-   <td style="text-align:center;"> 1881 </td>
-   <td style="text-align:center;"> 4627 </td>
-   <td style="text-align:center;"> 1472 </td>
-   <td style="text-align:center;"> 1476 </td>
+   <td style="text-align:center;"> 970 </td>
+   <td style="text-align:center;"> 1513 </td>
+   <td style="text-align:center;"> 4995 </td>
+   <td style="text-align:center;"> 1592 </td>
+   <td style="text-align:center;"> 1716 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Muut toimintatulot </td>
    <td style="text-align:center;"> 6505 </td>
-   <td style="text-align:center;"> 4840 </td>
-   <td style="text-align:center;"> 5115 </td>
-   <td style="text-align:center;"> 1390 </td>
-   <td style="text-align:center;"> 6463 </td>
-   <td style="text-align:center;"> 6958 </td>
+   <td style="text-align:center;"> 3017 </td>
+   <td style="text-align:center;"> 4390 </td>
+   <td style="text-align:center;"> 2115 </td>
+   <td style="text-align:center;"> 4390 </td>
+   <td style="text-align:center;"> 4611 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Toimintamenot </td>
    <td style="text-align:center;"> 227246 </td>
-   <td style="text-align:center;"> 229346 </td>
-   <td style="text-align:center;"> 231970 </td>
-   <td style="text-align:center;"> -4724 </td>
-   <td style="text-align:center;"> 103720 </td>
-   <td style="text-align:center;"> 107280 </td>
+   <td style="text-align:center;"> 209981 </td>
+   <td style="text-align:center;"> 218436 </td>
+   <td style="text-align:center;"> 8810 </td>
+   <td style="text-align:center;"> 223201 </td>
+   <td style="text-align:center;"> 228261 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Henkilöstömenot </td>
    <td style="text-align:center;"> 93739 </td>
-   <td style="text-align:center;"> 94631 </td>
-   <td style="text-align:center;"> 96342 </td>
-   <td style="text-align:center;"> -2603 </td>
-   <td style="text-align:center;"> 57962 </td>
-   <td style="text-align:center;"> 60285 </td>
+   <td style="text-align:center;"> 90919 </td>
+   <td style="text-align:center;"> 92100 </td>
+   <td style="text-align:center;"> 1639 </td>
+   <td style="text-align:center;"> 93550 </td>
+   <td style="text-align:center;"> 95064 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Palvelujen ostot </td>
    <td style="text-align:center;"> 106030 </td>
-   <td style="text-align:center;"> 105452 </td>
-   <td style="text-align:center;"> 106824 </td>
-   <td style="text-align:center;"> -794 </td>
-   <td style="text-align:center;"> 26298 </td>
-   <td style="text-align:center;"> 26787 </td>
+   <td style="text-align:center;"> 89524 </td>
+   <td style="text-align:center;"> 98490 </td>
+   <td style="text-align:center;"> 7540 </td>
+   <td style="text-align:center;"> 101364 </td>
+   <td style="text-align:center;"> 104145 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Aineet, tarvikkeet ja tavarat </td>
    <td style="text-align:center;"> 12437 </td>
-   <td style="text-align:center;"> 12775 </td>
-   <td style="text-align:center;"> 12400 </td>
-   <td style="text-align:center;"> 37 </td>
-   <td style="text-align:center;"> 8490 </td>
-   <td style="text-align:center;"> 8740 </td>
+   <td style="text-align:center;"> 11657 </td>
+   <td style="text-align:center;"> 12183 </td>
+   <td style="text-align:center;"> 254 </td>
+   <td style="text-align:center;"> 12358 </td>
+   <td style="text-align:center;"> 12817 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Avustukset </td>
    <td style="text-align:center;"> 10620 </td>
-   <td style="text-align:center;"> 10844 </td>
-   <td style="text-align:center;"> 10049 </td>
-   <td style="text-align:center;"> 571 </td>
-   <td style="text-align:center;"> 6864 </td>
-   <td style="text-align:center;"> 6864 </td>
+   <td style="text-align:center;"> 12814 </td>
+   <td style="text-align:center;"> 10032 </td>
+   <td style="text-align:center;"> 588 </td>
+   <td style="text-align:center;"> 10132 </td>
+   <td style="text-align:center;"> 10132 </td>
   </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Muut toimintamenot </td>
    <td style="text-align:center;"> 4421 </td>
-   <td style="text-align:center;"> 5643 </td>
-   <td style="text-align:center;"> 6356 </td>
-   <td style="text-align:center;"> -1935 </td>
-   <td style="text-align:center;"> 4106 </td>
-   <td style="text-align:center;"> 4604 </td>
+   <td style="text-align:center;"> 5066 </td>
+   <td style="text-align:center;"> 5630 </td>
+   <td style="text-align:center;"> -1209 </td>
+   <td style="text-align:center;"> 5797 </td>
+   <td style="text-align:center;"> 6102 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> TOIMINTAKATE </td>
    <td style="text-align:center;"> -173985 </td>
-   <td style="text-align:center;"> -183442 </td>
-   <td style="text-align:center;"> -186020 </td>
-   <td style="text-align:center;"> 12035 </td>
-   <td style="text-align:center;"> -82267 </td>
-   <td style="text-align:center;"> -84937 </td>
+   <td style="text-align:center;"> -168031 </td>
+   <td style="text-align:center;"> -173722 </td>
+   <td style="text-align:center;"> -263 </td>
+   <td style="text-align:center;"> -178059 </td>
+   <td style="text-align:center;"> -181914 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Verotulot </td>
    <td style="text-align:center;"> 143281 </td>
-   <td style="text-align:center;"> 142300 </td>
-   <td style="text-align:center;"> 147700 </td>
-   <td style="text-align:center;"> -4419 </td>
-   <td style="text-align:center;"> 77780 </td>
-   <td style="text-align:center;"> 74530 </td>
+   <td style="text-align:center;"> 135668 </td>
+   <td style="text-align:center;"> 137690 </td>
+   <td style="text-align:center;"> 5591 </td>
+   <td style="text-align:center;"> 141830 </td>
+   <td style="text-align:center;"> 145900 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Valtionosuudet </td>
    <td style="text-align:center;"> 45224 </td>
+   <td style="text-align:center;"> 46591 </td>
    <td style="text-align:center;"> 44860 </td>
-   <td style="text-align:center;"> 49087 </td>
-   <td style="text-align:center;"> -3863 </td>
-   <td style="text-align:center;"> 22950 </td>
-   <td style="text-align:center;"> 22600 </td>
+   <td style="text-align:center;"> 364 </td>
+   <td style="text-align:center;"> 45682 </td>
+   <td style="text-align:center;"> 46596 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Rahoitustulot ja -menot </td>
    <td style="text-align:center;"> 3814 </td>
-   <td style="text-align:center;"> 2967 </td>
-   <td style="text-align:center;"> 436 </td>
-   <td style="text-align:center;"> 3378 </td>
-   <td style="text-align:center;"> 266 </td>
-   <td style="text-align:center;"> 223 </td>
+   <td style="text-align:center;"> -293 </td>
+   <td style="text-align:center;"> 397 </td>
+   <td style="text-align:center;"> 3417 </td>
+   <td style="text-align:center;"> 237 </td>
+   <td style="text-align:center;"> -603 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> VUOSIKATE </td>
    <td style="text-align:center;"> 18334 </td>
-   <td style="text-align:center;"> 6685 </td>
-   <td style="text-align:center;"> 11203 </td>
-   <td style="text-align:center;"> 7131 </td>
-   <td style="text-align:center;"> 18729 </td>
-   <td style="text-align:center;"> 12416 </td>
+   <td style="text-align:center;"> 13935 </td>
+   <td style="text-align:center;"> 9225 </td>
+   <td style="text-align:center;"> 9109 </td>
+   <td style="text-align:center;"> 9690 </td>
+   <td style="text-align:center;"> 9979 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> Poistot ja arvonalentumiset </td>
    <td style="text-align:center;"> 14313 </td>
-   <td style="text-align:center;"> 13367 </td>
-   <td style="text-align:center;"> 14543 </td>
-   <td style="text-align:center;"> -230 </td>
-   <td style="text-align:center;"> 17163 </td>
-   <td style="text-align:center;"> 19000 </td>
+   <td style="text-align:center;"> 13020 </td>
+   <td style="text-align:center;"> 14867 </td>
+   <td style="text-align:center;"> -554 </td>
+   <td style="text-align:center;"> 16707 </td>
+   <td style="text-align:center;"> 18214 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> TILIKAUDEN TULOS </td>
    <td style="text-align:center;"> 4021 </td>
-   <td style="text-align:center;"> -6682 </td>
-   <td style="text-align:center;"> -3340 </td>
-   <td style="text-align:center;"> 7361 </td>
-   <td style="text-align:center;"> 1566 </td>
-   <td style="text-align:center;"> -6584 </td>
+   <td style="text-align:center;"> 915 </td>
+   <td style="text-align:center;"> -5642 </td>
+   <td style="text-align:center;"> 9663 </td>
+   <td style="text-align:center;"> -7017 </td>
+   <td style="text-align:center;"> -8235 </td>
   </tr>
 <tr>
 <td style="text-align:left;"> TILIKAUDEN YLIJÄÄMÄ (ALIJÄÄMÄ) </td>
    <td style="text-align:center;"> 5961 </td>
-   <td style="text-align:center;"> -5950 </td>
-   <td style="text-align:center;"> -2654 </td>
-   <td style="text-align:center;"> 8615 </td>
-   <td style="text-align:center;"> 3183 </td>
-   <td style="text-align:center;"> -5241 </td>
+   <td style="text-align:center;"> 968 </td>
+   <td style="text-align:center;"> -4910 </td>
+   <td style="text-align:center;"> 10871 </td>
+   <td style="text-align:center;"> -5472 </td>
+   <td style="text-align:center;"> -6832 </td>
   </tr>
 </tbody>
 <tfoot>
@@ -554,9 +602,165 @@ ul.task-list li input[type="checkbox"] {
 </table>
 </div>
 </div>
+</section><section id="kuntavertailu---talous" class="level2" data-number="10.3"><h2 data-number="10.3" class="anchored" data-anchor-id="kuntavertailu---talous">
+<span class="header-section-number">10.3</span> Kuntavertailu - talous</h2>
+<p>Kuntavertailuun on kerätty kuntakohtaisia verrokkikuntia talouden lukujen osalta. Tarkastelu on tehty euroina sekä asukaslukuun suhteutettuna. Asukasluku on yhtenevä talouden raportointijakson kanssa. Esimerkiksi Q1/2023 lukuja on verrattu viimeisimpään ennakkotietoon väestöstä.</p>
+<section id="tilikauden-yli--alijäämä" class="level3" data-number="10.3.1"><h3 data-number="10.3.1" class="anchored" data-anchor-id="tilikauden-yli--alijäämä">
+<span class="header-section-number">10.3.1</span> Tilikauden yli -alijäämä</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - tilikauden yli- alijäämä  - chart_568e0136b7bd5949a050c7f7cc1a6992">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a971c5b777f5c9ea1137" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-a971c5b777f5c9ea1137">{"x":{"visdat":{"19644873fe":["function () ","plotlyVisDat"]},"cur_data":"19644873fe","attrs":{"19644873fe":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Tilikauden yli- alijäämä","textposition":"auto","marker":{"color":"rgb(252,179,22)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Tilikauden yli- alijäämä - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>1000 e<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Tilikauden yli- alijäämä","height":800,"width":1100,"scale":1}},"data":[{"x":["Nurmijärvi","Kangasala","Vihti","Pirkkala","Lempäälä","Ylöjärvi","Nokia"],"y":[30585,5961,2843,-2717,2811,2806,9839],"type":"bar","text":[30585,5961,2843,-2717,2811,2806,9839],"name":"Tilikauden yli- alijäämä","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(252,179,22)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="toimintakate" class="level3" data-number="10.3.2"><h3 data-number="10.3.2" class="anchored" data-anchor-id="toimintakate">
+<span class="header-section-number">10.3.2</span> Toimintakate</h3>
+<p>Kunnan tuloslaskelman välituloksena esitettävä toimintakate ilmoittaa, paljonko käyttötalouden kuluista jää katettavaksi verotuloilla ja valtionosuuksilla. Kuntayhtymässä toimintakate ilmoittaa kuntayhtymän korko- ja muihin rahoituskuluihin sekä poistojen ja arvonalennusten kattamiseen käytettävissä olevan käyttötalouden tulorahoituksen määrän. <span class="citation" data-cites="kuntatalouden_abc">(Lähde: <a href="lahteet.html#ref-kuntatalouden_abc" role="doc-biblioref">Tutkihallintoa.fi 2023</a>)</span></p>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - toimintakate  - chart_b6599493e66a5c24c39040d3e6210233">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-857b7e54070274e81c27" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-857b7e54070274e81c27">{"x":{"visdat":{"196467db5926":["function () ","plotlyVisDat"]},"cur_data":"196467db5926","attrs":{"196467db5926":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Toimintakate","textposition":"auto","marker":{"color":"rgb(222,35,47)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Toimintakate - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>1000 e<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Toimintakate","height":800,"width":1100,"scale":1}},"data":[{"x":["Lempäälä","Vihti","Nurmijärvi","Nokia","Kangasala","Pirkkala","Ylöjärvi"],"y":[-124749,-151546,-217849,-181737,-173985,-106470,-181485],"type":"bar","text":[-124749,-151546,-217849,-181737,-173985,-106470,-181485],"name":"Toimintakate","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(222,35,47)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="toimintakate---asukas" class="level3" data-number="10.3.3"><h3 data-number="10.3.3" class="anchored" data-anchor-id="toimintakate---asukas">
+<span class="header-section-number">10.3.3</span> Toimintakate - €/asukas</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - toimintakate euro per asukas  - chart_42391bdd73c8f0316bbd0cc658c7a20b">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-bf94a32bba1849f7459d" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-bf94a32bba1849f7459d">{"x":{"visdat":{"1964415b59ca":["function () ","plotlyVisDat"]},"cur_data":"1964415b59ca","attrs":{"1964415b59ca":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Toimintakate","textposition":"auto","marker":{"color":"rgb(222,35,47)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Toimintakate - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>€/asukas<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Toimintakate","height":800,"width":1100,"scale":1}},"data":[{"x":["Nokia","Ylöjärvi","Nurmijärvi","Vihti","Lempäälä","Pirkkala","Kangasala"],"y":[-5142,-5400,-4900,-5241,-5075,-5218,-5279],"type":"bar","text":[-5142,-5400,-4900,-5241,-5075,-5218,-5279],"name":"Toimintakate","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(222,35,47)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="toimintakulut" class="level3" data-number="10.3.4"><h3 data-number="10.3.4" class="anchored" data-anchor-id="toimintakulut">
+<span class="header-section-number">10.3.4</span> Toimintakulut</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - toimintakulut - chart_9005bee4eeb12e5fb37901cda68b3f3c">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-cc640751d43fce4fddd3" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-cc640751d43fce4fddd3">{"x":{"visdat":{"196479f4ba1":["function () ","plotlyVisDat"]},"cur_data":"196479f4ba1","attrs":{"196479f4ba1":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Toimintakulut","textposition":"auto","marker":{"color":"rgb(222,35,47)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Toimintakulut - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>1000 e<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Toimintakulut","height":800,"width":1100,"scale":1}},"data":[{"x":["Nurmijärvi","Lempäälä","Vihti","Pirkkala","Kangasala","Ylöjärvi","Nokia"],"y":[-257846,-151334,-169112,-144958,-227246,-215160,-226589],"type":"bar","text":[-257846,-151334,-169112,-144958,-227246,-215160,-226589],"name":"Toimintakulut","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(222,35,47)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="toimintakulut---asukas" class="level3" data-number="10.3.5"><h3 data-number="10.3.5" class="anchored" data-anchor-id="toimintakulut---asukas">
+<span class="header-section-number">10.3.5</span> Toimintakulut - €/asukas</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - toimintakulut euro per asukas  - chart_aa4d1b547c8affe87cbede65473c8d73">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4fb685352dc4613a1e79" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-4fb685352dc4613a1e79">{"x":{"visdat":{"1964392f43ec":["function () ","plotlyVisDat"]},"cur_data":"1964392f43ec","attrs":{"1964392f43ec":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Toimintakulut","textposition":"auto","marker":{"color":"rgb(222,35,47)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Toimintakulut - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>€/asukas<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Toimintakulut","height":800,"width":1100,"scale":1}},"data":[{"x":["Vihti","Nurmijärvi","Lempäälä","Ylöjärvi","Nokia","Pirkkala","Kangasala"],"y":[5849,5800,6157,6402,6411,7104,6895],"type":"bar","text":[5849,5800,6157,6402,6411,7104,6895],"name":"Toimintakulut","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(222,35,47)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="toimintakulut--osuus-toimintakuluista" class="level3" data-number="10.3.6"><h3 data-number="10.3.6" class="anchored" data-anchor-id="toimintakulut--osuus-toimintakuluista">
+<span class="header-section-number">10.3.6</span> Toimintakulut %-osuus toimintakuluista</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - toimintakulut prosenttiosuus - chart_1156f527b38aa68ce66676c22f2af9ef">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-75164e0564eebf844712" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-75164e0564eebf844712">{"x":{"visdat":{"1964435f66ac":["function () ","plotlyVisDat"]},"cur_data":"1964435f66ac","attrs":{"1964435f66ac":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Henkilöstökulut %","textposition":"auto","marker":{"color":"rgb(0,150,81)"},"inherit":true},"1964435f66ac.1":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Palvelujen ostot %","textposition":"auto","marker":{"color":"rgb(252,179,22)"},"inherit":true},"1964435f66ac.2":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Aineet, tarvikkeet ja tavarat %","textposition":"auto","marker":{"color":"rgb(230,73,37)"},"inherit":true},"1964435f66ac.3":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Avustukset %","textposition":"auto","marker":{"color":"rgb(40,51,108)"},"inherit":true},"1964435f66ac.4":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Muut toimintakulut %","textposition":"auto","marker":{"color":"rgb(0,173,197)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Kulujen osuus kokonaisuudesta - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","barmode":"stack","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>%<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Henkilöstökulut %","height":800,"width":1100,"scale":1}},"data":[{"x":["Lempäälä","Kangasala","Nurmijärvi","Vihti","Pirkkala","Nokia","Ylöjärvi"],"y":[42,41,30,30,44,43,44],"type":"bar","text":[42,41,30,30,44,43,44],"name":"Henkilöstökulut %","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(0,150,81)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Lempäälä","Kangasala","Nurmijärvi","Vihti","Pirkkala","Nokia","Ylöjärvi"],"y":[45,47,60,62,45,44,45],"type":"bar","text":[45,47,60,62,45,44,45],"name":"Palvelujen ostot %","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(252,179,22)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Lempäälä","Kangasala","Nurmijärvi","Vihti","Pirkkala","Nokia","Ylöjärvi"],"y":[5,5,5,5,5,5,6],"type":"bar","text":[5,5,5,5,5,5,6],"name":"Aineet, tarvikkeet ja tavarat %","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(230,73,37)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Lempäälä","Kangasala","Nurmijärvi","Vihti","Pirkkala","Nokia","Ylöjärvi"],"y":[4,5,3,2,3,3,3],"type":"bar","text":[4,5,3,2,3,3,3],"name":"Avustukset %","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(40,51,108)","line":{"color":"rgba(214,39,40,1)"}},"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Lempäälä","Kangasala","Nurmijärvi","Vihti","Pirkkala","Nokia","Ylöjärvi"],"y":[4,2,2,1,4,4,2],"type":"bar","text":[4,2,2,1,4,4,2],"name":"Muut toimintakulut %","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(0,173,197)","line":{"color":"rgba(148,103,189,1)"}},"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="henkilöstökulut" class="level3" data-number="10.3.7"><h3 data-number="10.3.7" class="anchored" data-anchor-id="henkilöstökulut">
+<span class="header-section-number">10.3.7</span> Henkilöstökulut</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - henkilöstökulut - chart_a5e83dbe1d1443362ac19ff25c54cc6c">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-9282463cd7df740546d1" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-9282463cd7df740546d1">{"x":{"visdat":{"19645b3d3612":["function () ","plotlyVisDat"]},"cur_data":"19645b3d3612","attrs":{"19645b3d3612":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Henkilöstökulut","textposition":"auto","marker":{"color":"rgb(222,35,47)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Henkilöstökulut - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>1000 e<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Henkilöstökulut","height":800,"width":1100,"scale":1}},"data":[{"x":["Nokia","Ylöjärvi","Pirkkala","Nurmijärvi","Vihti","Lempäälä","Kangasala"],"y":[-97615,-93713,-63330,-78266,-50622,-63564,-93739],"type":"bar","text":[-97615,-93713,-63330,-78266,-50622,-63564,-93739],"name":"Henkilöstökulut","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(222,35,47)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="henkilöstökulut---asukas" class="level3" data-number="10.3.8"><h3 data-number="10.3.8" class="anchored" data-anchor-id="henkilöstökulut---asukas">
+<span class="header-section-number">10.3.8</span> Henkilöstökulut - €/asukas</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - henkilöstökulut euro per asukas  - chart_7f6436f529bfa22f592d958d64b22624">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-e2749e1a3922ec7ee998" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-e2749e1a3922ec7ee998">{"x":{"visdat":{"196466cf3637":["function () ","plotlyVisDat"]},"cur_data":"196466cf3637","attrs":{"196466cf3637":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Henkilöstökulut","textposition":"auto","marker":{"color":"rgb(222,35,47)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Henkilöstökulut - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>€/asukas<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Henkilöstökulut","height":800,"width":1100,"scale":1}},"data":[{"x":["Lempäälä","Vihti","Nurmijärvi","Ylöjärvi","Kangasala","Pirkkala","Nokia"],"y":[2586,1751,1760,2788,2844,3104,2762],"type":"bar","text":[2586,1751,1760,2788,2844,3104,2762],"name":"Henkilöstökulut","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(222,35,47)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="palvelujen-ostot" class="level3" data-number="10.3.9"><h3 data-number="10.3.9" class="anchored" data-anchor-id="palvelujen-ostot">
+<span class="header-section-number">10.3.9</span> Palvelujen ostot</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - palvelujen ostot - chart_da7c0e2a67e4739bdce9c9383e082d25">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-aa20d1812f44905b2527" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-aa20d1812f44905b2527">{"x":{"visdat":{"19645b8e790d":["function () ","plotlyVisDat"]},"cur_data":"19645b8e790d","attrs":{"19645b8e790d":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Palvelujen ostot","textposition":"auto","marker":{"color":"rgb(222,35,47)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Palvelujen ostot - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>1000 e<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Palvelujen ostot","height":800,"width":1100,"scale":1}},"data":[{"x":["Ylöjärvi","Pirkkala","Kangasala","Vihti","Nokia","Lempäälä","Nurmijärvi"],"y":[-96892,-64723,-106030,-104638,-99805,-68339,-153676],"type":"bar","text":[-96892,-64723,-106030,-104638,-99805,-68339,-153676],"name":"Palvelujen ostot","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(222,35,47)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="palvelujen-ostot---asukas" class="level3" data-number="10.3.10"><h3 data-number="10.3.10" class="anchored" data-anchor-id="palvelujen-ostot---asukas">
+<span class="header-section-number">10.3.10</span> Palvelujen ostot - €/asukas</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - palvelujen ostot euro per asukas  - chart_7583b9fd904156a53c18fa4442d017c8">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-d09dcaff01629be29a24" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-d09dcaff01629be29a24">{"x":{"visdat":{"196435c76696":["function () ","plotlyVisDat"]},"cur_data":"196435c76696","attrs":{"196435c76696":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Palvelujen ostot","textposition":"auto","marker":{"color":"rgb(222,35,47)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Palvelujen ostot - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>€/asukas<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Palvelujen ostot","height":800,"width":1100,"scale":1}},"data":[{"x":["Ylöjärvi","Vihti","Lempäälä","Nurmijärvi","Pirkkala","Nokia","Kangasala"],"y":[2883,3619,2780,3457,3172,2824,3217],"type":"bar","text":[2883,3619,2780,3457,3172,2824,3217],"name":"Palvelujen ostot","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(222,35,47)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="toimintatulot" class="level3" data-number="10.3.11"><h3 data-number="10.3.11" class="anchored" data-anchor-id="toimintatulot">
+<span class="header-section-number">10.3.11</span> Toimintatulot</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - toimintatulot - chart_1018223ec6d0bf7d4f57cd9650f8ff3c">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-22c37dd11b4ef107a8f2" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-22c37dd11b4ef107a8f2">{"x":{"visdat":{"19647f425553":["function () ","plotlyVisDat"]},"cur_data":"19647f425553","attrs":{"19647f425553":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Toimintatuotot","textposition":"auto","marker":{"color":"rgb(0,150,81)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Toimintatuotot - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>1000 e<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Toimintatuotot","height":800,"width":1100,"scale":1}},"data":[{"x":["Kangasala","Nurmijärvi","Lempäälä","Vihti","Pirkkala","Nokia","Ylöjärvi"],"y":[53261,39997,26585,17396,38488,41353,29708],"type":"bar","text":[53261,39997,26585,17396,38488,41353,29708],"name":"Toimintatuotot","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(0,150,81)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="toimintatulot---asukas" class="level3" data-number="10.3.12"><h3 data-number="10.3.12" class="anchored" data-anchor-id="toimintatulot---asukas">
+<span class="header-section-number">10.3.12</span> Toimintatulot - €/asukas</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - toimintatulot euro per asukas  - chart_042d818aa53d5679a84c3027c24c82fd">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-9e80d2a08ce4cf6521c7" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-9e80d2a08ce4cf6521c7">{"x":{"visdat":{"19642922700":["function () ","plotlyVisDat"]},"cur_data":"19642922700","attrs":{"19642922700":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Toimintatuotot","textposition":"auto","marker":{"color":"rgb(0,150,81)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Toimintatuotot - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>€/asukas<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Toimintatuotot","height":800,"width":1100,"scale":1}},"data":[{"x":["Ylöjärvi","Lempäälä","Vihti","Nurmijärvi","Nokia","Pirkkala","Kangasala"],"y":[884,1082,602,900,1170,1886,1616],"type":"bar","text":[884,1082,602,900,1170,1886,1616],"name":"Toimintatuotot","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(0,150,81)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="verotulot" class="level3" data-number="10.3.13"><h3 data-number="10.3.13" class="anchored" data-anchor-id="verotulot">
+<span class="header-section-number">10.3.13</span> Verotulot</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - verotulot prosenttiosuus eurot - chart_ec365f8fbd08c2af9d9b6b226fce27b7">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-2096989a4694ec60e27a" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-2096989a4694ec60e27a">{"x":{"visdat":{"19643d0c5d7e":["function () ","plotlyVisDat"]},"cur_data":"19643d0c5d7e","attrs":{"19643d0c5d7e":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Tulovero","textposition":"auto","marker":{"color":"rgb(0,150,81)"},"inherit":true},"19643d0c5d7e.1":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Kiinteistövero","textposition":"auto","marker":{"color":"rgb(0,173,197)"},"inherit":true},"19643d0c5d7e.2":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Yhteisövero","textposition":"auto","marker":{"color":"rgb(40,51,108)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Verotulot - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","barmode":"stack","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>1000 e<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Tulovero","height":800,"width":1100,"scale":1}},"data":[{"x":["Nokia","Nurmijärvi","Vihti","Kangasala","Pirkkala","Lempäälä","Ylöjärvi"],"y":[134666,186283,124038,128316,87754,96011,124279],"type":"bar","text":[134666,186283,124038,128316,87754,96011,124279],"name":"Tulovero","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(0,150,81)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Nokia","Nurmijärvi","Vihti","Kangasala","Pirkkala","Lempäälä","Ylöjärvi"],"y":[9354,11981,7274,7659,5873,5897,7360],"type":"bar","text":[9354,11981,7274,7659,5873,5897,7360],"name":"Kiinteistövero","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(0,173,197)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Nokia","Nurmijärvi","Vihti","Kangasala","Pirkkala","Lempäälä","Ylöjärvi"],"y":[12561,12101,5658,7306,6962,6935,10436],"type":"bar","text":[12561,12101,5658,7306,6962,6935,10436],"name":"Yhteisövero","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(40,51,108)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="verotulot---asukas" class="level3" data-number="10.3.14"><h3 data-number="10.3.14" class="anchored" data-anchor-id="verotulot---asukas">
+<span class="header-section-number">10.3.14</span> Verotulot - €/asukas</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - verotulot prosenttiosuus euroa per asukas - chart_1448f2fdad94c04f01275415e8e6129f">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-29a26172cc18a533e737" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-29a26172cc18a533e737">{"x":{"visdat":{"1964298b5c11":["function () ","plotlyVisDat"]},"cur_data":"1964298b5c11","attrs":{"1964298b5c11":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Tulovero","textposition":"auto","marker":{"color":"rgb(0,150,81)"},"inherit":true},"1964298b5c11.1":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Kiinteistövero","textposition":"auto","marker":{"color":"rgb(0,173,197)"},"inherit":true},"1964298b5c11.2":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Yhteisövero","textposition":"auto","marker":{"color":"rgb(40,51,108)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Verotulot - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","barmode":"stack","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>€/asukas<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Tulovero","height":800,"width":1100,"scale":1}},"data":[{"x":["Ylöjärvi","Kangasala","Nurmijärvi","Lempäälä","Pirkkala","Nokia","Vihti"],"y":[3698,3893,4190,3906,4301,3810,4290],"type":"bar","text":[3698,3893,4190,3906,4301,3810,4290],"name":"Tulovero","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(0,150,81)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Ylöjärvi","Kangasala","Nurmijärvi","Lempäälä","Pirkkala","Nokia","Vihti"],"y":[219,232,269,240,288,265,252],"type":"bar","text":[219,232,269,240,288,265,252],"name":"Kiinteistövero","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(0,173,197)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Ylöjärvi","Kangasala","Nurmijärvi","Lempäälä","Pirkkala","Nokia","Vihti"],"y":[311,222,272,282,341,355,196],"type":"bar","text":[311,222,272,282,341,355,196],"name":"Yhteisövero","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(40,51,108)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="valtionosuudet" class="level3" data-number="10.3.15"><h3 data-number="10.3.15" class="anchored" data-anchor-id="valtionosuudet">
+<span class="header-section-number">10.3.15</span> Valtionosuudet</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - Valtionosuudet eurot - chart_df9bc074723c728f38a0c62880638baf">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-491b2589527a671ca322" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-491b2589527a671ca322">{"x":{"visdat":{"19642db348cb":["function () ","plotlyVisDat"]},"cur_data":"19642db348cb","attrs":{"19642db348cb":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Valtionosuudet","textposition":"auto","marker":{"color":"rgb(0,150,81)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Valtionosuudet - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>1000 e<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Valtionosuudet","height":800,"width":1100,"scale":1}},"data":[{"x":["Nurmijärvi","Lempäälä","Kangasala","Nokia","Vihti","Ylöjärvi","Pirkkala"],"y":[69084,28516,45224,46909,32555,48637,17049],"type":"bar","text":[69084,28516,45224,46909,32555,48637,17049],"name":"Valtionosuudet","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(0,150,81)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="valtionosuudet---asukas" class="level3" data-number="10.3.16"><h3 data-number="10.3.16" class="anchored" data-anchor-id="valtionosuudet---asukas">
+<span class="header-section-number">10.3.16</span> Valtionosuudet - €/asukas</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - Valtionosuudet per asukas  - chart_4041f5e3f3825d08996effd36b867f15">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-00b05a74b665050dad43" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-00b05a74b665050dad43">{"x":{"visdat":{"19642805248":["function () ","plotlyVisDat"]},"cur_data":"19642805248","attrs":{"19642805248":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Valtionosuudet","textposition":"auto","marker":{"color":"rgb(0,150,81)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Valtionosuudet - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>€/asukas<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Valtionosuudet","height":800,"width":1100,"scale":1}},"data":[{"x":["Pirkkala","Nurmijärvi","Nokia","Ylöjärvi","Vihti","Lempäälä","Kangasala"],"y":[836,1554,1327,1447,1126,1160,1372],"type":"bar","text":[836,1554,1327,1447,1126,1160,1372],"name":"Valtionosuudet","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(0,150,81)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="lainakanta" class="level3" data-number="10.3.17"><h3 data-number="10.3.17" class="anchored" data-anchor-id="lainakanta">
+<span class="header-section-number">10.3.17</span> Lainakanta</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - lainakanta - chart_61736790fbc5ef51c1b0cd0c1dbd1d7d">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-85504f4b3f42b31383ae" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-85504f4b3f42b31383ae">{"x":{"visdat":{"19644c935d9c":["function () ","plotlyVisDat"]},"cur_data":"19644c935d9c","attrs":{"19644c935d9c":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Lainakanta","textposition":"auto","marker":{"color":"rgb(222,35,47)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Lainakanta - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>1000 e<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Lainakanta","height":800,"width":1100,"scale":1}},"data":[{"x":["Nurmijärvi","Pirkkala","Kangasala","Vihti","Ylöjärvi","Lempäälä","Nokia"],"y":[217265,67825,58882,105646,84570,89435,107979],"type":"bar","text":[217265,67825,58882,105646,84570,89435,107979],"name":"Lainakanta","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(222,35,47)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="lainakanta---asukas" class="level3" data-number="10.3.18"><h3 data-number="10.3.18" class="anchored" data-anchor-id="lainakanta---asukas">
+<span class="header-section-number">10.3.18</span> Lainakanta - €/asukas</h3>
+<div class="cell" data-hash="talous_cache/html/Kuntavertailu, talous - lainakanta euro per asukas  - chart_4da6646b2963e8c7a78f0b4f458e64f3">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0f0c3f0959b931f624d6" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-0f0c3f0959b931f624d6">{"x":{"visdat":{"1964665208a":["function () ","plotlyVisDat"]},"cur_data":"1964665208a","attrs":{"1964665208a":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","text":{},"name":"Lainakanta","textposition":"auto","marker":{"color":"rgb(222,35,47)"},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Lainakanta - 2021C12, lopullinen","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"<b>Vertailukaupungit<\/b>","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["Kangasala","Lempäälä","Nokia","Nurmijärvi","Pirkkala","Vihti","Ylöjärvi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>€/asukas<\/b>","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Lainakanta","height":800,"width":1100,"scale":1}},"data":[{"x":["Vihti","Kangasala","Pirkkala","Nurmijärvi","Nokia","Lempäälä","Ylöjärvi"],"y":[3654,1787,3324,4887,3055,3639,2516],"type":"bar","text":[3654,1787,3324,4887,3055,3639,2516],"name":"Lainakanta","textposition":["auto","auto","auto","auto","auto","auto","auto"],"marker":{"color":"rgb(222,35,47)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
-</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-kirjanpito_ja_tilinpaatos" class="csl-entry" role="doc-biblioentry">
+Kuntaliitto. 2023. <em>Kirjanpito ja tilinpäätös</em>. Kuntaliitto. <a href="https://www.kuntaliitto.fi/talous/kirjanpito-ja-tilinpaatos">https://www.kuntaliitto.fi/talous/kirjanpito-ja-tilinpaatos</a>.
+</div>
+<div id="ref-kuntatalouden_abc" class="csl-entry" role="doc-biblioentry">
+Tutkihallintoa.fi. 2023. <em>Kuntatalouden ABC</em>. Tutkihallintoa.fi. <a href="https://www.tutkihallintoa.fi/kuntatalouden-abc/">https://www.tutkihallintoa.fi/kuntatalouden-abc/</a>.
+</div>
+</div>
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
