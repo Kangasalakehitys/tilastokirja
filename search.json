@@ -263,7 +263,7 @@
     "href": "talous.html#tuloslaskelma",
     "title": "\n10  Talous\n",
     "section": "\n10.1 Tuloslaskelma",
-    "text": "10.1 Tuloslaskelma\nKunnat raportoivat vuodesta 2021 alkaen Valtiokonttorille neljännesvuosittain kuluvan vuoden talouden toteumatietoja.\n\n\n\n\nTuloslaskelman tilien saldot\n \n   \n    2022C09 \n    2021C12 \n  \n\n\n Toimintatuotot \n    53261 \n    33989 \n  \n\n Myyntituotot \n    28600 \n    19877 \n  \n\n Maksutuotot \n    11647 \n    8399 \n  \n\n Tuet ja avustukset \n    6508 \n    2733 \n  \n\n Muut toimintatuotot \n    6505 \n    2980 \n  \n\n Toimintakulut \n    -227246 \n    -169183 \n  \n\n Henkilöstökulut \n    -93739 \n    -73744 \n  \n\n Palvelujen ostot \n    -106030 \n    -75581 \n  \n\n Aineet, tarvikkeet ja tavarat \n    -12437 \n    -8640 \n  \n\n Avustukset \n    -10620 \n    -7239 \n  \n\n Muut toimintakulut \n    -4421 \n    -3978 \n  \n\n Toimintakate \n    -173985 \n    -135194 \n  \n\n Verotulot \n    143281 \n    113405 \n  \n\n Valtionosuudet \n    45224 \n    37110 \n  \n\n Rahoitustuotot ja -kulut \n    3814 \n    128 \n  \n\n Korkotuotot \n    212 \n    109 \n  \n\n Muut rahoitustuotot \n    4331 \n    5350 \n  \n\n Korkokulut \n    -550 \n    -259 \n  \n\n Muut rahoituskulut \n    -178 \n    -5072 \n  \n\n Vuosikate \n    18334 \n    15449 \n  \n\n Poistot ja arvonalentumiset \n    -14313 \n    -10989 \n  \n\n Tilikauden tulos \n    4021 \n    4460 \n  \n\n Varausten ja rahastojen muutokset \n    1940 \n    469 \n  \n\n Tilikauden yli- alijäämä \n    5961 \n    4929 \n  \n\n\nLähde:\n\n Valtiokonttori - KKNR - Kuntien ja kuntayhtymien neljännesvuosiraportointi"
+    "text": "10.1 Tuloslaskelma\nKunnat raportoivat vuodesta 2021 alkaen Valtiokonttorille neljännesvuosittain kuluvan vuoden talouden toteumatietoja.\n\n\n\n\nTuloslaskelman tilien saldot\n \n   \n    2022C09 \n    2021C12 \n  \n\n\n Toimintatuotot \n    33989 \n    53261 \n  \n\n Myyntituotot \n    19877 \n    28600 \n  \n\n Maksutuotot \n    8399 \n    11647 \n  \n\n Tuet ja avustukset \n    2733 \n    6508 \n  \n\n Muut toimintatuotot \n    2980 \n    6505 \n  \n\n Toimintakulut \n    -169183 \n    -227246 \n  \n\n Henkilöstökulut \n    -73744 \n    -93739 \n  \n\n Palvelujen ostot \n    -75581 \n    -106030 \n  \n\n Aineet, tarvikkeet ja tavarat \n    -8640 \n    -12437 \n  \n\n Avustukset \n    -7239 \n    -10620 \n  \n\n Muut toimintakulut \n    -3978 \n    -4421 \n  \n\n Toimintakate \n    -135194 \n    -173985 \n  \n\n Verotulot \n    113405 \n    143281 \n  \n\n Valtionosuudet \n    37110 \n    45224 \n  \n\n Rahoitustuotot ja -kulut \n    128 \n    3814 \n  \n\n Korkotuotot \n    109 \n    212 \n  \n\n Muut rahoitustuotot \n    5350 \n    4331 \n  \n\n Korkokulut \n    -259 \n    -550 \n  \n\n Muut rahoituskulut \n    -5072 \n    -178 \n  \n\n Vuosikate \n    15449 \n    18334 \n  \n\n Poistot ja arvonalentumiset \n    -10989 \n    -14313 \n  \n\n Tilikauden tulos \n    4460 \n    4021 \n  \n\n Varausten ja rahastojen muutokset \n    469 \n    1940 \n  \n\n Tilikauden yli- alijäämä \n    4929 \n    5961 \n  \n\n\nLähde:\n\n Valtiokonttori - KKNR - Kuntien ja kuntayhtymien neljännesvuosiraportointi"
   },
   {
     "objectID": "talous.html#tilinpäätös-talousarvio---ja--suunnitelma",
@@ -278,6 +278,41 @@
     "title": "\n10  Talous\n",
     "section": "\n10.3 Kuntavertailu - talous",
     "text": "10.3 Kuntavertailu - talous\nKuntavertailuun on kerätty kuntakohtaisia verrokkikuntia talouden lukujen osalta. Tarkastelu on tehty euroina sekä asukaslukuun suhteutettuna. Asukasluku on yhtenevä talouden raportointijakson kanssa. Esimerkiksi Q1/2023 lukuja on verrattu viimeisimpään ennakkotietoon väestöstä.\n\n10.3.1 Tilikauden yli -alijäämä\n\n\n\n\n\n\n\n10.3.2 Toimintakate\nKunnan tuloslaskelman välituloksena esitettävä toimintakate ilmoittaa, paljonko käyttötalouden kuluista jää katettavaksi verotuloilla ja valtionosuuksilla. Kuntayhtymässä toimintakate ilmoittaa kuntayhtymän korko- ja muihin rahoituskuluihin sekä poistojen ja arvonalennusten kattamiseen käytettävissä olevan käyttötalouden tulorahoituksen määrän. (Lähde: Tutkihallintoa.fi 2023)\n\n\n\n\n\n\n\n10.3.3 Toimintakate - €/asukas\n\n\n\n\n\n\n\n10.3.4 Toimintakulut\n\n\n\n\n\n\n\n10.3.5 Toimintakulut - €/asukas\n\n\n\n\n\n\n\n10.3.6 Toimintakulut %-osuus toimintakuluista\n\n\n\n\n\n\n\n10.3.7 Henkilöstökulut\n\n\n\n\n\n\n\n10.3.8 Henkilöstökulut - €/asukas\n\n\n\n\n\n\n\n10.3.9 Palvelujen ostot\n\n\n\n\n\n\n\n10.3.10 Palvelujen ostot - €/asukas\n\n\n\n\n\n\n\n10.3.11 Toimintatulot\n\n\n\n\n\n\n\n10.3.12 Toimintatulot - €/asukas\n\n\n\n\n\n\n\n10.3.13 Verotulot\n\n\n\n\n\n\n\n10.3.14 Verotulot - €/asukas\n\n\n\n\n\n\n\n10.3.15 Valtionosuudet\n\n\n\n\n\n\n\n10.3.16 Valtionosuudet - €/asukas\n\n\n\n\n\n\n\n10.3.17 Lainakanta\n\n\n\n\n\n\n\n10.3.18 Lainakanta - €/asukas\n\n\n\n\n\n\n\n\n\n\nKuntaliitto. 2023. Kirjanpito ja tilinpäätös. Kuntaliitto. https://www.kuntaliitto.fi/talous/kirjanpito-ja-tilinpaatos.\n\n\nTutkihallintoa.fi. 2023. Kuntatalouden ABC. Tutkihallintoa.fi. https://www.tutkihallintoa.fi/kuntatalouden-abc/."
+  },
+  {
+    "objectID": "yritykset.html#yrityskanta",
+    "href": "yritykset.html#yrityskanta",
+    "title": "\n11  Yritykset\n",
+    "section": "\n11.1 Yrityskanta",
+    "text": "11.1 Yrityskanta"
+  },
+  {
+    "objectID": "yritykset.html#yrityskanta-toimialoittain",
+    "href": "yritykset.html#yrityskanta-toimialoittain",
+    "title": "\n11  Yritykset\n",
+    "section": "\n11.2 Yrityskanta toimialoittain",
+    "text": "11.2 Yrityskanta toimialoittain"
+  },
+  {
+    "objectID": "yritykset.html#aloittaneet-ja-lopettaneet-yritykset",
+    "href": "yritykset.html#aloittaneet-ja-lopettaneet-yritykset",
+    "title": "\n11  Yritykset\n",
+    "section": "\n11.3 Aloittaneet ja lopettaneet yritykset",
+    "text": "11.3 Aloittaneet ja lopettaneet yritykset"
+  },
+  {
+    "objectID": "yritykset.html#aloittaneet-yritykset-toimialoittain",
+    "href": "yritykset.html#aloittaneet-yritykset-toimialoittain",
+    "title": "\n11  Yritykset\n",
+    "section": "\n11.4 Aloittaneet yritykset toimialoittain",
+    "text": "11.4 Aloittaneet yritykset toimialoittain"
+  },
+  {
+    "objectID": "yritykset.html#lopettaneet-yritykset-toimialoittain",
+    "href": "yritykset.html#lopettaneet-yritykset-toimialoittain",
+    "title": "\n11  Yritykset\n",
+    "section": "\n11.5 Lopettaneet yritykset toimialoittain",
+    "text": "11.5 Lopettaneet yritykset toimialoittain"
   },
   {
     "objectID": "lahteet.html",
