@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fi" xml:lang="fi"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.3.30">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
 <meta name="author" content="Juuso Heinisuo">
 <meta name="keywords" content="Tilastokirja, Kangasalan kaupunki">
 <meta name="description" content="Tämä on Kangasalan kaupungin tilastokirja. Tilastokirjaan on koottu tilastotietoa kaupungin eri osa-alueista.. Tilastokirja on julkaistu LGPL-2.1-or-later lisenssi alla. Copyright 2023 Kangasalan kaupunki">
-
 <title>Kangasalan kaupunki - Tilastokirja 2023</title>
 <style>
 code{white-space: pre-wrap;}
@@ -25,7 +22,6 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
@@ -33,7 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./vaalit.html" rel="next">
+<link href="./alue.html" rel="next">
+<link href="./turvallisuus.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,8 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -61,52 +57,46 @@ ul.task-list li input[type="checkbox"] {
     "search-detached-cancel-button-title": "Peruuta",
     "search-submit-button-title": "Lähetä"
   }
-}</script>
-
-
+}</script><script src="site_libs/htmlwidgets-1.6.0/htmlwidgets.js"></script><script src="site_libs/plotly-binding-4.10.1/plotly.js"></script><script src="site_libs/typedarray-0.1/typedarray.min.js"></script><script src="site_libs/jquery-3.5.1/jquery.min.js"></script><link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script><link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 </head>
-
 <body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Tilastokirja 2023</h1>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }"><div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">
+<span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Liikenne</span>
+</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
     </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./themes/images/kangasala/kangasala_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
+      <img src="./themes/images/kangasala/kangasala_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none"></a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Tilastokirja 2023</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/Kangasalakehitys/tilastokirja" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
     <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
     <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+<li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=%7Curl%7C">
             <i class="bi bi-bi-twitter pe-1"></i>
           Twitter
           </a>
         </li>
         <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=%7Curl%7C">
             <i class="bi bi-bi-facebook pe-1"></i>
           Facebook
           </a>
         </li>
         <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=%7Curl%7C">
             <i class="bi bi-bi-linkedin pe-1"></i>
           LinkedIn
           </a>
@@ -122,9 +112,9 @@ ul.task-list li input[type="checkbox"] {
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Alkusanat</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Alkusanat</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -184,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./liikenne.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Liikenne</span></a>
+  <a href="./liikenne.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Liikenne</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -199,79 +189,51 @@ ul.task-list li input[type="checkbox"] {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lahteet.html" class="sidebar-item-text sidebar-link">Lähteet</a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
     </ul>
-    </div>
-</nav>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sisällysluettelo</h2>
+</div>
+</nav><!-- margin-sidebar --><div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Sisällysluettelo</h2>
    
   <ul>
-  <li><a href="#alkusanat" id="toc-alkusanat" class="nav-link active" data-scroll-target="#alkusanat">Alkusanat</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Kangasalakehitys/tilastokirja/edit/main/index.qmd" class="toc-action">Muokkaa sivua</a></p></div></div></nav>
+<li><a href="#tieliikenteess%C3%A4-kuolleet-ja-loukkaantuneet" id="toc-tieliikenteessä-kuolleet-ja-loukkaantuneet" class="nav-link active" data-scroll-target="#tieliikenteess%C3%A4-kuolleet-ja-loukkaantuneet"><span class="toc-section-number">12.1</span>  Tieliikenteessä kuolleet ja loukkaantuneet</a></li>
+  </ul><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Kangasalakehitys/tilastokirja/edit/main/liikenne.qmd" class="toc-action">Muokkaa sivua</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title d-none d-lg-block">Tilastokirja 2023</h1>
-<p class="subtitle lead">0.4</p>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title d-none d-lg-block">
+<span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Liikenne</span>
+</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Tekijä</div>
-    <div class="quarto-title-meta-contents">
-             <p>Kangasalan kaupunki </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Julkaistu</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">31-05-2023</p>
-    </div>
-  </div>
   
     
   </div>
   
 
-</header>
+</header><section id="tieliikenteessä-kuolleet-ja-loukkaantuneet" class="level2" data-number="12.1"><h2 data-number="12.1" class="anchored" data-anchor-id="tieliikenteessä-kuolleet-ja-loukkaantuneet">
+<span class="header-section-number">12.1</span> Tieliikenteessä kuolleet ja loukkaantuneet</h2>
+<div class="cell" data-hash="liikenne_cache/html/Tieliikenneonnettomuustilasto - chart_e78cc1413bc053ca6947ee248c939745">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-1f500ef80c907ae406d7" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-1f500ef80c907ae406d7">{"x":{"visdat":{"d1c3b66bd6":["function () ","plotlyVisDat"]},"cur_data":"d1c3b66bd6","attrs":{"d1c3b66bd6":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":[1,2,1,2,0,0,0,1,0],"text":[1,2,1,2,0,0,0,1,0],"name":"Kuolleet","textposition":"auto","type":"scatter","mode":"lines","line":{"shape":"spline","color":"rgb(222,35,47)","width":2},"inherit":true},"d1c3b66bd6.1":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":[2,4,3,3,2,1,0,0,0],"text":[2,4,3,3,2,1,0,0,0],"name":"Loukkaantuneet (ml. vakavasti loukk.)","textposition":"auto","type":"scatter","mode":"lines","line":{"shape":"spline","color":"rgb(252,179,22)","width":2},"inherit":true},"d1c3b66bd6.2":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":[28,27,23,32,32,11,21,13,3],"text":[28,27,23,32,32,11,21,13,3],"name":"Vakavasti loukkaantuneet","textposition":"auto","type":"scatter","mode":"lines","line":{"shape":"spline","color":"rgb(230,73,37)","width":2},"inherit":true}},"layout":{"margin":{"b":50,"l":50,"t":100,"r":50,"pad":5},"autosize":"T","title":{"text":"Tieliikenteessä kuolleet ja loukkaantuneet (lkm.)","font":{"size":12,"color":"rgba(0,0,0)"}},"legend":{"orientation":"h","x":0,"y":-0.3,"font":{"size":12,"color":"rgba(0,0,0)"}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","showlegend":true,"xaxis":{"domain":[0,1],"automargin":true,"title":"Vuosi","font":{"size":12,"color":"rgba(0,0,0)"},"type":"category","categoryorder":"array","categoryarray":["2015","2016","2017","2018","2019","2020","2021","2022*","2023*"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Lkm","tickformat":"d","font":{"size":12,"color":"rgba(0,0,0)"}},"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"toImageButtonOptions":{"format":"png","filename":"Tieliikenteessä kuolleet ja loukkaantuneet (lkm.)","height":800,"width":1100,"scale":1}},"data":[{"x":["2015","2016","2017","2018","2019","2020","2021","2022*","2023*"],"y":[1,2,1,2,0,0,0,1,0],"text":[1,2,1,2,0,0,0,1,0],"name":"Kuolleet","textposition":["auto","auto","auto","auto","auto","auto","auto","auto","auto"],"type":"scatter","mode":"lines","line":{"color":"rgb(222,35,47)","shape":"spline","width":2},"marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2015","2016","2017","2018","2019","2020","2021","2022*","2023*"],"y":[2,4,3,3,2,1,0,0,0],"text":[2,4,3,3,2,1,0,0,0],"name":"Loukkaantuneet (ml. vakavasti loukk.)","textposition":["auto","auto","auto","auto","auto","auto","auto","auto","auto"],"type":"scatter","mode":"lines","line":{"color":"rgb(252,179,22)","shape":"spline","width":2},"marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2015","2016","2017","2018","2019","2020","2021","2022*","2023*"],"y":[28,27,23,32,32,11,21,13,3],"text":[28,27,23,32,32,11,21,13,3],"name":"Vakavasti loukkaantuneet","textposition":["auto","auto","auto","auto","auto","auto","auto","auto","auto"],"type":"scatter","mode":"lines","line":{"color":"rgb(230,73,37)","shape":"spline","width":2},"marker":{"color":"rgba(44,160,44,1)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
-<section id="alkusanat" class="level2 unnumbered">
-<p><img src="themes/images/kangasala/kangasala_cover.png" title="{{< var general.title >}} {{< var general.year >}}" class="quarto-cover-image img-fluid"></p><h2 class="unnumbered anchored" data-anchor-id="alkusanat">Alkusanat</h2>
-<p>Tilastokirja tarjoaa tilastotietoa väestöstä, työmarkkinoista, asumisesta, rakentamisesta ja taloudesta. Julkaisun lopussa on luettelo kaupungin luottamushenkilöistä.</p>
-<p>Tilastokirja täydentää toimintakertomuksessa annettua informaatiota. Tietolähteinä on käytetty esimerkiksi Kangasalan kaupunkin, Digi- ja väestötietoviraston, Tilastokeskuksen, Valtiokonttorin, Verohallinnon tilastoaineistoa.</p>
-<p>Julkaisija: Kangasalan kaupunki</p>
-<p>Käyntiosoite Kaupunginvirasto 1, Kunnantie 1<br>
-Postiosoite PL 50, 36201 Kangasalan kaupunki<br>
-Puhelin (03) 5655 3000<br>
-Sähköposti etunimi.sukunimi@kangasala.fi<br>
-Kotisivu https://www.kangasala.fi</p>
-<p>Painatus: Kangasalan kaupunki, 2023</p>
-<p>Verkkosivut: <a href="https://www.kangasala.fi">https://www.kangasala.fi</a></p>
-
-
-</section>
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -403,29 +365,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
+</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
+      <a href="./turvallisuus.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Turvallisuus</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./vaalit.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Vaalit</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./alue.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Alue</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
       <div class="nav-footer-center">
         <ul class="footer-items list-unstyled">
-    <li class="nav-item">
+<li class="nav-item">
  Kangasalan kaupunki 2023
   </li>  
 </ul>
-      </div>
+</div>
   </div>
 </footer>
-
 
 
 </body></html>
