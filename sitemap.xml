@@ -1,63 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/index.html</loc>
-    <lastmod>2023-05-31T07:38:24.767Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/index.html</loc>
+    <lastmod>2024-05-03T09:59:30.068Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/vaalit.html</loc>
-    <lastmod>2023-05-31T07:38:24.775Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/asuminen.html</loc>
+    <lastmod>2024-05-03T10:13:27.496Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/vaesto.html</loc>
-    <lastmod>2023-05-31T07:38:24.777Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/hyvinvointi.html</loc>
+    <lastmod>2023-09-26T07:17:25.320Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/muuttoliike.html</loc>
-    <lastmod>2023-05-31T07:38:24.783Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/ilmasto.html</loc>
+    <lastmod>2023-09-26T04:54:04.959Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/koulutus.html</loc>
-    <lastmod>2023-05-31T07:38:24.787Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/koulutus.html</loc>
+    <lastmod>2023-10-11T06:52:36.867Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/vaestoskenaario.html</loc>
-    <lastmod>2023-05-31T07:38:24.788Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/liikenne.html</loc>
+    <lastmod>2024-05-06T12:13:18.998Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/tyossakaynti.html</loc>
-    <lastmod>2023-05-31T07:38:24.788Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/maatalous.html</loc>
+    <lastmod>2024-05-08T04:41:33.469Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/asuminen.html</loc>
-    <lastmod>2023-05-31T07:38:24.795Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/muuttoliike.html</loc>
+    <lastmod>2023-09-26T03:06:38.617Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/ilmasto.html</loc>
-    <lastmod>2023-05-31T07:38:24.800Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/tyossakaynti.html</loc>
+    <lastmod>2024-05-08T09:37:39.992Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/talous.html</loc>
-    <lastmod>2023-05-31T07:38:24.803Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/turvallisuus.html</loc>
+    <lastmod>2023-09-26T05:18:09.433Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/yritykset.html</loc>
-    <lastmod>2023-05-31T10:34:44.418Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/yritykset.html</loc>
+    <lastmod>2024-05-08T11:33:06.558Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/turvallisuus.html</loc>
-    <lastmod>2023-05-31T10:34:08.578Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/vaalit.html</loc>
+    <lastmod>2023-09-26T03:04:21.228Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/liikenne.html</loc>
-    <lastmod>2023-05-31T10:35:06.678Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/vaesto.html</loc>
+    <lastmod>2024-05-10T11:24:41.597Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/alue.html</loc>
-    <lastmod>2023-05-31T07:38:24.811Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/vaestoskenaario.html</loc>
+    <lastmod>2024-05-14T12:08:33.234Z</lastmod>
   </url>
   <url>
-    <loc>https://kangasalakehitys.github.io/tilastokirja/lahteet.html</loc>
-    <lastmod>2023-05-31T07:38:24.811Z</lastmod>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/verotus.html</loc>
+    <lastmod>2024-05-24T09:22:51.145Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kangasalakehitys.github.io/tilannekuva/lahteet.html</loc>
+    <lastmod>2023-02-08T11:25:11.053Z</lastmod>
   </url>
 </urlset>

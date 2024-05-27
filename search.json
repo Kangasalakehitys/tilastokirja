@@ -1,345 +1,473 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tilannekuvakirja",
+    "section": "",
+    "text": "Alkusanat\nTilannekuvakirja tarjoaa tietoa väestöstä, työmarkkinoista, asumisesta, rakentamisesta ja taloudesta. Tietolähteinä käytetään esimerkiksi Tilastokeskuksen ja Luonnonvarakeskuksen tilastoaineistoa. Tilannekuvakirjaa kehitetään yhteistyössä kuntien kanssa.\nKirja on julkaistu (GNU.org 2023) lisenssin alla. Kuntien zip-tiedostot löytyvät osoitteesta: https://github.com/Kangasalakehitys/tilannekuva-kunnat.",
+    "crumbs": [
+      "Alkusanat"
+    ]
+  },
+  {
     "objectID": "index.html#alkusanat",
     "href": "index.html#alkusanat",
-    "title": "Tilastokirja 2023",
-    "section": "Alkusanat",
-    "text": "Alkusanat\nTilastokirja tarjoaa tilastotietoa väestöstä, työmarkkinoista, asumisesta, rakentamisesta ja taloudesta. Julkaisun lopussa on luettelo kaupungin luottamushenkilöistä.\nTilastokirja täydentää toimintakertomuksessa annettua informaatiota. Tietolähteinä on käytetty esimerkiksi Kangasalan kaupunkin, Digi- ja väestötietoviraston, Tilastokeskuksen, Valtiokonttorin, Verohallinnon tilastoaineistoa.\nJulkaisija: Kangasalan kaupunki\nKäyntiosoite Kaupunginvirasto 1, Kunnantie 1\nPostiosoite PL 50, 36201 Kangasalan kaupunki\nPuhelin (03) 5655 3000\nSähköposti etunimi.sukunimi@kangasala.fi\nKotisivu https://www.kangasala.fi\nPainatus: Kangasalan kaupunki, 2023\nVerkkosivut: https://www.kangasala.fi"
+    "title": "Tilannekuvakirja",
+    "section": "",
+    "text": "GNU.org. 2023. LGPL 2.1 lisenssi. GNU.orgi. https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html.",
+    "crumbs": [
+      "Alkusanat"
+    ]
   },
   {
-    "objectID": "vaalit.html#valtuustopaikat-vuosina-2008---2021",
-    "href": "vaalit.html#valtuustopaikat-vuosina-2008---2021",
-    "title": "\n1  Vaalit\n",
-    "section": "\n1.1 Valtuustopaikat vuosina 2008 - 2021",
-    "text": "1.1 Valtuustopaikat vuosina 2008 - 2021\nVuodesta 2017 toimikausi 1.6 alkaen ja vuonna 2021 toimikausi 1.8 alkaen.\n\n\n\n\nValittujen lukumäärä\n \n Vuosi \n    KOK \n    SDP \n    KESK \n    PS \n    VAS \n    KD \n    Yht. \n  \n\n\n 1992 \n    12 \n    14 \n    5 \n    0 \n    5 \n    2 \n    43 \n  \n\n 1996 \n    13 \n    12 \n    6 \n    0 \n    5 \n    2 \n    43 \n  \n\n 2000 \n    14 \n    11 \n    7 \n    0 \n    4 \n    0 \n    43 \n  \n\n 2004 \n    11 \n    12 \n    7 \n    0 \n    4 \n    2 \n    43 \n  \n\n 2008 \n    13 \n    10 \n    5 \n    1 \n    3 \n    4 \n    43 \n  \n\n 2012 \n    15 \n    13 \n    7 \n    6 \n    2 \n    5 \n    51 \n  \n\n 2017 \n    13 \n    12 \n    5 \n    6 \n    3 \n    5 \n    51 \n  \n\n 2021 \n    14 \n    11 \n    4 \n    9 \n    2 \n    5 \n    51 \n  \n\n\nLähde:\n\n Tilastokeskus: 12g3 -- Kuntavaalit, puolueiden kannatus, 1976-2021"
-  },
-  {
-    "objectID": "vaesto.html#väestö-vuosittain",
-    "href": "vaesto.html#väestö-vuosittain",
-    "title": "\n2  Väestö ja väestönmuutokset\n",
-    "section": "\n2.1 Väestö vuosittain",
-    "text": "2.1 Väestö vuosittain"
-  },
-  {
-    "objectID": "vaesto.html#väestö-ikäryhmittäin",
-    "href": "vaesto.html#väestö-ikäryhmittäin",
-    "title": "\n2  Väestö ja väestönmuutokset\n",
-    "section": "\n2.2 Väestö ikäryhmittäin",
-    "text": "2.2 Väestö ikäryhmittäin"
-  },
-  {
-    "objectID": "vaesto.html#väestön-ikäjakauma",
-    "href": "vaesto.html#väestön-ikäjakauma",
-    "title": "\n2  Väestö ja väestönmuutokset\n",
-    "section": "\n2.3 Väestön ikäjakauma",
-    "text": "2.3 Väestön ikäjakauma\n\n\n\n\nVäestön ikäjakauma\n \n Ikä \n    Miehet \n    Naiset \n    Yhteensä \n    Naisten osuus \n  \n\n\n Yhteensä \n    16259 \n    16700 \n    32959 \n    50.7 \n  \n\n 0 \n    141 \n    155 \n    296 \n    52.4 \n  \n\n 1 \n    203 \n    173 \n    376 \n    46 \n  \n\n 2 \n    159 \n    166 \n    325 \n    51.1 \n  \n\n 3 \n    176 \n    170 \n    346 \n    49.1 \n  \n\n 4 \n    167 \n    167 \n    334 \n    50 \n  \n\n 5 \n    179 \n    189 \n    368 \n    51.4 \n  \n\n 6 \n    212 \n    231 \n    443 \n    52.1 \n  \n\n 7 \n    216 \n    204 \n    420 \n    48.6 \n  \n\n 8 \n    225 \n    191 \n    416 \n    45.9 \n  \n\n 9 \n    223 \n    210 \n    433 \n    48.5 \n  \n\n 10 \n    229 \n    234 \n    463 \n    50.5 \n  \n\n 11 \n    199 \n    231 \n    430 \n    53.7 \n  \n\n 12 \n    222 \n    229 \n    451 \n    50.8 \n  \n\n 13 \n    234 \n    236 \n    470 \n    50.2 \n  \n\n 14 \n    217 \n    224 \n    441 \n    50.8 \n  \n\n 15 \n    233 \n    230 \n    463 \n    49.7 \n  \n\n 16 \n    234 \n    208 \n    442 \n    47.1 \n  \n\n 17 \n    229 \n    207 \n    436 \n    47.5 \n  \n\n 18 \n    214 \n    199 \n    413 \n    48.2 \n  \n\n 19 \n    187 \n    157 \n    344 \n    45.6 \n  \n\n 20 \n    186 \n    117 \n    303 \n    38.6 \n  \n\n 21 \n    118 \n    118 \n    236 \n    50 \n  \n\n 22 \n    118 \n    95 \n    213 \n    44.6 \n  \n\n 23 \n    110 \n    95 \n    205 \n    46.3 \n  \n\n 24 \n    117 \n    100 \n    217 \n    46.1 \n  \n\n 25 \n    114 \n    119 \n    233 \n    51.1 \n  \n\n 26 \n    152 \n    139 \n    291 \n    47.8 \n  \n\n 27 \n    153 \n    142 \n    295 \n    48.1 \n  \n\n 28 \n    161 \n    175 \n    336 \n    52.1 \n  \n\n 29 \n    166 \n    178 \n    344 \n    51.7 \n  \n\n 30 \n    199 \n    201 \n    400 \n    50.2 \n  \n\n 31 \n    191 \n    180 \n    371 \n    48.5 \n  \n\n 32 \n    207 \n    219 \n    426 \n    51.4 \n  \n\n 33 \n    237 \n    235 \n    472 \n    49.8 \n  \n\n 34 \n    214 \n    218 \n    432 \n    50.5 \n  \n\n 35 \n    185 \n    203 \n    388 \n    52.3 \n  \n\n 36 \n    203 \n    199 \n    402 \n    49.5 \n  \n\n 37 \n    207 \n    202 \n    409 \n    49.4 \n  \n\n 38 \n    221 \n    223 \n    444 \n    50.2 \n  \n\n 39 \n    242 \n    236 \n    478 \n    49.4 \n  \n\n 40 \n    226 \n    258 \n    484 \n    53.3 \n  \n\n 41 \n    230 \n    246 \n    476 \n    51.7 \n  \n\n 42 \n    247 \n    220 \n    467 \n    47.1 \n  \n\n 43 \n    211 \n    227 \n    438 \n    51.8 \n  \n\n 44 \n    224 \n    227 \n    451 \n    50.3 \n  \n\n 45 \n    252 \n    233 \n    485 \n    48 \n  \n\n 46 \n    242 \n    255 \n    497 \n    51.3 \n  \n\n 47 \n    236 \n    248 \n    484 \n    51.2 \n  \n\n 48 \n    238 \n    220 \n    458 \n    48 \n  \n\n 49 \n    194 \n    206 \n    400 \n    51.5 \n  \n\n 50 \n    216 \n    219 \n    435 \n    50.3 \n  \n\n 51 \n    224 \n    200 \n    424 \n    47.2 \n  \n\n 52 \n    244 \n    203 \n    447 \n    45.4 \n  \n\n 53 \n    213 \n    214 \n    427 \n    50.1 \n  \n\n 54 \n    220 \n    228 \n    448 \n    50.9 \n  \n\n 55 \n    218 \n    232 \n    450 \n    51.6 \n  \n\n 56 \n    207 \n    205 \n    412 \n    49.8 \n  \n\n 57 \n    216 \n    200 \n    416 \n    48.1 \n  \n\n 58 \n    216 \n    238 \n    454 \n    52.4 \n  \n\n 59 \n    250 \n    216 \n    466 \n    46.4 \n  \n\n 60 \n    203 \n    195 \n    398 \n    49 \n  \n\n 61 \n    212 \n    202 \n    414 \n    48.8 \n  \n\n 62 \n    192 \n    184 \n    376 \n    48.9 \n  \n\n 63 \n    209 \n    203 \n    412 \n    49.3 \n  \n\n 64 \n    172 \n    200 \n    372 \n    53.8 \n  \n\n 65 \n    195 \n    187 \n    382 \n    49 \n  \n\n 66 \n    168 \n    190 \n    358 \n    53.1 \n  \n\n 67 \n    162 \n    176 \n    338 \n    52.1 \n  \n\n 68 \n    183 \n    211 \n    394 \n    53.6 \n  \n\n 69 \n    175 \n    208 \n    383 \n    54.3 \n  \n\n 70 \n    218 \n    179 \n    397 \n    45.1 \n  \n\n 71 \n    169 \n    190 \n    359 \n    52.9 \n  \n\n 72 \n    160 \n    186 \n    346 \n    53.8 \n  \n\n 73 \n    161 \n    196 \n    357 \n    54.9 \n  \n\n 74 \n    177 \n    217 \n    394 \n    55.1 \n  \n\n 75 \n    177 \n    182 \n    359 \n    50.7 \n  \n\n 76 \n    156 \n    207 \n    363 \n    57 \n  \n\n 77 \n    131 \n    163 \n    294 \n    55.4 \n  \n\n 78 \n    117 \n    123 \n    240 \n    51.2 \n  \n\n 79 \n    87 \n    150 \n    237 \n    63.3 \n  \n\n 80 \n    84 \n    118 \n    202 \n    58.4 \n  \n\n 81 \n    117 \n    119 \n    236 \n    50.4 \n  \n\n 82 \n    72 \n    95 \n    167 \n    56.9 \n  \n\n 83 \n    76 \n    111 \n    187 \n    59.4 \n  \n\n 84 \n    82 \n    97 \n    179 \n    54.2 \n  \n\n 85 \n    62 \n    75 \n    137 \n    54.7 \n  \n\n 86 \n    55 \n    85 \n    140 \n    60.7 \n  \n\n 87 \n    36 \n    55 \n    91 \n    60.4 \n  \n\n 88 \n    28 \n    47 \n    75 \n    62.7 \n  \n\n 89 \n    23 \n    55 \n    78 \n    70.5 \n  \n\n 90 \n    21 \n    50 \n    71 \n    70.4 \n  \n\n 91 \n    22 \n    28 \n    50 \n    56 \n  \n\n 92 \n    10 \n    33 \n    43 \n    76.7 \n  \n\n 93 \n    8 \n    20 \n    28 \n    71.4 \n  \n\n 94 \n    8 \n    14 \n    22 \n    63.6 \n  \n\n 95 \n    2 \n    18 \n    20 \n    90 \n  \n\n 96 \n    2 \n    10 \n    12 \n    83.3 \n  \n\n 97 \n    2 \n    10 \n    12 \n    83.3 \n  \n\n 98 \n    0 \n    6 \n    6 \n    100 \n  \n\n 99 \n    0 \n    2 \n    2 \n    100 \n  \n\n 100 \n    1 \n    3 \n    4 \n    75 \n  \n\n\nLähde:\n\n Tilastokeskus: 11re -- Väestö iän (1-v.) ja sukupuolen mukaan alueittain, 1972-2022"
-  },
-  {
-    "objectID": "vaesto.html#väkiluku-ja-väestönmuutokset",
-    "href": "vaesto.html#väkiluku-ja-väestönmuutokset",
-    "title": "\n2  Väestö ja väestönmuutokset\n",
-    "section": "\n2.4 Väkiluku ja väestönmuutokset",
-    "text": "2.4 Väkiluku ja väestönmuutokset\n\n\n\n\nVäkiluku ja väestönmuutokset\n \n\n\nLuonnollinen muutos\nMuuttoliike\n\n\n\n\n Vuosi \n    syntyneet \n    kuolleet \n    syntyneiden enemmyys \n    kuntien välinen netto \n    kansainvälinen netto \n    Väestönlisäys \n    Väkiluku \n  \n\n\n\n 2005 \n    360 \n    212 \n    148 \n    454 \n    19 \n    621 \n    27927 \n  \n\n 2006 \n    389 \n    203 \n    186 \n    285 \n    11 \n    482 \n    28407 \n  \n\n 2007 \n    408 \n    203 \n    205 \n    168 \n    29 \n    402 \n    28809 \n  \n\n 2008 \n    404 \n    190 \n    214 \n    218 \n    38 \n    470 \n    29282 \n  \n\n 2009 \n    394 \n    236 \n    158 \n    53 \n    18 \n    229 \n    29522 \n  \n\n 2010 \n    394 \n    262 \n    132 \n    -11 \n    26 \n    147 \n    29675 \n  \n\n 2011 \n    360 \n    228 \n    132 \n    61 \n    24 \n    217 \n    29891 \n  \n\n 2012 \n    364 \n    235 \n    129 \n    99 \n    2 \n    230 \n    30126 \n  \n\n 2013 \n    356 \n    207 \n    149 \n    46 \n    27 \n    222 \n    30345 \n  \n\n 2014 \n    327 \n    247 \n    80 \n    4 \n    41 \n    125 \n    30471 \n  \n\n 2015 \n    313 \n    241 \n    72 \n    74 \n    8 \n    154 \n    30607 \n  \n\n 2016 \n    365 \n    223 \n    142 \n    395 \n    46 \n    583 \n    31190 \n  \n\n 2017 \n    290 \n    276 \n    14 \n    213 \n    21 \n    248 \n    31437 \n  \n\n 2018 \n    284 \n    249 \n    35 \n    201 \n    11 \n    247 \n    31676 \n  \n\n 2019 \n    301 \n    253 \n    48 \n    115 \n    28 \n    191 \n    31868 \n  \n\n 2020 \n    280 \n    222 \n    58 \n    250 \n    38 \n    346 \n    32214 \n  \n\n 2021 \n    334 \n    296 \n    38 \n    378 \n    -4 \n    412 \n    32622 \n  \n\n\nLähde:\n\n Tilastokeskus: Alueaikasarjat 1987-2021 - Kuntien avainluvut"
-  },
-  {
-    "objectID": "vaesto.html#väestö-tilasto--ja-pienalueittain",
-    "href": "vaesto.html#väestö-tilasto--ja-pienalueittain",
-    "title": "\n2  Väestö ja väestönmuutokset\n",
-    "section": "\n2.5 Väestö tilasto- ja pienalueittain",
-    "text": "2.5 Väestö tilasto- ja pienalueittain\n\n\n\n\nVäestö tilasto- ja pienalueittain\n \n Osa-alue \n    2020 \n    2021 \n    Muutos 21-20 \n    Muutos 21-20% \n    2022 \n    Muutos 22-21 \n    Muutos 22-21% \n  \n\n\n 211 Kangasala \n    32214 \n    32622 \n    408 \n    1.3 \n    32959 \n    337 \n    1.0 \n  \n\n 2111 Länsi-Kangasala \n    28883 \n    29316 \n    433 \n    1.5 \n    29682 \n    366 \n    1.2 \n  \n\n 211101 Eteläosa \n    767 \n    772 \n    5 \n    0.7 \n    756 \n    -16 \n    -2.1 \n  \n\n 211101001 Saarenmaa \n    359 \n    349 \n    -10 \n    -2.8 \n    342 \n    -7 \n    -2.0 \n  \n\n 211101002 Haapaniemi \n    231 \n    236 \n    5 \n    2.2 \n    232 \n    -4 \n    -1.7 \n  \n\n 211101003 Kuohenmaa \n    177 \n    187 \n    10 \n    5.6 \n    182 \n    -5 \n    -2.7 \n  \n\n 211102 Vatiala \n    5556 \n    5636 \n    80 \n    1.4 \n    5800 \n    164 \n    2.9 \n  \n\n 211102001 Ilkko \n    1395 \n    1462 \n    67 \n    4.8 \n    1483 \n    21 \n    1.4 \n  \n\n 211102002 Vatiala \n    4161 \n    4174 \n    13 \n    0.3 \n    4317 \n    143 \n    3.4 \n  \n\n 211102003 Lamminrahka \n    0 \n    0 \n    0 \n     \n    0 \n    0 \n     \n  \n\n 211103 Suorama \n    7621 \n    7729 \n    108 \n    1.4 \n    7692 \n    -37 \n    -0.5 \n  \n\n 211103001 Lentola \n    5494 \n    5591 \n    97 \n    1.8 \n    5550 \n    -41 \n    -0.7 \n  \n\n 211103002 Asema \n    2127 \n    2138 \n    11 \n    0.5 \n    2142 \n    4 \n    0.2 \n  \n\n 211104 Pohjoisosa \n    3953 \n    3951 \n    -2 \n    -0.1 \n    3976 \n    25 \n    0.6 \n  \n\n 211104001 Ruutana \n    2924 \n    2935 \n    11 \n    0.4 \n    2960 \n    25 \n    0.9 \n  \n\n 211104002 Suinula \n    878 \n    872 \n    -6 \n    -0.7 \n    879 \n    7 \n    0.8 \n  \n\n 211104003 Lihasula \n    151 \n    144 \n    -7 \n    -4.6 \n    137 \n    -7 \n    -4.9 \n  \n\n 211105 Keskusta \n    9294 \n    9568 \n    274 \n    2.9 \n    9816 \n    248 \n    2.6 \n  \n\n 211105001 Ranta-Koivisto \n    1303 \n    1335 \n    32 \n    2.5 \n    1383 \n    48 \n    3.6 \n  \n\n 211105002 Riku \n    827 \n    852 \n    25 \n    3.0 \n    912 \n    60 \n    7.0 \n  \n\n 211105003 Keskusta \n    5588 \n    5801 \n    213 \n    3.8 \n    5950 \n    149 \n    2.6 \n  \n\n 211105004 Huutijärvi \n    1576 \n    1580 \n    4 \n    0.3 \n    1571 \n    -9 \n    -0.6 \n  \n\n 211106 Keskiosa \n    1692 \n    1660 \n    -32 \n    -1.9 \n    1642 \n    -18 \n    -1.1 \n  \n\n 211106001 Tiihala \n    209 \n    196 \n    -13 \n    -6.2 \n    184 \n    -12 \n    -6.1 \n  \n\n 211106002 Saarikylät \n    217 \n    212 \n    -5 \n    -2.3 \n    218 \n    6 \n    2.8 \n  \n\n 211106003 Vääksy \n    321 \n    314 \n    -7 \n    -2.2 \n    310 \n    -4 \n    -1.3 \n  \n\n 211106004 Raudanmaa \n    621 \n    622 \n    1 \n    0.2 \n    615 \n    -7 \n    -1.1 \n  \n\n 211106005 Raikku \n    324 \n    316 \n    -8 \n    -2.5 \n    315 \n    -1 \n    -0.3 \n  \n\n 2112 Itä-Kangasala \n    3086 \n    3065 \n    -21 \n    -0.7 \n    3012 \n    -53 \n    -1.7 \n  \n\n 211201 Sahalahti \n    2143 \n    2128 \n    -15 \n    -0.7 \n    2118 \n    -10 \n    -0.5 \n  \n\n 211201001 Sahalahti \n    1344 \n    1320 \n    -24 \n    -1.8 \n    1338 \n    18 \n    1.4 \n  \n\n 211201002 Lahdenkulma \n    348 \n    342 \n    -6 \n    -1.7 \n    343 \n    1 \n    0.3 \n  \n\n 211201003 Pakkala \n    451 \n    466 \n    15 \n    3.3 \n    437 \n    -29 \n    -6.2 \n  \n\n 211202 Kuhmalahti \n    943 \n    937 \n    -6 \n    -0.6 \n    894 \n    -43 \n    -4.6 \n  \n\n 211202001 Kuhmalahden kirkonkylä \n    564 \n    557 \n    -7 \n    -1.2 \n    524 \n    -33 \n    -5.9 \n  \n\n 211202002 Pohja \n    250 \n    249 \n    -1 \n    -0.4 \n    247 \n    -2 \n    -0.8 \n  \n\n 211202003 Vehkajärvi \n    129 \n    131 \n    2 \n    1.6 \n    123 \n    -8 \n    -6.1 \n  \n\n 211999999 211 tuntematon \n    245 \n    241 \n    -4 \n    -1.6 \n    265 \n    24 \n    10.0 \n  \n\n\nLähde:\n\n Tilastokeskus: 12hk -- Väestö iän (1-v.) mukaan kunnan osa-alueittain, 2010-2022"
-  },
-  {
-    "objectID": "muuttoliike.html#muuttoliike-tulo-kunnittain",
-    "href": "muuttoliike.html#muuttoliike-tulo-kunnittain",
-    "title": "\n3  Muuttoliike\n",
-    "section": "\n3.1 Muuttoliike (tulo) kunnittain",
-    "text": "3.1 Muuttoliike (tulo) kunnittain\n\n\n\n\n\nTulo - Kangasala  (yli 5 muuttajaa viim. tarkasteluvuonna)\n \n Tulo \n    2019 \n    2020 \n    Muutos 20-19 \n    Muutos 20-19% \n    2021 \n    Muutos 21-20 \n    Muutos 21-20% \n  \n\n\n Koko maa \n    1938 \n    2101 \n    163 \n    8.4 \n    2190 \n    89 \n    4.2 \n  \n\n Tampere \n    1165 \n    1245 \n    80 \n    6.9 \n    1315 \n    70 \n    5.6 \n  \n\n Pälkäne \n    75 \n    58 \n    -17 \n    -22.7 \n    67 \n    9 \n    15.5 \n  \n\n Lempäälä \n    53 \n    62 \n    9 \n    17 \n    63 \n    1 \n    1.6 \n  \n\n Pirkkala \n    39 \n    43 \n    4 \n    10.3 \n    59 \n    16 \n    37.2 \n  \n\n Helsinki \n    34 \n    44 \n    10 \n    29.4 \n    56 \n    12 \n    27.3 \n  \n\n Nokia \n    29 \n    41 \n    12 \n    41.4 \n    48 \n    7 \n    17.1 \n  \n\n Orivesi \n    31 \n    33 \n    2 \n    6.5 \n    42 \n    9 \n    27.3 \n  \n\n Valkeakoski \n    27 \n    22 \n    -5 \n    -18.5 \n    42 \n    20 \n    90.9 \n  \n\n Ylöjärvi \n    45 \n    45 \n    0 \n    0 \n    40 \n    -5 \n    -11.1 \n  \n\n Jyväskylä \n    24 \n    27 \n    3 \n    12.5 \n    27 \n    0 \n    0 \n  \n\n Hämeenlinna \n    16 \n    28 \n    12 \n    75 \n    26 \n    -2 \n    -7.1 \n  \n\n Turku \n    18 \n    13 \n    -5 \n    -27.8 \n    23 \n    10 \n    76.9 \n  \n\n Oulu \n    7 \n    25 \n    18 \n    257.1 \n    22 \n    -3 \n    -12 \n  \n\n Akaa \n    13 \n    14 \n    1 \n    7.7 \n    15 \n    1 \n    7.1 \n  \n\n Espoo \n    14 \n    24 \n    10 \n    71.4 \n    15 \n    -9 \n    -37.5 \n  \n\n Seinäjoki \n    13 \n    8 \n    -5 \n    -38.5 \n    14 \n    6 \n    75 \n  \n\n Hämeenkyrö \n    6 \n    9 \n    3 \n    50 \n    12 \n    3 \n    33.3 \n  \n\n Pori \n    17 \n    7 \n    -10 \n    -58.8 \n    12 \n    5 \n    71.4 \n  \n\n Vaasa \n    6 \n    4 \n    -2 \n    -33.3 \n    12 \n    8 \n    200 \n  \n\n Kuhmoinen \n    4 \n    2 \n    -2 \n    -50 \n    11 \n    9 \n    450 \n  \n\n Jämsä \n    10 \n    9 \n    -1 \n    -10 \n    9 \n    0 \n    0 \n  \n\n Vantaa \n    12 \n    15 \n    3 \n    25 \n    9 \n    -6 \n    -40 \n  \n\n Vesilahti \n    3 \n    17 \n    14 \n    466.7 \n    9 \n    -8 \n    -47.1 \n  \n\n Joensuu \n    10 \n    11 \n    1 \n    10 \n    8 \n    -3 \n    -27.3 \n  \n\n Lahti \n    20 \n    16 \n    -4 \n    -20 \n    8 \n    -8 \n    -50 \n  \n\n Forssa \n    2 \n    1 \n    -1 \n    -50 \n    7 \n    6 \n    600 \n  \n\n Hollola \n    4 \n    3 \n    -1 \n    -25 \n    7 \n    4 \n    133.3 \n  \n\n Kuopio \n    16 \n    18 \n    2 \n    12.5 \n    6 \n    -12 \n    -66.7 \n  \n\n Lieto \n    1 \n    3 \n    2 \n    200 \n    6 \n    3 \n    100 \n  \n\n Mänttä-Vilppula \n    11 \n    4 \n    -7 \n    -63.6 \n    6 \n    2 \n    50 \n  \n\n Pornainen \n    0 \n    2 \n    2 \n    Inf \n    6 \n    4 \n    200 \n  \n\n\nLähde:\n\n Tilastokeskus: 11a1 -- Kuntien välinen muutto tulo- ja lähtöalueittain, 1990-2021"
-  },
-  {
-    "objectID": "muuttoliike.html#muuttoliike-lähtö-kunnittain",
-    "href": "muuttoliike.html#muuttoliike-lähtö-kunnittain",
-    "title": "\n3  Muuttoliike\n",
-    "section": "\n3.2 Muuttoliike (lähtö) kunnittain",
-    "text": "3.2 Muuttoliike (lähtö) kunnittain\n\n\n\n\n\nLähtö - Kangasala  (yli 5 muuttajaa viim. tarkasteluvuonna)\n \n Lähtö \n    2019 \n    2020 \n    Muutos 20-19 \n    Muutos 20-19% \n    2021 \n    Muutos 21-20 \n    Muutos 21-20% \n  \n\n\n Koko maa \n    1823 \n    1851 \n    28 \n    1.5 \n    1812 \n    -39 \n    -2.1 \n  \n\n Tampere \n    930 \n    961 \n    31 \n    3.3 \n    873 \n    -88 \n    -9.2 \n  \n\n Pälkäne \n    56 \n    41 \n    -15 \n    -26.8 \n    65 \n    24 \n    58.5 \n  \n\n Lempäälä \n    40 \n    59 \n    19 \n    47.5 \n    56 \n    -3 \n    -5.1 \n  \n\n Helsinki \n    62 \n    58 \n    -4 \n    -6.5 \n    54 \n    -4 \n    -6.9 \n  \n\n Valkeakoski \n    49 \n    39 \n    -10 \n    -20.4 \n    50 \n    11 \n    28.2 \n  \n\n Nokia \n    69 \n    58 \n    -11 \n    -15.9 \n    46 \n    -12 \n    -20.7 \n  \n\n Pirkkala \n    26 \n    34 \n    8 \n    30.8 \n    35 \n    1 \n    2.9 \n  \n\n Ylöjärvi \n    32 \n    42 \n    10 \n    31.2 \n    35 \n    -7 \n    -16.7 \n  \n\n Turku \n    27 \n    32 \n    5 \n    18.5 \n    34 \n    2 \n    6.2 \n  \n\n Akaa \n    16 \n    10 \n    -6 \n    -37.5 \n    31 \n    21 \n    210 \n  \n\n Orivesi \n    56 \n    57 \n    1 \n    1.8 \n    31 \n    -26 \n    -45.6 \n  \n\n Jyväskylä \n    35 \n    25 \n    -10 \n    -28.6 \n    29 \n    4 \n    16 \n  \n\n Hämeenlinna \n    36 \n    31 \n    -5 \n    -13.9 \n    27 \n    -4 \n    -12.9 \n  \n\n Lahti \n    14 \n    17 \n    3 \n    21.4 \n    18 \n    1 \n    5.9 \n  \n\n Kuopio \n    14 \n    28 \n    14 \n    100 \n    17 \n    -11 \n    -39.3 \n  \n\n Ikaalinen \n    4 \n    7 \n    3 \n    75 \n    16 \n    9 \n    128.6 \n  \n\n Espoo \n    19 \n    16 \n    -3 \n    -15.8 \n    14 \n    -2 \n    -12.5 \n  \n\n Mänttä-Vilppula \n    8 \n    9 \n    1 \n    12.5 \n    13 \n    4 \n    44.4 \n  \n\n Pori \n    14 \n    12 \n    -2 \n    -14.3 \n    13 \n    1 \n    8.3 \n  \n\n Vantaa \n    16 \n    11 \n    -5 \n    -31.2 \n    12 \n    1 \n    9.1 \n  \n\n Joensuu \n    7 \n    10 \n    3 \n    42.9 \n    11 \n    1 \n    10 \n  \n\n Inari \n    6 \n    3 \n    -3 \n    -50 \n    10 \n    7 \n    233.3 \n  \n\n Kerava \n    2 \n    0 \n    -2 \n    -100 \n    10 \n    10 \n    Inf \n  \n\n Rovaniemi \n    7 \n    3 \n    -4 \n    -57.1 \n    10 \n    7 \n    233.3 \n  \n\n Seinäjoki \n    9 \n    11 \n    2 \n    22.2 \n    10 \n    -1 \n    -9.1 \n  \n\n Urjala \n    1 \n    5 \n    4 \n    400 \n    10 \n    5 \n    100 \n  \n\n Oulu \n    12 \n    10 \n    -2 \n    -16.7 \n    8 \n    -2 \n    -20 \n  \n\n Ruovesi \n    6 \n    2 \n    -4 \n    -66.7 \n    8 \n    6 \n    300 \n  \n\n Vaasa \n    10 \n    15 \n    5 \n    50 \n    8 \n    -7 \n    -46.7 \n  \n\n Keuruu \n    1 \n    8 \n    7 \n    700 \n    7 \n    -1 \n    -12.5 \n  \n\n Kitee \n    0 \n    0 \n    0 \n    NaN \n    7 \n    7 \n    Inf \n  \n\n Lappeenranta \n    5 \n    6 \n    1 \n    20 \n    7 \n    1 \n    16.7 \n  \n\n Rauma \n    1 \n    6 \n    5 \n    500 \n    7 \n    1 \n    16.7 \n  \n\n Sastamala \n    7 \n    18 \n    11 \n    157.1 \n    7 \n    -11 \n    -61.1 \n  \n\n Vesilahti \n    2 \n    6 \n    4 \n    200 \n    7 \n    1 \n    16.7 \n  \n\n Hämeenkyrö \n    13 \n    2 \n    -11 \n    -84.6 \n    6 \n    4 \n    200 \n  \n\n Lemi \n    0 \n    0 \n    0 \n    NaN \n    6 \n    6 \n    Inf \n  \n\n Saarijärvi \n    2 \n    0 \n    -2 \n    -100 \n    6 \n    6 \n    Inf \n  \n\n Savonlinna \n    2 \n    2 \n    0 \n    0 \n    6 \n    4 \n    200 \n  \n\n Virrat \n    5 \n    3 \n    -2 \n    -40 \n    6 \n    3 \n    100 \n  \n\n\nLähde:\n\n Tilastokeskus: 11a1 -- Kuntien välinen muutto tulo- ja lähtöalueittain, 1990-2021"
-  },
-  {
-    "objectID": "koulutus.html#vuotta-täyttänyt-väestö-koulutusasteen-mukaan",
-    "href": "koulutus.html#vuotta-täyttänyt-väestö-koulutusasteen-mukaan",
-    "title": "\n4  Koulutus\n",
-    "section": "\n4.1 15 vuotta täyttänyt väestö koulutusasteen mukaan",
-    "text": "4.1 15 vuotta täyttänyt väestö koulutusasteen mukaan"
-  },
-  {
-    "objectID": "vaestoskenaario.html#eri-väestöskenaariot-ja-ennakkotieto",
-    "href": "vaestoskenaario.html#eri-väestöskenaariot-ja-ennakkotieto",
-    "title": "\n5  Väestöskenaario\n",
-    "section": "\n5.1 Eri väestöskenaariot ja ennakkotieto",
-    "text": "5.1 Eri väestöskenaariot ja ennakkotieto"
-  },
-  {
-    "objectID": "vaestoskenaario.html#väestöpyramidi-nykytilanteella-ja-tilastokeskuksen-ennustevuosina",
-    "href": "vaestoskenaario.html#väestöpyramidi-nykytilanteella-ja-tilastokeskuksen-ennustevuosina",
-    "title": "\n5  Väestöskenaario\n",
-    "section": "\n5.2 Väestöpyramidi nykytilanteella ja Tilastokeskuksen ennustevuosina",
-    "text": "5.2 Väestöpyramidi nykytilanteella ja Tilastokeskuksen ennustevuosina"
-  },
-  {
-    "objectID": "tyossakaynti.html#alueella-työssäkäyvät-työpaikat",
-    "href": "tyossakaynti.html#alueella-työssäkäyvät-työpaikat",
-    "title": "\n6  Tyossakaynti\n",
-    "section": "\n6.1 Alueella työssäkäyvät (työpaikat)",
-    "text": "6.1 Alueella työssäkäyvät (työpaikat)\n\n\n\n\n\nAlueella työssäkäyvät (työpaikat)\n \n Toimiala \n    2007 \n    2008 \n    2009 \n    2010 \n    2011 \n    2012 \n    2013 \n    2014 \n    2015 \n    2016 \n    2017 \n    2018 \n    2019 \n    2020 \n    2021 \n  \n\n\n Toimialat yhteensä \n    8976 \n    9097 \n    8658 \n    8835 \n    9056 \n    8619 \n    8533 \n    8406 \n    8432 \n    8419 \n    8801 \n    8884 \n    9084 \n    8658 \n    8890 \n  \n\n A Maatalous, metsätalous ja kalatalous (01-03) (Taso 1) \n    431 \n    440 \n    296 \n    413 \n    427 \n    393 \n    372 \n    370 \n    357 \n    332 \n    311 \n    312 \n    309 \n    296 \n    292 \n  \n\n B Kaivostoiminta ja louhinta (05-09) (Taso 1) \n    1 \n    0 \n    0 \n    1 \n    0 \n    0 \n    0 \n    0 \n    1 \n    1 \n    2 \n    6 \n    0 \n    0 \n    0 \n  \n\n C Teollisuus (10-33) (Taso 1) \n    2284 \n    2145 \n    1299 \n    1975 \n    1838 \n    1731 \n    1555 \n    1440 \n    1468 \n    1399 \n    1464 \n    1452 \n    1434 \n    1299 \n    1385 \n  \n\n D Sähkö-, kaasu- ja lämpöhuolto, jäähdytysliiketoiminta (35) (Taso 1) \n    2 \n    3 \n    13 \n    2 \n    3 \n    2 \n    2 \n    2 \n    2 \n    2 \n    4 \n    5 \n    6 \n    13 \n    6 \n  \n\n E Vesihuolto, viemäri- ja jätevesihuolto, jätehuolto ja muu ympäristön puhtaanapito (36-39) (Taso 1) \n    26 \n    26 \n    37 \n    27 \n    27 \n    26 \n    27 \n    29 \n    31 \n    42 \n    39 \n    40 \n    39 \n    37 \n    46 \n  \n\n F Rakentaminen (41-43) (Taso 1) \n    799 \n    883 \n    916 \n    863 \n    889 \n    747 \n    801 \n    745 \n    736 \n    826 \n    921 \n    979 \n    945 \n    916 \n    953 \n  \n\n G Tukku- ja vähittäiskauppa; moottoriajoneuvojen ja moottoripyörien korjaus (45-47) (Taso 1) \n    876 \n    933 \n    903 \n    864 \n    872 \n    867 \n    909 \n    937 \n    938 \n    974 \n    938 \n    909 \n    895 \n    903 \n    912 \n  \n\n H Kuljetus ja varastointi (49-53) (Taso 1) \n    476 \n    464 \n    383 \n    444 \n    433 \n    418 \n    412 \n    393 \n    379 \n    368 \n    370 \n    361 \n    422 \n    383 \n    349 \n  \n\n I Majoitus- ja ravitsemistoiminta (55-56) (Taso 1) \n    188 \n    258 \n    238 \n    275 \n    301 \n    258 \n    225 \n    239 \n    239 \n    240 \n    287 \n    274 \n    330 \n    238 \n    269 \n  \n\n J Informaatio ja viestintä (58-63) (Taso 1) \n    48 \n    60 \n    51 \n    59 \n    65 \n    62 \n    55 \n    65 \n    59 \n    56 \n    78 \n    69 \n    69 \n    51 \n    67 \n  \n\n K Rahoitus- ja vakuutustoiminta (64-66) (Taso 1) \n    84 \n    80 \n    51 \n    65 \n    74 \n    77 \n    66 \n    62 \n    76 \n    66 \n    79 \n    63 \n    64 \n    51 \n    49 \n  \n\n L Kiinteistöalan toiminta (68) (Taso 1) \n    119 \n    118 \n    131 \n    117 \n    132 \n    126 \n    120 \n    120 \n    120 \n    131 \n    122 \n    104 \n    122 \n    131 \n    128 \n  \n\n M Ammatillinen, tieteellinen ja tekninen toiminta (69-75) (Taso 1) \n    248 \n    270 \n    352 \n    273 \n    330 \n    337 \n    364 \n    339 \n    350 \n    366 \n    425 \n    441 \n    411 \n    352 \n    267 \n  \n\n N Hallinto- ja tukipalvelutoiminta (77-82) (Taso 1) \n    406 \n    427 \n    744 \n    403 \n    506 \n    525 \n    518 \n    547 \n    582 \n    617 \n    733 \n    751 \n    748 \n    744 \n    858 \n  \n\n O Julkinen hallinto ja maanpuolustus; pakollinen sosiaalivakuutus (84) (Taso 1) \n    278 \n    247 \n    140 \n    236 \n    153 \n    136 \n    121 \n    143 \n    137 \n    158 \n    159 \n    140 \n    155 \n    140 \n    170 \n  \n\n P Koulutus (85) (Taso 1) \n    412 \n    442 \n    601 \n    465 \n    488 \n    524 \n    571 \n    610 \n    574 \n    559 \n    557 \n    548 \n    614 \n    601 \n    607 \n  \n\n Q Terveys- ja sosiaalipalvelut (86-88) (Taso 1) \n    1855 \n    1870 \n    1964 \n    1848 \n    1976 \n    1893 \n    1901 \n    1827 \n    1841 \n    1724 \n    1749 \n    1848 \n    1932 \n    1964 \n    1981 \n  \n\n R Taiteet, viihde ja virkistys (90-93) (Taso 1) \n    90 \n    96 \n    107 \n    107 \n    116 \n    103 \n    106 \n    103 \n    116 \n    121 \n    115 \n    128 \n    138 \n    107 \n    135 \n  \n\n S Muu palvelutoiminta (94-96) (Taso 1) \n    211 \n    225 \n    190 \n    234 \n    220 \n    226 \n    216 \n    223 \n    222 \n    216 \n    218 \n    208 \n    205 \n    190 \n    196 \n  \n\n T Kotitalouksien toiminta työnantajina; kotitalouksien eriyttämätön toiminta tavaroiden ja palvelujen tuottamiseksi omaan käyttöön (97-98) (Taso 1) \n    0 \n    0 \n    32 \n    4 \n    3 \n    3 \n    40 \n    53 \n    43 \n    46 \n    48 \n    47 \n    34 \n    32 \n    30 \n  \n\n U Kansainvälisten organisaatioiden ja toimielinten toiminta (99) (Taso 1) \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n  \n\n X Tuntematon (Taso 1) \n    142 \n    110 \n    210 \n    160 \n    203 \n    165 \n    152 \n    159 \n    161 \n    175 \n    182 \n    199 \n    212 \n    210 \n    190 \n  \n\n\nLähde:\n\n Tilastokeskus: 115h -- Alueella työssäkäyvät (työpaikat) alueen, toimialan (TOL 2008), sukupuolen ja vuoden mukaan, 2007-2021"
-  },
-  {
-    "objectID": "tyossakaynti.html#kunnassa-asuva-työllinen-työvoima",
-    "href": "tyossakaynti.html#kunnassa-asuva-työllinen-työvoima",
-    "title": "\n6  Tyossakaynti\n",
-    "section": "\n6.2 Kunnassa asuva työllinen työvoima",
-    "text": "6.2 Kunnassa asuva työllinen työvoima\n\n\n\n\n\nKunnassa asuva työllinen työvoima\n \n Toimiala \n    2007 \n    2008 \n    2009 \n    2010 \n    2011 \n    2012 \n    2013 \n    2014 \n    2015 \n    2016 \n    2017 \n    2018 \n    2019 \n    2020 \n    2021 \n  \n\n\n Toimialat yhteensä \n    13464 \n    13602 \n    13953 \n    13244 \n    13534 \n    13408 \n    13070 \n    12949 \n    12971 \n    13196 \n    13752 \n    14165 \n    14153 \n    13953 \n    14719 \n  \n\n A Maatalous, metsätalous ja kalatalous (01-03) (Taso 1) \n    426 \n    405 \n    306 \n    388 \n    390 \n    381 \n    358 \n    368 \n    351 \n    324 \n    328 \n    324 \n    317 \n    306 \n    300 \n  \n\n B Kaivostoiminta ja louhinta (05-09) (Taso 1) \n    7 \n    4 \n    6 \n    6 \n    7 \n    6 \n    8 \n    5 \n    6 \n    10 \n    6 \n    9 \n    7 \n    6 \n    5 \n  \n\n C Teollisuus (10-33) (Taso 1) \n    3045 \n    2928 \n    2010 \n    2719 \n    2640 \n    2535 \n    2299 \n    2258 \n    2203 \n    2159 \n    2208 \n    2204 \n    2164 \n    2010 \n    2191 \n  \n\n D Sähkö-, kaasu- ja lämpöhuolto, jäähdytysliiketoiminta (35) (Taso 1) \n    30 \n    29 \n    40 \n    32 \n    37 \n    38 \n    37 \n    36 \n    38 \n    36 \n    37 \n    39 \n    40 \n    40 \n    47 \n  \n\n E Vesihuolto, viemäri- ja jätevesihuolto, jätehuolto ja muu ympäristön puhtaanapito (36-39) (Taso 1) \n    49 \n    47 \n    68 \n    45 \n    42 \n    44 \n    44 \n    47 \n    51 \n    54 \n    67 \n    70 \n    62 \n    68 \n    65 \n  \n\n F Rakentaminen (41-43) (Taso 1) \n    1041 \n    1089 \n    1182 \n    986 \n    1027 \n    1022 \n    1024 \n    977 \n    995 \n    1072 \n    1124 \n    1193 \n    1189 \n    1182 \n    1247 \n  \n\n G Tukku- ja vähittäiskauppa; moottoriajoneuvojen ja moottoripyörien korjaus (45-47) (Taso 1) \n    1446 \n    1482 \n    1521 \n    1391 \n    1414 \n    1414 \n    1402 \n    1351 \n    1390 \n    1486 \n    1518 \n    1528 \n    1522 \n    1521 \n    1592 \n  \n\n H Kuljetus ja varastointi (49-53) (Taso 1) \n    761 \n    756 \n    658 \n    722 \n    681 \n    702 \n    684 \n    682 \n    642 \n    635 \n    675 \n    684 \n    682 \n    658 \n    682 \n  \n\n I Majoitus- ja ravitsemistoiminta (55-56) (Taso 1) \n    311 \n    364 \n    350 \n    337 \n    347 \n    321 \n    295 \n    292 \n    302 \n    313 \n    348 \n    377 \n    399 \n    350 \n    380 \n  \n\n J Informaatio ja viestintä (58-63) (Taso 1) \n    419 \n    465 \n    668 \n    487 \n    552 \n    544 \n    533 \n    537 \n    531 \n    556 \n    610 \n    631 \n    647 \n    668 \n    679 \n  \n\n K Rahoitus- ja vakuutustoiminta (64-66) (Taso 1) \n    165 \n    180 \n    195 \n    167 \n    165 \n    172 \n    156 \n    150 \n    153 \n    154 \n    171 \n    187 \n    185 \n    195 \n    185 \n  \n\n L Kiinteistöalan toiminta (68) (Taso 1) \n    145 \n    156 \n    174 \n    140 \n    151 \n    148 \n    144 \n    149 \n    146 \n    175 \n    175 \n    161 \n    173 \n    174 \n    191 \n  \n\n M Ammatillinen, tieteellinen ja tekninen toiminta (69-75) (Taso 1) \n    690 \n    717 \n    885 \n    701 \n    780 \n    832 \n    821 \n    800 \n    805 \n    837 \n    884 \n    919 \n    908 \n    885 \n    958 \n  \n\n N Hallinto- ja tukipalvelutoiminta (77-82) (Taso 1) \n    608 \n    634 \n    897 \n    640 \n    689 \n    685 \n    651 \n    683 \n    692 \n    731 \n    856 \n    940 \n    904 \n    897 \n    1015 \n  \n\n O Julkinen hallinto ja maanpuolustus; pakollinen sosiaalivakuutus (84) (Taso 1) \n    506 \n    465 \n    499 \n    478 \n    445 \n    451 \n    451 \n    446 \n    455 \n    468 \n    468 \n    471 \n    506 \n    499 \n    476 \n  \n\n P Koulutus (85) (Taso 1) \n    892 \n    906 \n    1019 \n    956 \n    991 \n    1024 \n    982 \n    998 \n    990 \n    952 \n    999 \n    1001 \n    1018 \n    1019 \n    1077 \n  \n\n Q Terveys- ja sosiaalipalvelut (86-88) (Taso 1) \n    2292 \n    2343 \n    2727 \n    2360 \n    2435 \n    2421 \n    2465 \n    2482 \n    2518 \n    2506 \n    2519 \n    2623 \n    2625 \n    2727 \n    2869 \n  \n\n R Taiteet, viihde ja virkistys (90-93) (Taso 1) \n    158 \n    175 \n    189 \n    181 \n    182 \n    166 \n    198 \n    163 \n    190 \n    209 \n    220 \n    228 \n    226 \n    189 \n    211 \n  \n\n S Muu palvelutoiminta (94-96) (Taso 1) \n    331 \n    346 \n    317 \n    344 \n    354 \n    335 \n    327 \n    314 \n    310 \n    300 \n    311 \n    328 \n    332 \n    317 \n    329 \n  \n\n T Kotitalouksien toiminta työnantajina; kotitalouksien eriyttämätön toiminta tavaroiden ja palvelujen tuottamiseksi omaan käyttöön (97-98) (Taso 1) \n    0 \n    0 \n    32 \n    4 \n    2 \n    3 \n    39 \n    52 \n    42 \n    45 \n    46 \n    48 \n    34 \n    32 \n    30 \n  \n\n U Kansainvälisten organisaatioiden ja toimielinten toiminta (99) (Taso 1) \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    0 \n    1 \n    0 \n    0 \n  \n\n X Tuntematon (Taso 1) \n    142 \n    111 \n    210 \n    160 \n    203 \n    164 \n    152 \n    159 \n    161 \n    174 \n    182 \n    200 \n    212 \n    210 \n    190 \n  \n\n\nLähde:\n\n Tilastokeskus: 115i -- Työlliset alueen, toimialan (TOL 2008), sukupuolen ja vuoden mukaan, 2007-2021"
-  },
-  {
-    "objectID": "tyossakaynti.html#työssäkäynti-ja-työpaikkaomavaraisuus",
-    "href": "tyossakaynti.html#työssäkäynti-ja-työpaikkaomavaraisuus",
-    "title": "\n6  Tyossakaynti\n",
-    "section": "\n6.3 Työssäkäynti ja työpaikkaomavaraisuus",
-    "text": "6.3 Työssäkäynti ja työpaikkaomavaraisuus\nTyöpaikkaomavaraisuus kertoo kunnassa sijaitsevien työpaikkojen ja kunnassa asuvan työllisen työvoiman määrän välisen suhteen. Perinteinen työpaikkaomavaraisuus voi olla yli sata prosenttia, vaikka kukaan alueella asuvasta työllisestä työvoimasta ei kävisi samalla alueella töissä.\nTodellisella työpaikkaomavaraisuudella puolestaan tarkoitetaan samalla alueella työskentelevien osuutta alueen työllisestä työvoimasta. Todellinen työpaikkaomavaraisuus ei voi ylittää sataa prosenttia. Kuntarakennelaissa viitataan todelliseen työpaikkaomavaraisuuskäsitteeseen, kun taas valtionosuusjärjestelmän mukainen työpaikkaomavaraisuuskäsite on perinteistä mallia.(Lähde: Kuntaliitto 2014)\n\n\n\n\nTyössäkäynti ja työpaikkaomavaraisuus\n \n Vuosi \n    Työpaikat \n    Työlliset \n    Asuinkunnassaan työssäkäyvät \n    Ulkopuolella työssäkäyvät \n    Alueelle pendelöivät \n    Perinteinen työpaikkaomavaraisuus \n    Todellinen työpaikkaomavaraisuus \n  \n\n\n 2007 \n    8976 \n    13464 \n    5546 \n    7918 \n    3430 \n    66.7 \n    41.2 \n  \n\n 2008 \n    9097 \n    13602 \n    5611 \n    7991 \n    3486 \n    66.9 \n    41.3 \n  \n\n 2009 \n    8449 \n    12971 \n    5246 \n    7725 \n    3203 \n    65.1 \n    40.4 \n  \n\n 2010 \n    8835 \n    13244 \n    5358 \n    7886 \n    3477 \n    66.7 \n    40.5 \n  \n\n 2011 \n    9056 \n    13534 \n    5436 \n    8098 \n    3620 \n    66.9 \n    40.2 \n  \n\n 2012 \n    8619 \n    13408 \n    5234 \n    8174 \n    3385 \n    64.3 \n    39 \n  \n\n 2013 \n    8533 \n    13070 \n    5081 \n    7989 \n    3452 \n    65.3 \n    38.9 \n  \n\n 2014 \n    8406 \n    12949 \n    5041 \n    7908 \n    3365 \n    64.9 \n    38.9 \n  \n\n 2015 \n    8432 \n    12971 \n    5019 \n    7952 \n    3413 \n    65 \n    38.7 \n  \n\n 2016 \n    8419 \n    13196 \n    4979 \n    8217 \n    3440 \n    63.8 \n    37.7 \n  \n\n 2017 \n    8801 \n    13752 \n    5110 \n    8642 \n    3691 \n    64 \n    37.2 \n  \n\n 2018 \n    8884 \n    14165 \n    5133 \n    9032 \n    3751 \n    62.7 \n    36.2 \n  \n\n 2019 \n    9084 \n    14153 \n    5171 \n    8982 \n    3913 \n    64.2 \n    36.5 \n  \n\n 2020 \n    8658 \n    13953 \n    4922 \n    9031 \n    3736 \n    62.1 \n    35.3 \n  \n\n 2021 \n    8890 \n    14719 \n    5106 \n    9613 \n    3784 \n    60.4 \n    34.7 \n  \n\n\nLähde:\n\n Tilastokeskus: 115p ja 115i -- Alueella työssäkäyvät (työpaikat) työpaikan alueen, pendelöinnin, koulutusasteen, iän ja vuoden mukaan, 1987-2021"
-  },
-  {
-    "objectID": "tyossakaynti.html#työvoima-työlliset-työttömät",
-    "href": "tyossakaynti.html#työvoima-työlliset-työttömät",
-    "title": "\n6  Tyossakaynti\n",
-    "section": "\n6.4 Työvoima, työlliset, työttömät",
-    "text": "6.4 Työvoima, työlliset, työttömät"
-  },
-  {
-    "objectID": "tyossakaynti.html#työttömät-työhakijat",
-    "href": "tyossakaynti.html#työttömät-työhakijat",
-    "title": "\n6  Tyossakaynti\n",
-    "section": "\n6.5 Työttömät työhakijat",
-    "text": "6.5 Työttömät työhakijat"
-  },
-  {
-    "objectID": "tyossakaynti.html#työttömät-työhakijat-sukupuolen-mukaan",
-    "href": "tyossakaynti.html#työttömät-työhakijat-sukupuolen-mukaan",
-    "title": "\n6  Tyossakaynti\n",
-    "section": "\n6.6 Työttömät työhakijat sukupuolen mukaan",
-    "text": "6.6 Työttömät työhakijat sukupuolen mukaan"
-  },
-  {
-    "objectID": "tyossakaynti.html#työttömät-työhakijat-iän-mukaan",
-    "href": "tyossakaynti.html#työttömät-työhakijat-iän-mukaan",
-    "title": "\n6  Tyossakaynti\n",
-    "section": "\n6.7 Työttömät työhakijat iän mukaan",
-    "text": "6.7 Työttömät työhakijat iän mukaan"
-  },
-  {
-    "objectID": "tyossakaynti.html#työttömät-työhakijat---pitkäaikaistyöttömyys",
-    "href": "tyossakaynti.html#työttömät-työhakijat---pitkäaikaistyöttömyys",
-    "title": "\n6  Tyossakaynti\n",
-    "section": "\n6.8 Työttömät työhakijat - pitkäaikaistyöttömyys",
-    "text": "6.8 Työttömät työhakijat - pitkäaikaistyöttömyys\n\n\n\n\n\n\n\n\n\n\nKuntaliitto. 2014. Työpaikkaomavaraisuus kuntien tunnuslukuna. Kuntaliitto. https://www.stat.fi/artikkelit/2014/art_2014-05-26_003.html?s=0#1."
-  },
-  {
-    "objectID": "asuminen.html#valmistuneet-asunnot-huoneluvun-mukaan-2010-2022",
-    "href": "asuminen.html#valmistuneet-asunnot-huoneluvun-mukaan-2010-2022",
-    "title": "\n7  Asuminen ja rakentaminen\n",
-    "section": "\n7.1 Valmistuneet asunnot huoneluvun mukaan 2010-2022",
-    "text": "7.1 Valmistuneet asunnot huoneluvun mukaan 2010-2022\n\n\n\n\n\n \n Vuosi \n    1-2h \n    3-4h \n    5-h \n    Asuntoja yhteensä \n  \n\n\n 2010 \n    2 \n    65 \n    58 \n    125 \n  \n\n 2011 \n    81 \n    84 \n    80 \n    245 \n  \n\n 2012 \n    83 \n    117 \n    70 \n    270 \n  \n\n 2013 \n    16 \n    62 \n    61 \n    139 \n  \n\n 2014 \n    60 \n    69 \n    43 \n    172 \n  \n\n 2015 \n    85 \n    37 \n    33 \n    155 \n  \n\n 2016 \n    319 \n    104 \n    47 \n    470 \n  \n\n 2017 \n    161 \n    54 \n    38 \n    253 \n  \n\n 2018 \n    143 \n    113 \n    30 \n    286 \n  \n\n 2019 \n    168 \n    94 \n    36 \n    298 \n  \n\n 2020 \n    63 \n    69 \n    36 \n    168 \n  \n\n 2021 \n    228 \n    125 \n    44 \n    397 \n  \n\n\nLähde:\n\n Rakennusvalvonta"
-  },
-  {
-    "objectID": "asuminen.html#valmistuneet-asunnot-talotyypin-mukaan-2010-2022",
-    "href": "asuminen.html#valmistuneet-asunnot-talotyypin-mukaan-2010-2022",
-    "title": "\n7  Asuminen ja rakentaminen\n",
-    "section": "\n7.2 Valmistuneet asunnot talotyypin mukaan 2010-2022",
-    "text": "7.2 Valmistuneet asunnot talotyypin mukaan 2010-2022\n\n\n\n\n\n \n Vuosi \n    Pientalot \n    Rivitalot \n    Kerrostalot \n    Muut \n    Yhteensä \n    Huoneistoala_m2 \n  \n\n\n 2010 \n    102 \n    35 \n     \n     \n    137 \n    16792 \n  \n\n 2011 \n    128 \n    69 \n    55 \n     \n    252 \n    20197 \n  \n\n 2012 \n    103 \n    42 \n    128 \n    2 \n    275 \n    25734 \n  \n\n 2013 \n    89 \n    26 \n    22 \n    5 \n    142 \n    16369 \n  \n\n 2014 \n    67 \n    53 \n    57 \n    3 \n    180 \n    15714 \n  \n\n 2015 \n    59 \n     \n    101 \n     \n    160 \n    11881 \n  \n\n 2016 \n    76 \n    67 \n    328 \n     \n    471 \n    30385 \n  \n\n 2017 \n    52 \n    50 \n    151 \n    2 \n    255 \n    18036 \n  \n\n 2018 \n    65 \n    58 \n    163 \n     \n    286 \n    21439 \n  \n\n 2019 \n    64 \n    36 \n    199 \n     \n    299 \n    19855 \n  \n\n 2020 \n    81 \n    25 \n    63 \n     \n    169 \n    14784 \n  \n\n 2021 \n    101 \n    57 \n    239 \n     \n    397 \n    25757 \n  \n\n\nLähde:\n\n Rakennusvalvonta"
-  },
-  {
-    "objectID": "asuminen.html#valmistuneet-valtion-osalainottamat-asunnot-rahoituksen-mukaan-2009-2022",
-    "href": "asuminen.html#valmistuneet-valtion-osalainottamat-asunnot-rahoituksen-mukaan-2009-2022",
-    "title": "\n7  Asuminen ja rakentaminen\n",
-    "section": "\n7.3 Valmistuneet valtion osalainottamat asunnot rahoituksen mukaan 2009-2022",
-    "text": "7.3 Valmistuneet valtion osalainottamat asunnot rahoituksen mukaan 2009-2022\n\n\n\n\n\n \n Vuosi \n    Talokohtainen laina \n  \n\n\n 2009 \n    16 \n  \n\n 2010 \n    35 \n  \n\n 2011 \n    68 \n  \n\n 2012 \n    71 \n  \n\n 2013 \n     \n  \n\n 2014 \n    49 \n  \n\n 2015 \n    52 \n  \n\n 2016 \n    122 \n  \n\n 2017 \n    24 \n  \n\n 2018 \n    34 \n  \n\n 2019 \n    87 \n  \n\n 2020 \n     \n  \n\n 2021 \n    117 \n  \n\n\nLähde:\n\n Maankäyttö"
-  },
-  {
-    "objectID": "asuminen.html#asuntolainojen-vuokratalojen-vuokra-2009-2022",
-    "href": "asuminen.html#asuntolainojen-vuokratalojen-vuokra-2009-2022",
-    "title": "\n7  Asuminen ja rakentaminen\n",
-    "section": "\n7.4 Asuntolainojen vuokratalojen vuokra 2009-2022",
-    "text": "7.4 Asuntolainojen vuokratalojen vuokra 2009-2022\n\n\n\n\n\n \n Vuosi \n    Ylin vuokra \n    Alin vuokra \n  \n\n\n 2009 \n    11,22 \n    6,90 \n  \n\n 2010 \n    10,93 \n    6,90 \n  \n\n 2011 \n    13,30 \n    7,50 \n  \n\n 2012 \n    13,30 \n    7,50 \n  \n\n 2013 \n    13,30 \n    7,90 \n  \n\n 2014 \n    13,30 \n    7,90 \n  \n\n 2015 \n    13,30 \n    8,20 \n  \n\n 2016 \n    13,30 \n    8,20 \n  \n\n 2017 \n    13,30 \n    8,20 \n  \n\n 2018 \n    13,30 \n    8,20 \n  \n\n 2019 \n    13,30 \n    8,20 \n  \n\n 2020 \n    15,75 \n    8,65 \n  \n\n 2021 \n    15,76 \n    9,26 \n  \n\n\nLähde:\n\n Maankäyttö"
-  },
-  {
-    "objectID": "asuminen.html#vanhojen-osakeasuntojen-neliöhinnat",
-    "href": "asuminen.html#vanhojen-osakeasuntojen-neliöhinnat",
-    "title": "\n7  Asuminen ja rakentaminen\n",
-    "section": "\n7.5 Vanhojen osakeasuntojen neliöhinnat",
-    "text": "7.5 Vanhojen osakeasuntojen neliöhinnat\n\n\n\n\nVanhojen osakeasuntojen neliöhinnat\n \n Vuosi \n    Talotyypit yhteensä \n    Rivitalot \n    Kerrostalot \n  \n\n\n 2006 \n    1502 \n    1655 \n    1332 \n  \n\n 2007 \n    1654 \n    1825 \n    1461 \n  \n\n 2008 \n    1700 \n    1808 \n    1575 \n  \n\n 2009 \n    1744 \n    1860 \n    1591 \n  \n\n 2010 \n    1843 \n    2002 \n    1594 \n  \n\n 2011 \n    1830 \n    1983 \n    1627 \n  \n\n 2012 \n    1887 \n    2009 \n    1713 \n  \n\n 2013 \n    1872 \n    1983 \n    1728 \n  \n\n 2014 \n    1856 \n    2036 \n    1687 \n  \n\n 2015 \n    1933 \n    2043 \n    1790 \n  \n\n 2016 \n    1901 \n    2077 \n    1653 \n  \n\n 2017 \n    1904 \n    2034 \n    1737 \n  \n\n 2018 \n    1943 \n    2120 \n    1713 \n  \n\n 2019 \n    2006 \n    2135 \n    1867 \n  \n\n 2020 \n    2028 \n    2143 \n    1868 \n  \n\n 2021 \n    2134 \n    2289 \n    1977 \n  \n\n 2022 \n    2208 \n    2282 \n    2125 \n  \n\n\nLähde:\n\n Tilastokeskus: 13mx -- Vanhojen osakeasuntojen neliöhinnat ja kauppojen lukumäärät kunnittain, vuosittain, 2006-2022"
+    "objectID": "asuminen.html",
+    "href": "asuminen.html",
+    "title": "\n1  Asuminen ja rakentaminen\n",
+    "section": "",
+    "text": "1.1 Vanhojen osakeasuntojen neliöhinnat\nVanhojen osakeasuntojen neliöhinnat\n\nVuosi\nTalotyypit yhteensä\nRivitalot\nKerrostalot\n\n\n\n2006\n1502\n1655\n1332\n\n\n2007\n1654\n1825\n1461\n\n\n2008\n1700\n1808\n1575\n\n\n2009\n1744\n1860\n1591\n\n\n2010\n1843\n2002\n1594\n\n\n2011\n1830\n1983\n1627\n\n\n2012\n1887\n2009\n1713\n\n\n2013\n1872\n1983\n1728\n\n\n2014\n1856\n2036\n1687\n\n\n2015\n1933\n2043\n1790\n\n\n2016\n1901\n2077\n1653\n\n\n2017\n1904\n2034\n1737\n\n\n2018\n1943\n2120\n1713\n\n\n2019\n2006\n2135\n1867\n\n\n2020\n2028\n2143\n1868\n\n\n2021\n2134\n2289\n1977\n\n\n2022\n2208\n2282\n2125\n\n\n2023\n2143\n2258\n1983\n\n\n\n\nLähde: \n\n 13mx -- Vanhojen osakeasuntojen neliöhinnat ja kauppojen lukumäärät kunnittain, vuosittain, 2006-2023 - (päivitetty: 2024-05-02T16:17:46)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Asuminen ja rakentaminen</span>"
+    ]
   },
   {
     "objectID": "asuminen.html#vanhojen-osakeasuntojen-kaupat",
     "href": "asuminen.html#vanhojen-osakeasuntojen-kaupat",
-    "title": "\n7  Asuminen ja rakentaminen\n",
-    "section": "\n7.6 Vanhojen osakeasuntojen kaupat",
-    "text": "7.6 Vanhojen osakeasuntojen kaupat\n\n\n\n\nVanhojen osakeasuntojen kaupat\n \n Vuosi \n    Talotyypit yhteensä \n    Rivitalot \n    Kerrostalot \n  \n\n\n 2006 \n    392 \n    172 \n    220 \n  \n\n 2007 \n    377 \n    174 \n    203 \n  \n\n 2008 \n    365 \n    169 \n    196 \n  \n\n 2009 \n    350 \n    174 \n    174 \n  \n\n 2010 \n    457 \n    229 \n    226 \n  \n\n 2011 \n    477 \n    220 \n    254 \n  \n\n 2012 \n    431 \n    210 \n    220 \n  \n\n 2013 \n    358 \n    160 \n    198 \n  \n\n 2014 \n    329 \n    136 \n    192 \n  \n\n 2015 \n    325 \n    153 \n    168 \n  \n\n 2016 \n    358 \n    175 \n    181 \n  \n\n 2017 \n    362 \n    175 \n    186 \n  \n\n 2018 \n    347 \n    178 \n    168 \n  \n\n 2019 \n    318 \n    141 \n    176 \n  \n\n 2020 \n    410 \n    198 \n    212 \n  \n\n 2021 \n    505 \n    210 \n    295 \n  \n\n 2022 \n    384 \n    168 \n    216 \n  \n\n\nLähde:\n\n Tilastokeskus: 13mx -- Vanhojen osakeasuntojen neliöhinnat ja kauppojen lukumäärät kunnittain, vuosittain, 2006-2022"
+    "title": "\n1  Asuminen ja rakentaminen\n",
+    "section": "\n1.2 Vanhojen osakeasuntojen kaupat",
+    "text": "1.2 Vanhojen osakeasuntojen kaupat\n\n\n\n\n\n\nVanhojen osakeasuntojen kaupat\n\nVuosi\nTalotyypit yhteensä\nRivitalot\nKerrostalot\n\n\n\n2006\n392\n172\n220\n\n\n2007\n377\n174\n203\n\n\n2008\n365\n169\n196\n\n\n2009\n350\n174\n174\n\n\n2010\n457\n229\n226\n\n\n2011\n477\n220\n254\n\n\n2012\n431\n210\n220\n\n\n2013\n358\n160\n198\n\n\n2014\n329\n136\n192\n\n\n2015\n325\n153\n168\n\n\n2016\n358\n175\n181\n\n\n2017\n362\n175\n186\n\n\n2018\n347\n178\n168\n\n\n2019\n318\n141\n176\n\n\n2020\n410\n198\n212\n\n\n2021\n505\n210\n295\n\n\n2022\n384\n168\n216\n\n\n2023\n298\n155\n143\n\n\n\n\nLähde: \n\n 13mx -- Vanhojen osakeasuntojen neliöhinnat ja kauppojen lukumäärät kunnittain, vuosittain, 2006-2023 - (päivitetty: 2024-05-02T16:17:46)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Asuminen ja rakentaminen</span>"
+    ]
   },
   {
     "objectID": "asuminen.html#kesämökkien-lukumäärä",
     "href": "asuminen.html#kesämökkien-lukumäärä",
-    "title": "\n7  Asuminen ja rakentaminen\n",
-    "section": "\n7.7 Kesämökkien lukumäärä",
-    "text": "7.7 Kesämökkien lukumäärä\n\n\n\n\nKesämökkejä (lkm)\n \n Vuosi \n    Kesämökit \n  \n\n\n 1970 \n    2278 \n  \n\n 1980 \n    2616 \n  \n\n 1990 \n    3298 \n  \n\n 1995 \n    3857 \n  \n\n 2000 \n    4247 \n  \n\n 2005 \n    4206 \n  \n\n 2010 \n    4498 \n  \n\n 2015 \n    4626 \n  \n\n 2020 \n    4506 \n  \n\n 2021 \n    4502 \n  \n\n 2022 \n    4486 \n  \n\n\nLähde:\n\n Tilastokeskus: 116j -- Kesämökit alueittain, 1970-2022"
+    "title": "\n1  Asuminen ja rakentaminen\n",
+    "section": "\n1.3 Kesämökkien lukumäärä",
+    "text": "1.3 Kesämökkien lukumäärä\n\n\n\n\n\n\nKesämökkejä (lkm)\n\nVuosi\nKesämökit\n\n\n\n1970\n2278\n\n\n1980\n2616\n\n\n1990\n3298\n\n\n1995\n3857\n\n\n2000\n4247\n\n\n2005\n4206\n\n\n2010\n4498\n\n\n2015\n4626\n\n\n2020\n4506\n\n\n2021\n4502\n\n\n2022\n4486\n\n\n2023\n4482\n\n\n\n\nLähde: \n\n 116j -- Kesämökit alueittain, 1970-2023 - (päivitetty: 2024-03-25T16:28:49)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Asuminen ja rakentaminen</span>"
+    ]
   },
   {
     "objectID": "asuminen.html#kesämökit-valmistumisvuoden-mukaan",
     "href": "asuminen.html#kesämökit-valmistumisvuoden-mukaan",
-    "title": "\n7  Asuminen ja rakentaminen\n",
-    "section": "\n7.8 Kesämökit valmistumisvuoden mukaan",
-    "text": "7.8 Kesämökit valmistumisvuoden mukaan\n\n\n\n\nKesämökit valmistumisvuoden mukaan\n \n Vuosi \n    Rakennusvuosi \n    Kesämökkejä (lkm) \n    Kesämökkejä (%) \n  \n\n\n 2022 \n    Yhteensä \n    4486 \n    100.0 \n  \n\n 2022 \n    - 1920 \n    390 \n    8.7 \n  \n\n 2022 \n    1921 - 1939 \n    152 \n    3.4 \n  \n\n 2022 \n    1940 - 1959 \n    780 \n    17.4 \n  \n\n 2022 \n    1960 - 1969 \n    844 \n    18.8 \n  \n\n 2022 \n    1970 - 1979 \n    703 \n    15.7 \n  \n\n 2022 \n    1980 - 1989 \n    470 \n    10.5 \n  \n\n 2022 \n    1990 - 1999 \n    562 \n    12.5 \n  \n\n 2022 \n    2000 - 2009 \n    301 \n    6.7 \n  \n\n 2022 \n    2010 - 2019 \n    224 \n    5.0 \n  \n\n 2022 \n    2020 - \n    60 \n    1.3 \n  \n\n\nLähde:\n\n Tilastokeskus: 116k -- Kesämökit valmistumisvuoden mukaan, 2022"
+    "title": "\n1  Asuminen ja rakentaminen\n",
+    "section": "\n1.4 Kesämökit valmistumisvuoden mukaan",
+    "text": "1.4 Kesämökit valmistumisvuoden mukaan\n\n\n\n\n\n\nKesämökit valmistumisvuoden mukaan\n\nVuosi\nRakennusvuosi\nKesämökkejä (lkm)\nKesämökkejä (%)\n\n\n\n2023\nYhteensä\n4482\n100.0\n\n\n2023\n- 1920\n409\n9.1\n\n\n2023\n1921 - 1939\n150\n3.3\n\n\n2023\n1940 - 1959\n770\n17.2\n\n\n2023\n1960 - 1969\n834\n18.6\n\n\n2023\n1970 - 1979\n697\n15.6\n\n\n2023\n1980 - 1989\n468\n10.4\n\n\n2023\n1990 - 1999\n555\n12.4\n\n\n2023\n2000 - 2009\n297\n6.6\n\n\n2023\n2010 - 2019\n217\n4.8\n\n\n2023\n2020 -\n85\n1.9\n\n\n\n\nLähde: \n\n 116k -- Kesämökit valmistumisvuoden mukaan, 2023 - (päivitetty: 2024-03-25T16:28:50)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Asuminen ja rakentaminen</span>"
+    ]
+  },
+  {
+    "objectID": "hyvinvointi.html",
+    "href": "hyvinvointi.html",
+    "title": "\n2  Hyvinvointi\n",
+    "section": "",
+    "text": "2.1 HYTE-kerroin, 0-100\nIndikaattori ilmaisee HYTE-kertoimen asteikolla 0 - 100 eli keskiarvo tulosindikaattoreiden keskiarvosta ja prosessi-indikaattoreiden keskiarvosta. (THL 2023)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Hyvinvointi</span>"
+    ]
+  },
+  {
+    "objectID": "hyvinvointi.html#hyte-kerroin-0-100",
+    "href": "hyvinvointi.html#hyte-kerroin-0-100",
+    "title": "\n2  Hyvinvointi\n",
+    "section": "",
+    "text": "THL. 2023. HYTE-kerroin. THL. https://sotkanet.fi/sotkanet/fi/metadata/indicators/5340.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Hyvinvointi</span>"
+    ]
+  },
+  {
+    "objectID": "ilmasto.html",
+    "href": "ilmasto.html",
+    "title": "\n3  Ilmasto\n",
+    "section": "",
+    "text": "3.1 Kasvihuonekaasupäästöt, päästökaupan ulkopuoliset tiedot, 2011-2020\nKasvihuonepäästöt ilman LULUCF-sektoria (Land Use, Land-Use Change and Forestry (LULUCF)).\nKasvihuonepäästöt\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1-Energia\n\n\n2-Teolli. prosessit\n\n\n2-Maatalous\n\n\n5-Jätteiden käsittely\n\n\n\nV\nCO2\n1-YHT\n1 pl. liikenne\n1 liikenne\n2-YHT\n3-YHT\n3 kotieläin ruuans.\n3 lanta\n3 maatalousmaa\n5-YHT\n5 jätt.sijoi. kaatop.\n5 jätt.biol. käsitt.\n5 jätevesi pudistus\n\n\n\n\n2011\n165\n119\n48\n70\n8\n34\n7\n3\n24\n3\n3\n0\n0\n\n\n2013\n152\n111\n43\n68\n8\n30\n7\n3\n20\n3\n2\n0\n0\n\n\n2015\n142\n102\n41\n62\n7\n29\n7\n3\n20\n3\n2\n0\n0\n\n\n2017\n143\n105\n39\n65\n7\n28\n7\n3\n19\n3\n2\n0\n0\n\n\n2018\n157\n118\n53\n65\n6\n30\n6\n3\n21\n2\n2\n0\n0\n\n\n2019\n156\n115\n54\n61\n6\n33\n7\n3\n23\n2\n2\n0\n0\n\n\n2020\n146\n108\n51\n56\n6\n30\n6\n3\n21\n2\n2\n0\n0\n\n\n2021\n134\n96\n44\n53\n6\n27\n6\n2\n19\n5\n2\n2\n0\n\n\n\n\nLähde: \n\n 121z -- Kasvihuonekaasupäästöt alueittain, päästökaupan ulkopuoliset tiedot, 2011-2021 - (päivitetty: 2023-06-06T09:49:46)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Ilmasto</span>"
+    ]
   },
   {
     "objectID": "ilmasto.html#kasvihuonekaasupäästöt-päästökaupan-ulkopuoliset-tiedot-2011-2020",
     "href": "ilmasto.html#kasvihuonekaasupäästöt-päästökaupan-ulkopuoliset-tiedot-2011-2020",
-    "title": "\n8  Ilmasto\n",
-    "section": "\n8.1 Kasvihuonekaasupäästöt, päästökaupan ulkopuoliset tiedot, 2011-2020",
-    "text": "8.1 Kasvihuonekaasupäästöt, päästökaupan ulkopuoliset tiedot, 2011-2020\nKasvihuonepäästöt ilman LULUCF-sektoria (Land Use, Land-Use Change and Forestry (LULUCF)).\n\n\n\n\nKasvihuonepäästöt\n \n\n\n\n1-Energia\n2-Teolli. prosessit\n2-Maatalous\n5-Jätteiden käsittely\n\n\n V \n    CO2 \n    1-YHT \n    1 pl. liikenne \n    1 liikenne \n    2-YHT \n    3-YHT \n    3 kotieläin ruuans. \n    3 lanta \n    3 maatalousmaa \n    5-YHT \n    5 jätt.sijoi. kaatop. \n    5 jätt.biol. käsitt. \n    5 jätevesi pudistus \n  \n\n\n\n 2011 \n    166 \n    118 \n    47 \n    71 \n    8 \n    37 \n    6 \n    3 \n    27 \n    3 \n    2 \n    0 \n    0 \n  \n\n 2013 \n    152 \n    110 \n    42 \n    68 \n    8 \n    31 \n    6 \n    3 \n    23 \n    3 \n    2 \n    0 \n    0 \n  \n\n 2015 \n    142 \n    101 \n    39 \n    62 \n    8 \n    31 \n    6 \n    3 \n    22 \n    2 \n    2 \n    0 \n    0 \n  \n\n 2017 \n    143 \n    103 \n    38 \n    66 \n    7 \n    30 \n    6 \n    3 \n    22 \n    2 \n    2 \n    0 \n    0 \n  \n\n 2018 \n    159 \n    118 \n    53 \n    65 \n    6 \n    32 \n    6 \n    3 \n    24 \n    2 \n    2 \n    0 \n    0 \n  \n\n 2019 \n    158 \n    114 \n    53 \n    61 \n    7 \n    35 \n    6 \n    3 \n    26 \n    2 \n    2 \n    0 \n    0 \n  \n\n 2020 \n    150 \n    109 \n    52 \n    56 \n    6 \n    32 \n    6 \n    2 \n    24 \n    2 \n    2 \n    0 \n    0 \n  \n\n\nLähde:\n\n Tilastokeskus: 121z -- Kasvihuonekaasupäästöt alueittain, päästökaupan ulkopuoliset tiedot, 2011-2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTilastokeskus. 2023a. Kasvihuonekaasujen päästöjen ja poistumien raportoinnissa alkaa uusi kausi. Tilastokeskus. https://stat.fi/muutostiedote/cl3bhkztacwpy0gvt9m6ysc83.\n\n\n———. 2023b. Kasvihuonekaasut. Tilastokeskus. https://stat.fi/tilasto/khki."
+    "title": "\n3  Ilmasto\n",
+    "section": "",
+    "text": "Tilastokeskus. 2023a. Kasvihuonekaasujen päästöjen ja poistumien raportoinnissa alkaa uusi kausi. Tilastokeskus. https://stat.fi/muutostiedote/cl3bhkztacwpy0gvt9m6ysc83.\n\n\n———. 2023b. Kasvihuonekaasut. Tilastokeskus. https://stat.fi/tilasto/khki.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Ilmasto</span>"
+    ]
   },
   {
-    "objectID": "talous.html#tuloslaskelma",
-    "href": "talous.html#tuloslaskelma",
-    "title": "\n9  Talous\n",
-    "section": "\n9.1 Tuloslaskelma",
-    "text": "9.1 Tuloslaskelma\nKunnat raportoivat vuodesta 2021 alkaen Valtiokonttorille neljännesvuosittain kuluvan vuoden talouden toteumatietoja.\n\n\n\n\nTuloslaskelman tilien saldot\n \n   \n    2022C09 \n    2021C12 \n  \n\n\n Toimintatuotot \n    33989 \n    53261 \n  \n\n Myyntituotot \n    19877 \n    28600 \n  \n\n Maksutuotot \n    8399 \n    11647 \n  \n\n Tuet ja avustukset \n    2733 \n    6508 \n  \n\n Muut toimintatuotot \n    2980 \n    6505 \n  \n\n Toimintakulut \n    -169183 \n    -227246 \n  \n\n Henkilöstökulut \n    -73744 \n    -93739 \n  \n\n Palvelujen ostot \n    -75581 \n    -106030 \n  \n\n Aineet, tarvikkeet ja tavarat \n    -8640 \n    -12437 \n  \n\n Avustukset \n    -7239 \n    -10620 \n  \n\n Muut toimintakulut \n    -3978 \n    -4421 \n  \n\n Toimintakate \n    -135194 \n    -173985 \n  \n\n Verotulot \n    113405 \n    143281 \n  \n\n Valtionosuudet \n    37110 \n    45224 \n  \n\n Rahoitustuotot ja -kulut \n    128 \n    3814 \n  \n\n Korkotuotot \n    109 \n    212 \n  \n\n Muut rahoitustuotot \n    5350 \n    4331 \n  \n\n Korkokulut \n    -259 \n    -550 \n  \n\n Muut rahoituskulut \n    -5072 \n    -178 \n  \n\n Vuosikate \n    15449 \n    18334 \n  \n\n Poistot ja arvonalentumiset \n    -10989 \n    -14313 \n  \n\n Tilikauden tulos \n    4460 \n    4021 \n  \n\n Varausten ja rahastojen muutokset \n    469 \n    1940 \n  \n\n Tilikauden yli- alijäämä \n    4929 \n    5961 \n  \n\n\nLähde:\n\n Valtiokonttori - KKNR - Kuntien ja kuntayhtymien neljännesvuosiraportointi"
+    "objectID": "koulutus.html",
+    "href": "koulutus.html",
+    "title": "\n4  Koulutus\n",
+    "section": "",
+    "text": "4.1 15 vuotta täyttänyt väestö koulutusasteen mukaan",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Koulutus</span>"
+    ]
   },
   {
-    "objectID": "talous.html#tilinpäätös-talousarvio---ja--suunnitelma",
-    "href": "talous.html#tilinpäätös-talousarvio---ja--suunnitelma",
-    "title": "\n9  Talous\n",
-    "section": "\n9.2 Tilinpäätös, talousarvio - ja -suunnitelma",
-    "text": "9.2 Tilinpäätös, talousarvio - ja -suunnitelma\nTaulukossa on vertailtu raportointikautta valittuun tilinpäätökseen, talousarvioon ja suunnitelmiin. Taulukon lyhenteet:\n\nLaadintakauden talousarvio = Laadintakausi TA\nTalousarvio = TA\nRarportointikauden ja talousarvion erotus = TP-TA\nTaloussuunnitelma = TS\n\n\n\n\n\nTilinpäätös, talousarvio - ja -suunnitelma\n \n Tunnusluvut \n    2021C12 \n    Laadintakausi TA 2020 \n    TA 2021 \n    TP-TA \n    TS 2022 \n    TS 2023 \n  \n\n\n Toimintatulot \n    53261 \n    41951 \n    44714 \n    8547 \n    45142 \n    46347 \n  \n\n Myyntitulot \n    28600 \n    26579 \n    27381 \n    1219 \n    27731 \n    28591 \n  \n\n Maksutulot \n    11647 \n    11385 \n    11429 \n    218 \n    11429 \n    11429 \n  \n\n Tuet ja avustukset \n    6508 \n    970 \n    1513 \n    4995 \n    1592 \n    1716 \n  \n\n Muut toimintatulot \n    6505 \n    3017 \n    4390 \n    2115 \n    4390 \n    4611 \n  \n\n Toimintamenot \n    227246 \n    209981 \n    218436 \n    8810 \n    223201 \n    228261 \n  \n\n Henkilöstömenot \n    93739 \n    90919 \n    92100 \n    1639 \n    93550 \n    95064 \n  \n\n Palvelujen ostot \n    106030 \n    89524 \n    98490 \n    7540 \n    101364 \n    104145 \n  \n\n Aineet, tarvikkeet ja tavarat \n    12437 \n    11657 \n    12183 \n    254 \n    12358 \n    12817 \n  \n\n Avustukset \n    10620 \n    12814 \n    10032 \n    588 \n    10132 \n    10132 \n  \n\n Muut toimintamenot \n    4421 \n    5066 \n    5630 \n    -1209 \n    5797 \n    6102 \n  \n\n TOIMINTAKATE \n    -173985 \n    -168031 \n    -173722 \n    -263 \n    -178059 \n    -181914 \n  \n\n Verotulot \n    143281 \n    135668 \n    137690 \n    5591 \n    141830 \n    145900 \n  \n\n Valtionosuudet \n    45224 \n    46591 \n    44860 \n    364 \n    45682 \n    46596 \n  \n\n Rahoitustulot ja -menot \n    3814 \n    -293 \n    397 \n    3417 \n    237 \n    -603 \n  \n\n VUOSIKATE \n    18334 \n    13935 \n    9225 \n    9109 \n    9690 \n    9979 \n  \n\n Poistot ja arvonalentumiset \n    14313 \n    13020 \n    14867 \n    -554 \n    16707 \n    18214 \n  \n\n TILIKAUDEN TULOS \n    4021 \n    915 \n    -5642 \n    9663 \n    -7017 \n    -8235 \n  \n\n TILIKAUDEN YLIJÄÄMÄ (ALIJÄÄMÄ) \n    5961 \n    968 \n    -4910 \n    10871 \n    -5472 \n    -6832 \n  \n\n\nLähde:\n\n Valtiokonttori - KKNR - Kuntien ja kuntayhtymien neljännesvuosiraportointi"
+    "objectID": "liikenne.html",
+    "href": "liikenne.html",
+    "title": "\n5  Liikenne\n",
+    "section": "",
+    "text": "5.1 Tieliikenteessä kuolleet ja loukkaantuneet",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Liikenne</span>"
+    ]
   },
   {
-    "objectID": "talous.html#kuntavertailu---talous",
-    "href": "talous.html#kuntavertailu---talous",
-    "title": "\n9  Talous\n",
-    "section": "\n9.3 Kuntavertailu - talous",
-    "text": "9.3 Kuntavertailu - talous\nKuntavertailuun on kerätty kuntakohtaisia verrokkikuntia talouden lukujen osalta. Tarkastelu on tehty euroina sekä asukaslukuun suhteutettuna. Asukasluku on yhtenevä talouden raportointijakson kanssa. Esimerkiksi Q1/2023 lukuja on verrattu viimeisimpään ennakkotietoon väestöstä.\n\n9.3.1 Tilikauden yli -alijäämä\n\n\n\n\n\n\n\n9.3.2 Toimintakate\nKunnan tuloslaskelman välituloksena esitettävä toimintakate ilmoittaa, paljonko käyttötalouden kuluista jää katettavaksi verotuloilla ja valtionosuuksilla. Kuntayhtymässä toimintakate ilmoittaa kuntayhtymän korko- ja muihin rahoituskuluihin sekä poistojen ja arvonalennusten kattamiseen käytettävissä olevan käyttötalouden tulorahoituksen määrän. (Lähde: Tutkihallintoa.fi 2023)\n\n\n\n\n\n\n\n9.3.3 Toimintakate - €/asukas\n\n\n\n\n\n\n\n9.3.4 Toimintakulut\n\n\n\n\n\n\n\n9.3.5 Toimintakulut - €/asukas\n\n\n\n\n\n\n\n9.3.6 Toimintakulut %-osuus toimintakuluista\n\n\n\n\n\n\n\n9.3.7 Henkilöstökulut\n\n\n\n\n\n\n\n9.3.8 Henkilöstökulut - €/asukas\n\n\n\n\n\n\n\n9.3.9 Palvelujen ostot\n\n\n\n\n\n\n\n9.3.10 Palvelujen ostot - €/asukas\n\n\n\n\n\n\n\n9.3.11 Toimintatulot\n\n\n\n\n\n\n\n9.3.12 Toimintatulot - €/asukas\n\n\n\n\n\n\n\n9.3.13 Verotulot\n\n\n\n\n\n\n\n9.3.14 Verotulot - €/asukas\n\n\n\n\n\n\n\n9.3.15 Valtionosuudet\n\n\n\n\n\n\n\n9.3.16 Valtionosuudet - €/asukas\n\n\n\n\n\n\n\n9.3.17 Lainakanta\n\n\n\n\n\n\n\n9.3.18 Lainakanta - €/asukas\n\n\n\n\n\n\n\n\n\n\nKuntaliitto. 2023. Kirjanpito ja tilinpäätös. Kuntaliitto. https://www.kuntaliitto.fi/talous/kirjanpito-ja-tilinpaatos.\n\n\nTutkihallintoa.fi. 2023. Kuntatalouden ABC. Tutkihallintoa.fi. https://www.tutkihallintoa.fi/kuntatalouden-abc/."
+    "objectID": "maatalous.html",
+    "href": "maatalous.html",
+    "title": "\n6  Maatalous\n",
+    "section": "",
+    "text": "6.1 Maatilayritysten tulo, menot ja voitto (maatilayritysten verotilinpäätöksessä)",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Maatalous</span>"
+    ]
   },
   {
-    "objectID": "yritykset.html#yrityskanta",
-    "href": "yritykset.html#yrityskanta",
+    "objectID": "maatalous.html#maidontuotanto---tilat",
+    "href": "maatalous.html#maidontuotanto---tilat",
+    "title": "\n6  Maatalous\n",
+    "section": "\n6.2 Maidontuotanto - tilat",
+    "text": "6.2 Maidontuotanto - tilat",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Maatalous</span>"
+    ]
+  },
+  {
+    "objectID": "maatalous.html#maidontuotanto---litrat",
+    "href": "maatalous.html#maidontuotanto---litrat",
+    "title": "\n6  Maatalous\n",
+    "section": "\n6.3 Maidontuotanto - litrat",
+    "text": "6.3 Maidontuotanto - litrat",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Maatalous</span>"
+    ]
+  },
+  {
+    "objectID": "maatalous.html#lihantuotanto---teurastukset",
+    "href": "maatalous.html#lihantuotanto---teurastukset",
+    "title": "\n6  Maatalous\n",
+    "section": "\n6.4 Lihantuotanto - teurastukset",
+    "text": "6.4 Lihantuotanto - teurastukset",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Maatalous</span>"
+    ]
+  },
+  {
+    "objectID": "maatalous.html#lihantuotanto---kg",
+    "href": "maatalous.html#lihantuotanto---kg",
+    "title": "\n6  Maatalous\n",
+    "section": "\n6.5 Lihantuotanto - kg",
+    "text": "6.5 Lihantuotanto - kg",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Maatalous</span>"
+    ]
+  },
+  {
+    "objectID": "muuttoliike.html",
+    "href": "muuttoliike.html",
+    "title": "\n7  Muuttoliike\n",
+    "section": "",
+    "text": "7.1 Muuttoliike (tulo) kunnittain\nTulo - Kangasala (yli 5 muuttajaa viim. tarkasteluvuonna)\n\nTulo\n2020\n2021\nMuutos 21-20\nMuutos 21-20%\n2022\nMuutos 22-21\nMuutos 22-21%\n\n\n\nKoko maa\n2101\n2190\n89\n4.2\n2212\n22\n1\n\n\nTampere\n1245\n1315\n70\n5.6\n1332\n17\n1.3\n\n\nPälkäne\n58\n67\n9\n15.5\n79\n12\n17.9\n\n\nHelsinki\n44\n56\n12\n27.3\n57\n1\n1.8\n\n\nLempäälä\n62\n63\n1\n1.6\n47\n-16\n-25.4\n\n\nPirkkala\n43\n59\n16\n37.2\n46\n-13\n-22\n\n\nNokia\n41\n48\n7\n17.1\n44\n-4\n-8.3\n\n\nOrivesi\n33\n42\n9\n27.3\n36\n-6\n-14.3\n\n\nValkeakoski\n22\n42\n20\n90.9\n32\n-10\n-23.8\n\n\nYlöjärvi\n45\n40\n-5\n-11.1\n27\n-13\n-32.5\n\n\nHämeenlinna\n28\n26\n-2\n-7.1\n25\n-1\n-3.8\n\n\nVantaa\n15\n9\n-6\n-40\n25\n16\n177.8\n\n\nJyväskylä\n27\n27\n0\n0\n24\n-3\n-11.1\n\n\nEspoo\n24\n15\n-9\n-37.5\n22\n7\n46.7\n\n\nJämsä\n9\n9\n0\n0\n22\n13\n144.4\n\n\nJoensuu\n11\n8\n-3\n-27.3\n17\n9\n112.5\n\n\nSastamala\n8\n5\n-3\n-37.5\n17\n12\n240\n\n\nKuopio\n18\n6\n-12\n-66.7\n16\n10\n166.7\n\n\nPori\n7\n12\n5\n71.4\n15\n3\n25\n\n\nAkaa\n14\n15\n1\n7.1\n14\n-1\n-6.7\n\n\nOulu\n25\n22\n-3\n-12\n12\n-10\n-45.5\n\n\nSeinäjoki\n8\n14\n6\n75\n12\n-2\n-14.3\n\n\nRauma\n9\n1\n-8\n-88.9\n11\n10\n1000\n\n\nTurku\n13\n23\n10\n76.9\n11\n-12\n-52.2\n\n\nLahti\n16\n8\n-8\n-50\n9\n1\n12.5\n\n\nMikkeli\n7\n2\n-5\n-71.4\n9\n7\n350\n\n\nKouvola\n4\n4\n0\n0\n7\n3\n75\n\n\nLappeenranta\n2\n3\n1\n50\n7\n4\n133.3\n\n\nHollola\n3\n7\n4\n133.3\n6\n-1\n-14.3\n\n\nHämeenkyrö\n9\n12\n3\n33.3\n6\n-6\n-50\n\n\nJanakkala\n0\n0\n0\nNaN\n6\n6\nInf\n\n\nMänttä-Vilppula\n4\n6\n2\n50\n6\n0\n0\n\n\nPunkalaidun\n3\n2\n-1\n-33.3\n6\n4\n200\n\n\nVaasa\n4\n12\n8\n200\n6\n-6\n-50\n\n\n\n\nLähde: \n\n 11a1 -- Kuntien välinen muutto tulo- ja lähtöalueittain, 1990-2023 - (päivitetty: 2024-05-23T13:32:29)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Muuttoliike</span>"
+    ]
+  },
+  {
+    "objectID": "muuttoliike.html#muuttoliike-lähtö-kunnittain",
+    "href": "muuttoliike.html#muuttoliike-lähtö-kunnittain",
+    "title": "\n7  Muuttoliike\n",
+    "section": "\n7.2 Muuttoliike (lähtö) kunnittain",
+    "text": "7.2 Muuttoliike (lähtö) kunnittain\n\n\n\n\n\n\n\nLähtö - Kangasala (yli 5 muuttajaa viim. tarkasteluvuonna)\n\nLähtö\n2020\n2021\nMuutos 21-20\nMuutos 21-20%\n2022\nMuutos 22-21\nMuutos 22-21%\n\n\n\nKoko maa\n1851\n1812\n-39\n-2.1\n1888\n76\n4.2\n\n\nTampere\n961\n873\n-88\n-9.2\n925\n52\n6\n\n\nPälkäne\n41\n65\n24\n58.5\n64\n-1\n-1.5\n\n\nLempäälä\n59\n56\n-3\n-5.1\n51\n-5\n-8.9\n\n\nOrivesi\n57\n31\n-26\n-45.6\n51\n20\n64.5\n\n\nNokia\n58\n46\n-12\n-20.7\n49\n3\n6.5\n\n\nHelsinki\n58\n54\n-4\n-6.9\n48\n-6\n-11.1\n\n\nValkeakoski\n39\n50\n11\n28.2\n45\n-5\n-10\n\n\nYlöjärvi\n42\n35\n-7\n-16.7\n45\n10\n28.6\n\n\nJyväskylä\n25\n29\n4\n16\n39\n10\n34.5\n\n\nHämeenlinna\n31\n27\n-4\n-12.9\n35\n8\n29.6\n\n\nPirkkala\n34\n35\n1\n2.9\n33\n-2\n-5.7\n\n\nAkaa\n10\n31\n21\n210\n29\n-2\n-6.5\n\n\nOulu\n10\n8\n-2\n-20\n29\n21\n262.5\n\n\nTurku\n32\n34\n2\n6.2\n27\n-7\n-20.6\n\n\nVantaa\n11\n12\n1\n9.1\n22\n10\n83.3\n\n\nLahti\n17\n18\n1\n5.9\n18\n0\n0\n\n\nPori\n12\n13\n1\n8.3\n12\n-1\n-7.7\n\n\nEspoo\n16\n14\n-2\n-12.5\n11\n-3\n-21.4\n\n\nJoensuu\n10\n11\n1\n10\n11\n0\n0\n\n\nKuopio\n28\n17\n-11\n-39.3\n11\n-6\n-35.3\n\n\nSastamala\n18\n7\n-11\n-61.1\n11\n4\n57.1\n\n\nUrjala\n5\n10\n5\n100\n11\n1\n10\n\n\nJämsä\n6\n3\n-3\n-50\n10\n7\n233.3\n\n\nMänttä-Vilppula\n9\n13\n4\n44.4\n10\n-3\n-23.1\n\n\nVaasa\n15\n8\n-7\n-46.7\n10\n2\n25\n\n\nVesilahti\n6\n7\n1\n16.7\n10\n3\n42.9\n\n\nNurmijärvi\n7\n0\n-7\n-100\n9\n9\nInf\n\n\nLappeenranta\n6\n7\n1\n16.7\n8\n1\n14.3\n\n\nSavonlinna\n2\n6\n4\n200\n8\n2\n33.3\n\n\nHattula\n9\n2\n-7\n-77.8\n7\n5\n250\n\n\nKirkkonummi\n5\n0\n-5\n-100\n7\n7\nInf\n\n\nRauma\n6\n7\n1\n16.7\n7\n0\n0\n\n\nSiuntio\n0\n0\n0\nNaN\n7\n7\nInf\n\n\nKajaani\n3\n1\n-2\n-66.7\n6\n5\n500\n\n\nKurikka\n3\n0\n-3\n-100\n6\n6\nInf\n\n\nRuovesi\n2\n8\n6\n300\n6\n-2\n-25\n\n\nSeinäjoki\n11\n10\n-1\n-9.1\n6\n-4\n-40\n\n\n\n\nLähde: \n\n 11a1 -- Kuntien välinen muutto tulo- ja lähtöalueittain, 1990-2023 - (päivitetty: 2024-05-23T13:32:29)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Muuttoliike</span>"
+    ]
+  },
+  {
+    "objectID": "tyossakaynti.html",
+    "href": "tyossakaynti.html",
+    "title": "\n8  Tyossakaynti\n",
+    "section": "",
+    "text": "8.1 Alueella työssäkäyvät (työpaikat)\nVuodet tulee muuttaa tässä koodin sisään\nAlueella työssäkäyvät (työpaikat)\n\nToimiala\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n\n\n\nToimialat yhteensä\n8976\n9097\n8658\n8835\n9056\n8619\n8533\n8406\n8432\n8419\n8801\n8884\n9084\n8658\n8890\n8909\n\n\nA Maatalous, metsätalous ja kalatalous (01-03) (Taso 1)\n431\n440\n296\n413\n427\n393\n372\n370\n357\n332\n311\n312\n309\n296\n292\n279\n\n\nB Kaivostoiminta ja louhinta (05-09) (Taso 1)\n1\n0\n0\n1\n0\n0\n0\n0\n1\n1\n2\n6\n0\n0\n0\n0\n\n\nC Teollisuus (10-33) (Taso 1)\n2284\n2145\n1299\n1975\n1838\n1731\n1555\n1440\n1468\n1399\n1464\n1452\n1434\n1299\n1385\n1413\n\n\nD Sähkö-, kaasu- ja lämpöhuolto, jäähdytysliiketoiminta (35) (Taso 1)\n2\n3\n13\n2\n3\n2\n2\n2\n2\n2\n4\n5\n6\n13\n6\n6\n\n\nE Vesihuolto, viemäri- ja jätevesihuolto, jätehuolto ja muu ympäristön puhtaanapito (36-39) (Taso 1)\n26\n26\n37\n27\n27\n26\n27\n29\n31\n42\n39\n40\n39\n37\n46\n43\n\n\nF Rakentaminen (41-43) (Taso 1)\n799\n883\n916\n863\n889\n747\n801\n745\n736\n826\n921\n979\n945\n916\n953\n942\n\n\nG Tukku- ja vähittäiskauppa; moottoriajoneuvojen ja moottoripyörien korjaus (45-47) (Taso 1)\n876\n933\n903\n864\n872\n867\n909\n937\n938\n974\n938\n909\n895\n903\n912\n928\n\n\nH Kuljetus ja varastointi (49-53) (Taso 1)\n476\n464\n383\n444\n433\n418\n412\n393\n379\n368\n370\n361\n422\n383\n349\n331\n\n\nI Majoitus- ja ravitsemistoiminta (55-56) (Taso 1)\n188\n258\n238\n275\n301\n258\n225\n239\n239\n240\n287\n274\n330\n238\n269\n269\n\n\nJ Informaatio ja viestintä (58-63) (Taso 1)\n48\n60\n51\n59\n65\n62\n55\n65\n59\n56\n78\n69\n69\n51\n67\n64\n\n\nK Rahoitus- ja vakuutustoiminta (64-66) (Taso 1)\n84\n80\n51\n65\n74\n77\n66\n62\n76\n66\n79\n63\n64\n51\n49\n53\n\n\nL Kiinteistöalan toiminta (68) (Taso 1)\n119\n118\n131\n117\n132\n126\n120\n120\n120\n131\n122\n104\n122\n131\n128\n141\n\n\nM Ammatillinen, tieteellinen ja tekninen toiminta (69-75) (Taso 1)\n248\n270\n352\n273\n330\n337\n364\n339\n350\n366\n425\n441\n411\n352\n267\n293\n\n\nN Hallinto- ja tukipalvelutoiminta (77-82) (Taso 1)\n406\n427\n744\n403\n506\n525\n518\n547\n582\n617\n733\n751\n748\n744\n858\n829\n\n\nO Julkinen hallinto ja maanpuolustus; pakollinen sosiaalivakuutus (84) (Taso 1)\n278\n247\n140\n236\n153\n136\n121\n143\n137\n158\n159\n140\n155\n140\n170\n141\n\n\nP Koulutus (85) (Taso 1)\n412\n442\n601\n465\n488\n524\n571\n610\n574\n559\n557\n548\n614\n601\n607\n611\n\n\nQ Terveys- ja sosiaalipalvelut (86-88) (Taso 1)\n1855\n1870\n1964\n1848\n1976\n1893\n1901\n1827\n1841\n1724\n1749\n1848\n1932\n1964\n1981\n2007\n\n\nR Taiteet, viihde ja virkistys (90-93) (Taso 1)\n90\n96\n107\n107\n116\n103\n106\n103\n116\n121\n115\n128\n138\n107\n135\n133\n\n\nS Muu palvelutoiminta (94-96) (Taso 1)\n211\n225\n190\n234\n220\n226\n216\n223\n222\n216\n218\n208\n205\n190\n196\n207\n\n\nT Kotitalouksien toiminta työnantajina; kotitalouksien eriyttämätön toiminta tavaroiden ja palvelujen tuottamiseksi omaan käyttöön (97-98) (Taso 1)\n0\n0\n32\n4\n3\n3\n40\n53\n43\n46\n48\n47\n34\n32\n30\n28\n\n\nU Kansainvälisten organisaatioiden ja toimielinten toiminta (99) (Taso 1)\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nX Tuntematon (Taso 1)\n142\n110\n210\n160\n203\n165\n152\n159\n161\n175\n182\n199\n212\n210\n190\n191\n\n\n\n\nLähde: \n\n 115h -- Alueella työssäkäyvät (työpaikat) alueen, toimialan (TOL 2008), sukupuolen ja vuoden mukaan, 2007-2022 - (päivitetty: 2023-12-19T14:02:59)",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Tyossakaynti</span>"
+    ]
+  },
+  {
+    "objectID": "tyossakaynti.html#kunnassa-asuva-työllinen-työvoima",
+    "href": "tyossakaynti.html#kunnassa-asuva-työllinen-työvoima",
+    "title": "\n8  Tyossakaynti\n",
+    "section": "\n8.2 Kunnassa asuva työllinen työvoima",
+    "text": "8.2 Kunnassa asuva työllinen työvoima\nVuodet tulee muuttaa tässä koodin sisään\n\n\n\n\n\n\nKunnassa asuva työllinen työvoima\n\nToimiala\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n\n\n\nToimialat yhteensä\n13464\n13602\n13953\n13244\n13534\n13408\n13070\n12949\n12971\n13196\n13752\n14165\n14153\n13953\n14719\n15130\n\n\nA Maatalous, metsätalous ja kalatalous (01-03) (Taso 1)\n426\n405\n306\n388\n390\n381\n358\n368\n351\n324\n328\n324\n317\n306\n300\n279\n\n\nB Kaivostoiminta ja louhinta (05-09) (Taso 1)\n7\n4\n6\n6\n7\n6\n8\n5\n6\n10\n6\n9\n7\n6\n5\n4\n\n\nC Teollisuus (10-33) (Taso 1)\n3045\n2928\n2010\n2719\n2640\n2535\n2299\n2258\n2203\n2159\n2208\n2204\n2164\n2010\n2191\n2252\n\n\nD Sähkö-, kaasu- ja lämpöhuolto, jäähdytysliiketoiminta (35) (Taso 1)\n30\n29\n40\n32\n37\n38\n37\n36\n38\n36\n37\n39\n40\n40\n47\n43\n\n\nE Vesihuolto, viemäri- ja jätevesihuolto, jätehuolto ja muu ympäristön puhtaanapito (36-39) (Taso 1)\n49\n47\n68\n45\n42\n44\n44\n47\n51\n54\n67\n70\n62\n68\n65\n65\n\n\nF Rakentaminen (41-43) (Taso 1)\n1041\n1089\n1182\n986\n1027\n1022\n1024\n977\n995\n1072\n1124\n1193\n1189\n1182\n1247\n1265\n\n\nG Tukku- ja vähittäiskauppa; moottoriajoneuvojen ja moottoripyörien korjaus (45-47) (Taso 1)\n1446\n1482\n1521\n1391\n1414\n1414\n1402\n1351\n1390\n1486\n1518\n1528\n1522\n1521\n1592\n1586\n\n\nH Kuljetus ja varastointi (49-53) (Taso 1)\n761\n756\n658\n722\n681\n702\n684\n682\n642\n635\n675\n684\n682\n658\n682\n719\n\n\nI Majoitus- ja ravitsemistoiminta (55-56) (Taso 1)\n311\n364\n350\n337\n347\n321\n295\n292\n302\n313\n348\n377\n399\n350\n380\n365\n\n\nJ Informaatio ja viestintä (58-63) (Taso 1)\n419\n465\n668\n487\n552\n544\n533\n537\n531\n556\n610\n631\n647\n668\n679\n753\n\n\nK Rahoitus- ja vakuutustoiminta (64-66) (Taso 1)\n165\n180\n195\n167\n165\n172\n156\n150\n153\n154\n171\n187\n185\n195\n185\n212\n\n\nL Kiinteistöalan toiminta (68) (Taso 1)\n145\n156\n174\n140\n151\n148\n144\n149\n146\n175\n175\n161\n173\n174\n191\n187\n\n\nM Ammatillinen, tieteellinen ja tekninen toiminta (69-75) (Taso 1)\n690\n717\n885\n701\n780\n832\n821\n800\n805\n837\n884\n919\n908\n885\n958\n1013\n\n\nN Hallinto- ja tukipalvelutoiminta (77-82) (Taso 1)\n608\n634\n897\n640\n689\n685\n651\n683\n692\n731\n856\n940\n904\n897\n1015\n1066\n\n\nO Julkinen hallinto ja maanpuolustus; pakollinen sosiaalivakuutus (84) (Taso 1)\n506\n465\n499\n478\n445\n451\n451\n446\n455\n468\n468\n471\n506\n499\n476\n489\n\n\nP Koulutus (85) (Taso 1)\n892\n906\n1019\n956\n991\n1024\n982\n998\n990\n952\n999\n1001\n1018\n1019\n1077\n1105\n\n\nQ Terveys- ja sosiaalipalvelut (86-88) (Taso 1)\n2292\n2343\n2727\n2360\n2435\n2421\n2465\n2482\n2518\n2506\n2519\n2623\n2625\n2727\n2869\n2933\n\n\nR Taiteet, viihde ja virkistys (90-93) (Taso 1)\n158\n175\n189\n181\n182\n166\n198\n163\n190\n209\n220\n228\n226\n189\n211\n230\n\n\nS Muu palvelutoiminta (94-96) (Taso 1)\n331\n346\n317\n344\n354\n335\n327\n314\n310\n300\n311\n328\n332\n317\n329\n345\n\n\nT Kotitalouksien toiminta työnantajina; kotitalouksien eriyttämätön toiminta tavaroiden ja palvelujen tuottamiseksi omaan käyttöön (97-98) (Taso 1)\n0\n0\n32\n4\n2\n3\n39\n52\n42\n45\n46\n48\n34\n32\n30\n28\n\n\nU Kansainvälisten organisaatioiden ja toimielinten toiminta (99) (Taso 1)\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n1\n0\n0\n0\n\n\nX Tuntematon (Taso 1)\n142\n111\n210\n160\n203\n164\n152\n159\n161\n174\n182\n200\n212\n210\n190\n191\n\n\n\n\nLähde: \n\n 115i -- Työlliset alueen, toimialan (TOL 2008), sukupuolen ja vuoden mukaan, 2007-2022 - (päivitetty: 2023-12-19T14:03:00)",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Tyossakaynti</span>"
+    ]
+  },
+  {
+    "objectID": "tyossakaynti.html#työssäkäynti-ja-työpaikkaomavaraisuus",
+    "href": "tyossakaynti.html#työssäkäynti-ja-työpaikkaomavaraisuus",
+    "title": "\n8  Tyossakaynti\n",
+    "section": "\n8.3 Työssäkäynti ja työpaikkaomavaraisuus",
+    "text": "8.3 Työssäkäynti ja työpaikkaomavaraisuus\nTyöpaikkaomavaraisuus kertoo kunnassa sijaitsevien työpaikkojen ja kunnassa asuvan työllisen työvoiman määrän välisen suhteen. Perinteinen työpaikkaomavaraisuus voi olla yli sata prosenttia, vaikka kukaan alueella asuvasta työllisestä työvoimasta ei kävisi samalla alueella töissä.\nTodellisella työpaikkaomavaraisuudella puolestaan tarkoitetaan samalla alueella työskentelevien osuutta alueen työllisestä työvoimasta. Todellinen työpaikkaomavaraisuus ei voi ylittää sataa prosenttia. Kuntarakennelaissa viitataan todelliseen työpaikkaomavaraisuuskäsitteeseen, kun taas valtionosuusjärjestelmän mukainen työpaikkaomavaraisuuskäsite on perinteistä mallia.(Lähde: Kuntaliitto 2014)\n\n\n\n\n\n\nTyössäkäynti ja työpaikkaomavaraisuus\n\nVuosi\nTyöpaikat\nTyölliset\nAsuinkunnassaan työssäkäyvät\nUlkopuolella työssäkäyvät\nAlueelle pendelöivät\nPerinteinen työpaikkaomavaraisuus\nTodellinen työpaikkaomavaraisuus\n\n\n\n2007\n8976\n13464\n5546\n7918\n3430\n66.7\n41.2\n\n\n2008\n9097\n13602\n5611\n7991\n3486\n66.9\n41.3\n\n\n2009\n8449\n12971\n5246\n7725\n3203\n65.1\n40.4\n\n\n2010\n8835\n13244\n5358\n7886\n3477\n66.7\n40.5\n\n\n2011\n9056\n13534\n5436\n8098\n3620\n66.9\n40.2\n\n\n2012\n8619\n13408\n5234\n8174\n3385\n64.3\n39\n\n\n2013\n8533\n13070\n5081\n7989\n3452\n65.3\n38.9\n\n\n2014\n8406\n12949\n5041\n7908\n3365\n64.9\n38.9\n\n\n2015\n8432\n12971\n5019\n7952\n3413\n65\n38.7\n\n\n2016\n8419\n13196\n4979\n8217\n3440\n63.8\n37.7\n\n\n2017\n8801\n13752\n5110\n8642\n3691\n64\n37.2\n\n\n2018\n8884\n14165\n5133\n9032\n3751\n62.7\n36.2\n\n\n2019\n9084\n14153\n5171\n8982\n3913\n64.2\n36.5\n\n\n2020\n8658\n13953\n4922\n9031\n3736\n62.1\n35.3\n\n\n2021\n8890\n14719\n5106\n9613\n3784\n60.4\n34.7\n\n\n2022\n8909\n15130\n5228\n9902\n3681\n58.9\n34.6\n\n\n\n\nLähde: \n\n 115i -- Työlliset alueen, toimialan (TOL 2008), sukupuolen ja vuoden mukaan, 2007-2022 - (päivitetty: 2023-12-19T14:03:00)",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Tyossakaynti</span>"
+    ]
+  },
+  {
+    "objectID": "tyossakaynti.html#työvoima-työlliset-työttömät",
+    "href": "tyossakaynti.html#työvoima-työlliset-työttömät",
+    "title": "\n8  Tyossakaynti\n",
+    "section": "\n8.4 Työvoima, työlliset, työttömät",
+    "text": "8.4 Työvoima, työlliset, työttömät",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Tyossakaynti</span>"
+    ]
+  },
+  {
+    "objectID": "tyossakaynti.html#työttömät-työhakijat",
+    "href": "tyossakaynti.html#työttömät-työhakijat",
+    "title": "\n8  Tyossakaynti\n",
+    "section": "\n8.5 Työttömät työhakijat",
+    "text": "8.5 Työttömät työhakijat",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Tyossakaynti</span>"
+    ]
+  },
+  {
+    "objectID": "tyossakaynti.html#työttömät-työhakijat-sukupuolen-mukaan",
+    "href": "tyossakaynti.html#työttömät-työhakijat-sukupuolen-mukaan",
+    "title": "\n8  Tyossakaynti\n",
+    "section": "\n8.6 Työttömät työhakijat sukupuolen mukaan",
+    "text": "8.6 Työttömät työhakijat sukupuolen mukaan",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Tyossakaynti</span>"
+    ]
+  },
+  {
+    "objectID": "tyossakaynti.html#työttömät-työhakijat-iän-mukaan",
+    "href": "tyossakaynti.html#työttömät-työhakijat-iän-mukaan",
+    "title": "\n8  Tyossakaynti\n",
+    "section": "\n8.7 Työttömät työhakijat iän mukaan",
+    "text": "8.7 Työttömät työhakijat iän mukaan",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Tyossakaynti</span>"
+    ]
+  },
+  {
+    "objectID": "tyossakaynti.html#työttömät-työhakijat---pitkäaikaistyöttömyys",
+    "href": "tyossakaynti.html#työttömät-työhakijat---pitkäaikaistyöttömyys",
+    "title": "\n8  Tyossakaynti\n",
+    "section": "\n8.8 Työttömät työhakijat - pitkäaikaistyöttömyys",
+    "text": "8.8 Työttömät työhakijat - pitkäaikaistyöttömyys\n\n\n\n\n\n\n\n\n\n\nKuntaliitto. 2014. Työpaikkaomavaraisuus kuntien tunnuslukuna. Kuntaliitto. https://www.stat.fi/artikkelit/2014/art_2014-05-26_003.html?s=0#1.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Tyossakaynti</span>"
+    ]
+  },
+  {
+    "objectID": "turvallisuus.html",
+    "href": "turvallisuus.html",
+    "title": "\n9  Turvallisuus\n",
+    "section": "",
+    "text": "9.1 Tietoon tulleet rikokset",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Turvallisuus</span>"
+    ]
+  },
+  {
+    "objectID": "turvallisuus.html#tietoon-tulleet-rikokset-erittely",
+    "href": "turvallisuus.html#tietoon-tulleet-rikokset-erittely",
+    "title": "\n9  Turvallisuus\n",
+    "section": "\n9.2 Tietoon tulleet rikokset erittely",
+    "text": "9.2 Tietoon tulleet rikokset erittely",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Turvallisuus</span>"
+    ]
+  },
+  {
+    "objectID": "yritykset.html",
+    "href": "yritykset.html",
     "title": "\n10  Yritykset\n",
-    "section": "\n10.1 Yrityskanta",
-    "text": "10.1 Yrityskanta"
+    "section": "",
+    "text": "10.1 Yrityskanta",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Yritykset</span>"
+    ]
   },
   {
     "objectID": "yritykset.html#yrityskanta-toimialoittain",
     "href": "yritykset.html#yrityskanta-toimialoittain",
     "title": "\n10  Yritykset\n",
     "section": "\n10.2 Yrityskanta toimialoittain",
-    "text": "10.2 Yrityskanta toimialoittain"
+    "text": "10.2 Yrityskanta toimialoittain",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Yritykset</span>"
+    ]
   },
   {
     "objectID": "yritykset.html#aloittaneet-ja-lopettaneet-yritykset",
     "href": "yritykset.html#aloittaneet-ja-lopettaneet-yritykset",
     "title": "\n10  Yritykset\n",
     "section": "\n10.3 Aloittaneet ja lopettaneet yritykset",
-    "text": "10.3 Aloittaneet ja lopettaneet yritykset"
+    "text": "10.3 Aloittaneet ja lopettaneet yritykset",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Yritykset</span>"
+    ]
   },
   {
     "objectID": "yritykset.html#aloittaneet-yritykset-toimialoittain",
     "href": "yritykset.html#aloittaneet-yritykset-toimialoittain",
     "title": "\n10  Yritykset\n",
     "section": "\n10.4 Aloittaneet yritykset toimialoittain",
-    "text": "10.4 Aloittaneet yritykset toimialoittain"
+    "text": "10.4 Aloittaneet yritykset toimialoittain",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Yritykset</span>"
+    ]
   },
   {
     "objectID": "yritykset.html#lopettaneet-yritykset-toimialoittain",
     "href": "yritykset.html#lopettaneet-yritykset-toimialoittain",
     "title": "\n10  Yritykset\n",
     "section": "\n10.5 Lopettaneet yritykset toimialoittain",
-    "text": "10.5 Lopettaneet yritykset toimialoittain"
+    "text": "10.5 Lopettaneet yritykset toimialoittain",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Yritykset</span>"
+    ]
   },
   {
-    "objectID": "turvallisuus.html#tietoon-tulleet-rikokset",
-    "href": "turvallisuus.html#tietoon-tulleet-rikokset",
-    "title": "\n11  Turvallisuus\n",
-    "section": "\n11.1 Tietoon tulleet rikokset",
-    "text": "11.1 Tietoon tulleet rikokset"
+    "objectID": "vaalit.html",
+    "href": "vaalit.html",
+    "title": "\n11  Vaalit\n",
+    "section": "",
+    "text": "11.1 Valtuustopaikat vuosina 2008 - 2021\nVuodesta 2017 toimikausi 1.6 alkaen ja vuonna 2021 toimikausi 1.8 alkaen.\nValittujen lukumäärä\n\nVuosi\nKOK\nSDP\nKESK\nPS\nVAS\nKD\nVIHR\nYht.\n\n\n\n1992\n12\n14\n5\n0\n5\n2\n0\n43\n\n\n1996\n13\n12\n6\n0\n5\n2\n0\n43\n\n\n2000\n14\n11\n7\n0\n4\n0\n1\n43\n\n\n2004\n11\n12\n7\n0\n4\n2\n1\n43\n\n\n2008\n13\n10\n5\n1\n3\n4\n3\n43\n\n\n2012\n15\n13\n7\n6\n2\n5\n3\n51\n\n\n2017\n13\n12\n5\n6\n3\n5\n7\n51\n\n\n2021\n14\n11\n4\n9\n2\n5\n6\n51\n\n\n\n\nLähde:\n\n\n\n\n\n\n\n\n\n\n\n Tilastokeskus: 12g3 -- Kuntavaalit, puolueiden kannatus, 1976-2021",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Vaalit</span>"
+    ]
   },
   {
-    "objectID": "turvallisuus.html#tietoon-tulleet-rikokset-erittely",
-    "href": "turvallisuus.html#tietoon-tulleet-rikokset-erittely",
-    "title": "\n11  Turvallisuus\n",
-    "section": "\n11.2 Tietoon tulleet rikokset erittely",
-    "text": "11.2 Tietoon tulleet rikokset erittely"
+    "objectID": "vaesto.html",
+    "href": "vaesto.html",
+    "title": "\n12  Väestö ja väestönmuutokset\n",
+    "section": "",
+    "text": "12.1 Väestö vuosittain\nVäestö vuosittain 1990 - 2022\n\nVuosi\nVäestö 31.12.\nMuutos\nMuutosprosentti\n\n\n\n1990\n24407\n353\n1.5\n\n\n1991\n24634\n227\n0.9\n\n\n1992\n24826\n192\n0.8\n\n\n1993\n25105\n279\n1.1\n\n\n1994\n25056\n-49\n-0.2\n\n\n1995\n25106\n50\n0.2\n\n\n1996\n25046\n-60\n-0.2\n\n\n1997\n25119\n73\n0.3\n\n\n1998\n25133\n14\n0.1\n\n\n1999\n25285\n152\n0.6\n\n\n2000\n25630\n345\n1.4\n\n\n2001\n25922\n292\n1.1\n\n\n2002\n26341\n419\n1.6\n\n\n2003\n26778\n437\n1.7\n\n\n2004\n27303\n525\n2\n\n\n2005\n27927\n624\n2.3\n\n\n2006\n28407\n480\n1.7\n\n\n2007\n28809\n402\n1.4\n\n\n2008\n29282\n473\n1.6\n\n\n2009\n29522\n240\n0.8\n\n\n2010\n29675\n153\n0.5\n\n\n2011\n29891\n216\n0.7\n\n\n2012\n30126\n235\n0.8\n\n\n2013\n30345\n219\n0.7\n\n\n2014\n30471\n126\n0.4\n\n\n2015\n30607\n136\n0.4\n\n\n2016\n31190\n583\n1.9\n\n\n2017\n31437\n247\n0.8\n\n\n2018\n31676\n239\n0.8\n\n\n2019\n31868\n192\n0.6\n\n\n2020\n32214\n346\n1.1\n\n\n2021\n32622\n408\n1.3\n\n\n2022\n32959\n337\n1\n\n\n2023\n33473\n514\n1.6\n\n\n\n\nLähde: \n\n 11ra -- Tunnuslukuja väestöstä alueittain, 1990-2023 - (päivitetty: 2024-04-25T13:37:02)",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Väestö ja väestönmuutokset</span>"
+    ]
   },
   {
-    "objectID": "liikenne.html#tieliikenteessä-kuolleet-ja-loukkaantuneet",
-    "href": "liikenne.html#tieliikenteessä-kuolleet-ja-loukkaantuneet",
-    "title": "\n12  Liikenne\n",
-    "section": "\n12.1 Tieliikenteessä kuolleet ja loukkaantuneet",
-    "text": "12.1 Tieliikenteessä kuolleet ja loukkaantuneet"
+    "objectID": "vaesto.html#väestö-ikäryhmittäin",
+    "href": "vaesto.html#väestö-ikäryhmittäin",
+    "title": "\n12  Väestö ja väestönmuutokset\n",
+    "section": "\n12.2 Väestö ikäryhmittäin",
+    "text": "12.2 Väestö ikäryhmittäin\n\n\n\n\n\n\n\n\n\n\n\n\nVäestökehitys ikäryhmittäin 5 luokkaa\n\nVuosi\nYhteensä\n0-6\n7-18\n19-64\n65-74\n75+\n\n\n\n1972\n19461\n1981\n3963\n11533\n1387\n597\n\n\n1973\n19914\n2000\n3999\n11841\n1456\n618\n\n\n1974\n20221\n1966\n4082\n12025\n1491\n657\n\n\n1975\n20564\n1989\n4053\n12281\n1552\n689\n\n\n1976\n20778\n1990\n4030\n12442\n1585\n731\n\n\n1977\n21105\n2001\n4071\n12633\n1623\n777\n\n\n1978\n21381\n2006\n4103\n12795\n1672\n805\n\n\n1979\n21668\n2059\n4134\n12966\n1665\n844\n\n\n1980\n21877\n2087\n4118\n13122\n1669\n881\n\n\n1981\n22122\n2129\n4108\n13295\n1668\n922\n\n\n1982\n22527\n2242\n4088\n13580\n1644\n973\n\n\n1983\n22975\n2313\n4136\n13875\n1657\n994\n\n\n1984\n23168\n2356\n4118\n14034\n1617\n1043\n\n\n1985\n23225\n2345\n4070\n14086\n1633\n1091\n\n\n1986\n23372\n2320\n4022\n14278\n1621\n1131\n\n\n1987\n23589\n2299\n4007\n14470\n1654\n1159\n\n\n1988\n23656\n2284\n3972\n14564\n1633\n1203\n\n\n1989\n24054\n2273\n4057\n14819\n1660\n1245\n\n\n1990\n24407\n2299\n4127\n15047\n1681\n1253\n\n\n1991\n24634\n2347\n4161\n15129\n1736\n1261\n\n\n1992\n24826\n2378\n4190\n15220\n1770\n1268\n\n\n1993\n25105\n2468\n4160\n15369\n1797\n1311\n\n\n1994\n25056\n2498\n4118\n15281\n1844\n1315\n\n\n1995\n25106\n2472\n4164\n15213\n1920\n1337\n\n\n1996\n25046\n2459\n4178\n15143\n1893\n1373\n\n\n1997\n25119\n2389\n4226\n15214\n1900\n1390\n\n\n1998\n25133\n2272\n4293\n15203\n1947\n1418\n\n\n1999\n25285\n2189\n4322\n15360\n1974\n1440\n\n\n2000\n25630\n2203\n4374\n15600\n1991\n1462\n\n\n2001\n25922\n2220\n4391\n15789\n2029\n1493\n\n\n2002\n26341\n2251\n4384\n16100\n2083\n1523\n\n\n2003\n26778\n2285\n4418\n16328\n2149\n1598\n\n\n2004\n27303\n2451\n4409\n16572\n2237\n1634\n\n\n2005\n27927\n2596\n4490\n16892\n2218\n1731\n\n\n2006\n28407\n2725\n4500\n17060\n2352\n1770\n\n\n2007\n28809\n2860\n4481\n17239\n2386\n1843\n\n\n2008\n29282\n2970\n4530\n17393\n2460\n1929\n\n\n2009\n29522\n3013\n4585\n17421\n2548\n1955\n\n\n2010\n29675\n3037\n4582\n17404\n2684\n1968\n\n\n2011\n29891\n2978\n4666\n17354\n2838\n2055\n\n\n2012\n30126\n2951\n4718\n17318\n3020\n2119\n\n\n2013\n30345\n2895\n4746\n17320\n3135\n2249\n\n\n2014\n30471\n2827\n4791\n17262\n3258\n2333\n\n\n2015\n30607\n2772\n4834\n17265\n3355\n2381\n\n\n2016\n31190\n2779\n4998\n17473\n3408\n2532\n\n\n2017\n31437\n2708\n5068\n17538\n3565\n2558\n\n\n2018\n31676\n2641\n5103\n17619\n3661\n2652\n\n\n2019\n31868\n2557\n5196\n17575\n3775\n2765\n\n\n2020\n32214\n2495\n5245\n17732\n3805\n2937\n\n\n2021\n32622\n2521\n5236\n18012\n3757\n3096\n\n\n2022\n32959\n2488\n5278\n18230\n3708\n3255\n\n\n2023\n33473\n2424\n5346\n18612\n3663\n3428\n\n\n\n\nLähde: \n\n 11re -- Väestö iän (1-v.) ja sukupuolen mukaan alueittain, 1972-2023 - (päivitetty: 2024-04-25T13:37:07)\n\n\n\n\n\n\n\n\n\n\n\n\nVäestökehitys ikäryhmittäin 5 luokkaa %\n\nVuosi\nYhteensä\n0-6 %\n7-18\n19-64\n65-74\n75+\n\n\n\n1972\n100\n10.2\n20.4\n59.3\n7.1\n3.1\n\n\n1973\n100\n10\n20.1\n59.5\n7.3\n3.1\n\n\n1974\n100\n9.7\n20.2\n59.5\n7.4\n3.2\n\n\n1975\n100\n9.7\n19.7\n59.7\n7.5\n3.4\n\n\n1976\n100\n9.6\n19.4\n59.9\n7.6\n3.5\n\n\n1977\n100\n9.5\n19.3\n59.9\n7.7\n3.7\n\n\n1978\n100\n9.4\n19.2\n59.8\n7.8\n3.8\n\n\n1979\n100\n9.5\n19.1\n59.8\n7.7\n3.9\n\n\n1980\n100\n9.5\n18.8\n60\n7.6\n4\n\n\n1981\n100\n9.6\n18.6\n60.1\n7.5\n4.2\n\n\n1982\n100\n10\n18.1\n60.3\n7.3\n4.3\n\n\n1983\n100\n10.1\n18\n60.4\n7.2\n4.3\n\n\n1984\n100\n10.2\n17.8\n60.6\n7\n4.5\n\n\n1985\n100\n10.1\n17.5\n60.7\n7\n4.7\n\n\n1986\n100\n9.9\n17.2\n61.1\n6.9\n4.8\n\n\n1987\n100\n9.7\n17\n61.3\n7\n4.9\n\n\n1988\n100\n9.7\n16.8\n61.6\n6.9\n5.1\n\n\n1989\n100\n9.4\n16.9\n61.6\n6.9\n5.2\n\n\n1990\n100\n9.4\n16.9\n61.7\n6.9\n5.1\n\n\n1991\n100\n9.5\n16.9\n61.4\n7\n5.1\n\n\n1992\n100\n9.6\n16.9\n61.3\n7.1\n5.1\n\n\n1993\n100\n9.8\n16.6\n61.2\n7.2\n5.2\n\n\n1994\n100\n10\n16.4\n61\n7.4\n5.2\n\n\n1995\n100\n9.8\n16.6\n60.6\n7.6\n5.3\n\n\n1996\n100\n9.8\n16.7\n60.5\n7.6\n5.5\n\n\n1997\n100\n9.5\n16.8\n60.6\n7.6\n5.5\n\n\n1998\n100\n9\n17.1\n60.5\n7.7\n5.6\n\n\n1999\n100\n8.7\n17.1\n60.7\n7.8\n5.7\n\n\n2000\n100\n8.6\n17.1\n60.9\n7.8\n5.7\n\n\n2001\n100\n8.6\n16.9\n60.9\n7.8\n5.8\n\n\n2002\n100\n8.5\n16.6\n61.1\n7.9\n5.8\n\n\n2003\n100\n8.5\n16.5\n61\n8\n6\n\n\n2004\n100\n9\n16.1\n60.7\n8.2\n6\n\n\n2005\n100\n9.3\n16.1\n60.5\n7.9\n6.2\n\n\n2006\n100\n9.6\n15.8\n60.1\n8.3\n6.2\n\n\n2007\n100\n9.9\n15.6\n59.8\n8.3\n6.4\n\n\n2008\n100\n10.1\n15.5\n59.4\n8.4\n6.6\n\n\n2009\n100\n10.2\n15.5\n59\n8.6\n6.6\n\n\n2010\n100\n10.2\n15.4\n58.6\n9\n6.6\n\n\n2011\n100\n10\n15.6\n58.1\n9.5\n6.9\n\n\n2012\n100\n9.8\n15.7\n57.5\n10\n7\n\n\n2013\n100\n9.5\n15.6\n57.1\n10.3\n7.4\n\n\n2014\n100\n9.3\n15.7\n56.7\n10.7\n7.7\n\n\n2015\n100\n9.1\n15.8\n56.4\n11\n7.8\n\n\n2016\n100\n8.9\n16\n56\n10.9\n8.1\n\n\n2017\n100\n8.6\n16.1\n55.8\n11.3\n8.1\n\n\n2018\n100\n8.3\n16.1\n55.6\n11.6\n8.4\n\n\n2019\n100\n8\n16.3\n55.1\n11.8\n8.7\n\n\n2020\n100\n7.7\n16.3\n55\n11.8\n9.1\n\n\n2021\n100\n7.7\n16.1\n55.2\n11.5\n9.5\n\n\n2022\n100\n7.5\n16\n55.3\n11.3\n9.9\n\n\n2023\n100\n7.2\n16\n55.6\n10.9\n10.2\n\n\n\n\nLähde: \n\n 11re -- Väestö iän (1-v.) ja sukupuolen mukaan alueittain, 1972-2023 - (päivitetty: 2024-04-25T13:37:07)",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Väestö ja väestönmuutokset</span>"
+    ]
   },
   {
-    "objectID": "alue.html#alue-2021",
-    "href": "alue.html#alue-2021",
-    "title": "\n13  Alue\n",
-    "section": "\n13.1 Alue 2021",
-    "text": "13.1 Alue 2021\nKangasala sijaitsee hämeessä Pirkanmaan maakunnassa Tampereen kaupunkiseudulla."
+    "objectID": "vaesto.html#väestön-ikäjakauma",
+    "href": "vaesto.html#väestön-ikäjakauma",
+    "title": "\n12  Väestö ja väestönmuutokset\n",
+    "section": "\n12.3 Väestön ikäjakauma",
+    "text": "12.3 Väestön ikäjakauma\nTaulukon tarkisteluvuosi on 2023\n\n\n\n\n\n\nVäestön ikäjakauma\n\nIkä\nMiehet\nNaiset\nYhteensä\nNaisten osuus\n\n\n\nYhteensä\n16523\n16950\n33473\n50.6\n\n\n0\n164\n145\n309\n46.9\n\n\n1\n145\n159\n304\n52.3\n\n\n2\n213\n183\n396\n46.2\n\n\n3\n158\n179\n337\n53.1\n\n\n4\n188\n165\n353\n46.7\n\n\n5\n167\n176\n343\n51.3\n\n\n6\n186\n196\n382\n51.3\n\n\n7\n217\n229\n446\n51.3\n\n\n8\n216\n207\n423\n48.9\n\n\n9\n224\n195\n419\n46.5\n\n\n10\n231\n214\n445\n48.1\n\n\n11\n233\n234\n467\n50.1\n\n\n12\n197\n227\n424\n53.5\n\n\n13\n223\n230\n453\n50.8\n\n\n14\n240\n237\n477\n49.7\n\n\n15\n217\n226\n443\n51\n\n\n16\n235\n233\n468\n49.8\n\n\n17\n232\n216\n448\n48.2\n\n\n18\n237\n196\n433\n45.3\n\n\n19\n212\n181\n393\n46.1\n\n\n20\n167\n134\n301\n44.5\n\n\n21\n157\n110\n267\n41.2\n\n\n22\n116\n117\n233\n50.2\n\n\n23\n117\n106\n223\n47.5\n\n\n24\n122\n101\n223\n45.3\n\n\n25\n132\n118\n250\n47.2\n\n\n26\n131\n147\n278\n52.9\n\n\n27\n154\n157\n311\n50.5\n\n\n28\n159\n162\n321\n50.5\n\n\n29\n174\n198\n372\n53.2\n\n\n30\n192\n200\n392\n51\n\n\n31\n211\n216\n427\n50.6\n\n\n32\n196\n203\n399\n50.9\n\n\n33\n218\n228\n446\n51.1\n\n\n34\n258\n249\n507\n49.1\n\n\n35\n222\n230\n452\n50.9\n\n\n36\n200\n212\n412\n51.5\n\n\n37\n216\n209\n425\n49.2\n\n\n38\n211\n219\n430\n50.9\n\n\n39\n223\n222\n445\n49.9\n\n\n40\n253\n242\n495\n48.9\n\n\n41\n229\n254\n483\n52.6\n\n\n42\n231\n236\n467\n50.5\n\n\n43\n240\n220\n460\n47.8\n\n\n44\n223\n221\n444\n49.8\n\n\n45\n223\n223\n446\n50\n\n\n46\n249\n235\n484\n48.6\n\n\n47\n241\n263\n504\n52.2\n\n\n48\n241\n249\n490\n50.8\n\n\n49\n240\n220\n460\n47.8\n\n\n50\n197\n205\n402\n51\n\n\n51\n216\n220\n436\n50.5\n\n\n52\n225\n205\n430\n47.7\n\n\n53\n242\n204\n446\n45.7\n\n\n54\n216\n218\n434\n50.2\n\n\n55\n218\n229\n447\n51.2\n\n\n56\n218\n233\n451\n51.7\n\n\n57\n205\n207\n412\n50.2\n\n\n58\n214\n199\n413\n48.2\n\n\n59\n209\n238\n447\n53.2\n\n\n60\n251\n218\n469\n46.5\n\n\n61\n202\n193\n395\n48.9\n\n\n62\n209\n196\n405\n48.4\n\n\n63\n190\n186\n376\n49.5\n\n\n64\n208\n201\n409\n49.1\n\n\n65\n168\n204\n372\n54.8\n\n\n66\n195\n191\n386\n49.5\n\n\n67\n167\n188\n355\n53\n\n\n68\n157\n174\n331\n52.6\n\n\n69\n183\n211\n394\n53.6\n\n\n70\n168\n212\n380\n55.8\n\n\n71\n215\n178\n393\n45.3\n\n\n72\n167\n184\n351\n52.4\n\n\n73\n159\n189\n348\n54.3\n\n\n74\n160\n193\n353\n54.7\n\n\n75\n176\n212\n388\n54.6\n\n\n76\n174\n181\n355\n51\n\n\n77\n156\n201\n357\n56.3\n\n\n78\n127\n157\n284\n55.3\n\n\n79\n115\n120\n235\n51.1\n\n\n80\n82\n145\n227\n63.9\n\n\n81\n83\n110\n193\n57\n\n\n82\n113\n111\n224\n49.6\n\n\n83\n72\n86\n158\n54.4\n\n\n84\n71\n107\n178\n60.1\n\n\n85\n76\n90\n166\n54.2\n\n\n86\n57\n69\n126\n54.8\n\n\n87\n48\n74\n122\n60.7\n\n\n88\n31\n47\n78\n60.3\n\n\n89\n25\n41\n66\n62.1\n\n\n90\n17\n43\n60\n71.7\n\n\n91\n17\n41\n58\n70.7\n\n\n92\n18\n24\n42\n57.1\n\n\n93\n9\n25\n34\n73.5\n\n\n94\n7\n16\n23\n69.6\n\n\n95\n5\n10\n15\n66.7\n\n\n96\n1\n12\n13\n92.3\n\n\n97\n1\n8\n9\n88.9\n\n\n98\n1\n7\n8\n87.5\n\n\n99\n0\n5\n5\n100\n\n\n100\n1\n3\n4\n75\n\n\n\n\nLähde: \n\n 11re -- Väestö iän (1-v.) ja sukupuolen mukaan alueittain, 1972-2023 - (päivitetty: 2024-04-25T13:37:07)",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Väestö ja väestönmuutokset</span>"
+    ]
   },
   {
-    "objectID": "alue.html#maa--ja-vesipinta-alat-sekä-väestötiheys",
-    "href": "alue.html#maa--ja-vesipinta-alat-sekä-väestötiheys",
-    "title": "\n13  Alue\n",
-    "section": "\n13.2 Maa- ja vesipinta-alat sekä väestötiheys",
-    "text": "13.2 Maa- ja vesipinta-alat sekä väestötiheys\n\n\n\n\n\n \n Vuosi \n    Maapinta-ala, km2 \n    Vesipinta-ala, km2 \n    Väestöntiheys / maa-km2 \n    Vesistöjen rantaviivan pituus \n    Järviä \n  \n\n\n 2014 \n    658,01 \n    212,84 \n    46,1 \n    799 \n    150 \n  \n\n 2015 \n    658,04 \n    212,81 \n    46,51 \n    799 \n    150 \n  \n\n 2016 \n    658,08 \n    212,78 \n    47,40 \n    799 \n    150 \n  \n\n 2017 \n    658,08 \n    212,78 \n    47,80 \n    799 \n    150 \n  \n\n 2018 \n    658,08 \n    212,78 \n    48,10 \n    799 \n    150 \n  \n\n 2019 \n    658,07 \n    212,79 \n    48,4 \n    799 \n    150 \n  \n\n 2020 \n    658,09 \n    212,79 \n    49,0 \n    799 \n    150 \n  \n\n 2021 \n    658,09 \n    212,79 \n    49,6 \n    799 \n    150 \n  \n\n\nLähde:\n\n Tilastokeskus"
+    "objectID": "vaesto.html#väkiluku-ja-väestönmuutokset",
+    "href": "vaesto.html#väkiluku-ja-väestönmuutokset",
+    "title": "\n12  Väestö ja väestönmuutokset\n",
+    "section": "\n12.4 Väkiluku ja väestönmuutokset",
+    "text": "12.4 Väkiluku ja väestönmuutokset\n\n\n\n\n\n\nVäkiluku ja väestönmuutokset\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuonnollinen muutos\n\n\nMuuttoliike\n\n\n\n\n\nVuosi\nsyntyneet\nkuolleet\nsyntyneiden enemmyys\nkuntien välinen netto\nkansainvälinen netto\nVäestönlisäys\nVäkiluku\n\n\n\n\n2005\n360\n212\n148\n454\n19\n621\n27927\n\n\n2006\n389\n203\n186\n285\n11\n482\n28407\n\n\n2007\n408\n203\n205\n168\n29\n402\n28809\n\n\n2008\n404\n190\n214\n218\n38\n470\n29282\n\n\n2009\n394\n236\n158\n53\n18\n229\n29522\n\n\n2010\n394\n262\n132\n-11\n26\n147\n29675\n\n\n2011\n360\n228\n132\n61\n24\n217\n29891\n\n\n2012\n364\n235\n129\n99\n2\n230\n30126\n\n\n2013\n356\n207\n149\n46\n27\n222\n30345\n\n\n2014\n327\n247\n80\n4\n41\n125\n30471\n\n\n2015\n313\n241\n72\n74\n8\n154\n30607\n\n\n2016\n365\n223\n142\n395\n46\n583\n31190\n\n\n2017\n290\n276\n14\n213\n21\n248\n31437\n\n\n2018\n284\n249\n35\n201\n11\n247\n31676\n\n\n2019\n301\n253\n48\n115\n28\n191\n31868\n\n\n2020\n280\n222\n58\n250\n38\n346\n32214\n\n\n2021\n334\n296\n38\n378\n-4\n412\n32622\n\n\n2022\n287\n300\n-13\n324\n24\n335\n32959\n\n\n\n\nLähde: \n\n 142h -- Alueaikasarjat 1987-2022 - (päivitetty: 2023-10-17T09:18:19)",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Väestö ja väestönmuutokset</span>"
+    ]
   },
   {
-    "objectID": "alue.html#kaupungin-alueet-maankäyttötarkoituksen-mukaan",
-    "href": "alue.html#kaupungin-alueet-maankäyttötarkoituksen-mukaan",
-    "title": "\n13  Alue\n",
-    "section": "\n13.3 Kaupungin alueet maankäyttötarkoituksen mukaan",
-    "text": "13.3 Kaupungin alueet maankäyttötarkoituksen mukaan\n\n\n\n\n\n \n Vuosi \n    Asemakaava-alueet yht. \n    -asuinalueet \n    -yleisten rakennusten alueet \n    -teollisuus- ja varastoalueet \n    -puisto ja urheilualueet \n    -muut alueet \n    Asemakaava-alueiden ulkop. alueet yht. \n  \n\n\n 2011 \n    2057 \n    727 \n    82 \n    176 \n    481 \n    606 \n    63078 \n  \n\n 2012 \n    2086 \n    739 \n    80 \n    176 \n    489 \n    617 \n    63049 \n  \n\n 2013 \n    2095 \n    743 \n    79 \n    176 \n    490 \n    622 \n    63040 \n  \n\n 2014 \n    2173 \n    757 \n    80 \n    181 \n    541 \n    629 \n    62962 \n  \n\n 2015 \n    2187 \n    766 \n    81 \n    182 \n    540 \n    633 \n    62948 \n  \n\n 2016 \n    2198 \n    773 \n    85 \n    183 \n    537 \n    635 \n    62937 \n  \n\n 2017 \n    2371 \n    777 \n    89 \n    205 \n    540 \n    772 \n    62764 \n  \n\n 2018 \n    2381 \n    781 \n    89 \n    207 \n    540 \n    776 \n    62754 \n  \n\n 2019 \n    2439 \n    796 \n    90 \n    210 \n    550 \n    805 \n    62696 \n  \n\n 2020 \n    2468 \n    803 \n    91 \n    203 \n    559 \n    824 \n    62667 \n  \n\n 2021 \n    2468 \n    804 \n    91 \n    203 \n    559 \n    823 \n    62667 \n  \n\n\nLähde:\n\n Kaavoitus"
+    "objectID": "vaestoskenaario.html",
+    "href": "vaestoskenaario.html",
+    "title": "\n13  Väestöskenaario\n",
+    "section": "",
+    "text": "13.1 Eri väestöskenaariot ja ennakkotieto",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Väestöskenaario</span>"
+    ]
   },
   {
-    "objectID": "alue.html#hyväksytyt-yleis--ja-asemakaavat",
-    "href": "alue.html#hyväksytyt-yleis--ja-asemakaavat",
-    "title": "\n13  Alue\n",
-    "section": "\n13.4 Hyväksytyt yleis- ja asemakaavat",
-    "text": "13.4 Hyväksytyt yleis- ja asemakaavat\n\n\n\n\n\n \n Vuosi \n    Yleiskaava \n    Osayleiskaava \n    Asemakaava \n    Asemakaavan muutoksia \n    Ranta.asemakaava \n  \n\n\n 2011 \n     \n    253 \n    21 \n    54 \n    691 \n  \n\n 2012 \n     \n     \n    29 \n    13 \n    15 \n  \n\n 2013 \n     \n     \n    9 \n    23 \n    4 \n  \n\n 2014 \n     \n     \n    78 \n    43 \n    5 \n  \n\n 2015 \n     \n    868 \n    14 \n    11 \n     \n  \n\n 2016 \n     \n     \n    11 \n    27 \n      \n  \n\n 2017 \n    87086 \n     \n    173 \n    12 \n    13 \n  \n\n 2018 \n     \n     \n    10 \n    25 \n     \n  \n\n 2019 \n     \n    219 \n    58 \n    32 \n     \n  \n\n 2020 \n     \n     \n    29 \n    35 \n     \n  \n\n 2021 \n     \n     \n     \n    4 \n    6 \n  \n\n\nLähde:\n\n Kaavoitus"
+    "objectID": "vaestoskenaario.html#väestöpyramidi-nykytilanteella-ja-tilastokeskuksen-ennustevuosina",
+    "href": "vaestoskenaario.html#väestöpyramidi-nykytilanteella-ja-tilastokeskuksen-ennustevuosina",
+    "title": "\n13  Väestöskenaario\n",
+    "section": "\n13.2 Väestöpyramidi nykytilanteella ja Tilastokeskuksen ennustevuosina",
+    "text": "13.2 Väestöpyramidi nykytilanteella ja Tilastokeskuksen ennustevuosina",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Väestöskenaario</span>"
+    ]
   },
   {
-    "objectID": "alue.html#hyväksytyt-oikeusvaikutteiset-yleiskaavat-ja-asemakaavat-yhteensä-hehtaaria",
-    "href": "alue.html#hyväksytyt-oikeusvaikutteiset-yleiskaavat-ja-asemakaavat-yhteensä-hehtaaria",
-    "title": "\n13  Alue\n",
-    "section": "\n13.5 Hyväksytyt oikeusvaikutteiset yleiskaavat ja asemakaavat yhteensä (hehtaaria)",
-    "text": "13.5 Hyväksytyt oikeusvaikutteiset yleiskaavat ja asemakaavat yhteensä (hehtaaria)\n\n\n\n\n\n \n Vuosi \n    Yleiskaava \n    Osayleiskaava \n    Asemakaava-aluetta \n    Ranta-asemakaava-aluetta \n  \n\n\n 2011 \n     \n    26998 \n    2057 \n    2773 \n  \n\n 2012 \n     \n    26998 \n    2086 \n    2773 \n  \n\n 2013 \n     \n    26998 \n    2095 \n    2773 \n  \n\n 2014 \n     \n    27447 \n    2173 \n    2774 \n  \n\n 2015 \n     \n    28315 \n    2187 \n    2774 \n  \n\n 2016 \n     \n    28315 \n    2198 \n    2774 \n  \n\n 2017 \n    87086 \n    28315 \n    2371 \n    2775 \n  \n\n 2018 \n    87086 \n    28315 \n    2381 \n    2775 \n  \n\n 2019 \n    87086 \n    28534 \n    2439 \n    2775 \n  \n\n 2020 \n    87086 \n    28534 \n    2468 \n    2775 \n  \n\n 2021 \n    87086 \n    28534 \n    2468 \n    2781 \n  \n\n\nLähde:\n\n Kaavoitus"
+    "objectID": "verotus.html",
+    "href": "verotus.html",
+    "title": "\n14  Verotus\n",
+    "section": "",
+    "text": "14.1 Kunnallisveron pohja\nVäestökehitys ikäryhmittäin 3 luokkaa\n\nVuosi\nYhteensä\nM yht. %\n0 - 18 vuotiaat\nM 0-18 %\n19 - 64 vuotiaat\nM 19-64 %\n+ 65 vuotiaat\nM +65 %\n\n\n\n1972\n19461\n\n5944\n\n11533\n\n1984\n\n\n\n1973\n19914\n2.33\n5999\n0.93\n11841\n2.67\n2074\n4.54\n\n\n1974\n20221\n1.54\n6048\n0.82\n12025\n1.55\n2148\n3.57\n\n\n1975\n20564\n1.70\n6042\n-0.10\n12281\n2.13\n2241\n4.33\n\n\n1976\n20778\n1.04\n6020\n-0.36\n12442\n1.31\n2316\n3.35\n\n\n1977\n21105\n1.57\n6072\n0.86\n12633\n1.54\n2400\n3.63\n\n\n1978\n21381\n1.31\n6109\n0.61\n12795\n1.28\n2477\n3.21\n\n\n1979\n21668\n1.34\n6193\n1.38\n12966\n1.34\n2509\n1.29\n\n\n1980\n21877\n0.96\n6205\n0.19\n13122\n1.20\n2550\n1.63\n\n\n1981\n22122\n1.12\n6237\n0.52\n13295\n1.32\n2590\n1.57\n\n\n1982\n22527\n1.83\n6330\n1.49\n13580\n2.14\n2617\n1.04\n\n\n1983\n22975\n1.99\n6449\n1.88\n13875\n2.17\n2651\n1.30\n\n\n1984\n23168\n0.84\n6474\n0.39\n14034\n1.15\n2660\n0.34\n\n\n1985\n23225\n0.25\n6415\n-0.91\n14086\n0.37\n2724\n2.41\n\n\n1986\n23372\n0.63\n6342\n-1.14\n14278\n1.36\n2752\n1.03\n\n\n1987\n23589\n0.93\n6306\n-0.57\n14470\n1.34\n2813\n2.22\n\n\n1988\n23656\n0.28\n6256\n-0.79\n14564\n0.65\n2836\n0.82\n\n\n1989\n24054\n1.68\n6330\n1.18\n14819\n1.75\n2905\n2.43\n\n\n1990\n24407\n1.47\n6426\n1.52\n15047\n1.54\n2934\n1.00\n\n\n1991\n24634\n0.93\n6508\n1.28\n15129\n0.54\n2997\n2.15\n\n\n1992\n24826\n0.78\n6568\n0.92\n15220\n0.60\n3038\n1.37\n\n\n1993\n25105\n1.12\n6628\n0.91\n15369\n0.98\n3108\n2.30\n\n\n1994\n25056\n-0.20\n6616\n-0.18\n15281\n-0.57\n3159\n1.64\n\n\n1995\n25106\n0.20\n6636\n0.30\n15213\n-0.44\n3257\n3.10\n\n\n1996\n25046\n-0.24\n6637\n0.02\n15143\n-0.46\n3266\n0.28\n\n\n1997\n25119\n0.29\n6615\n-0.33\n15214\n0.47\n3290\n0.73\n\n\n1998\n25133\n0.06\n6565\n-0.76\n15203\n-0.07\n3365\n2.28\n\n\n1999\n25285\n0.60\n6511\n-0.82\n15360\n1.03\n3414\n1.46\n\n\n2000\n25630\n1.36\n6577\n1.01\n15600\n1.56\n3453\n1.14\n\n\n2001\n25922\n1.14\n6611\n0.52\n15789\n1.21\n3522\n2.00\n\n\n2002\n26341\n1.62\n6635\n0.36\n16100\n1.97\n3606\n2.39\n\n\n2003\n26778\n1.66\n6703\n1.02\n16328\n1.42\n3747\n3.91\n\n\n2004\n27303\n1.96\n6860\n2.34\n16572\n1.49\n3871\n3.31\n\n\n2005\n27927\n2.29\n7086\n3.29\n16892\n1.93\n3949\n2.01\n\n\n2006\n28407\n1.72\n7225\n1.96\n17060\n0.99\n4122\n4.38\n\n\n2007\n28809\n1.42\n7341\n1.61\n17239\n1.05\n4229\n2.60\n\n\n2008\n29282\n1.64\n7500\n2.17\n17393\n0.89\n4389\n3.78\n\n\n2009\n29522\n0.82\n7598\n1.31\n17421\n0.16\n4503\n2.60\n\n\n2010\n29675\n0.52\n7619\n0.28\n17404\n-0.10\n4652\n3.31\n\n\n2011\n29891\n0.73\n7644\n0.33\n17354\n-0.29\n4893\n5.18\n\n\n2012\n30126\n0.79\n7669\n0.33\n17318\n-0.21\n5139\n5.03\n\n\n2013\n30345\n0.73\n7641\n-0.37\n17320\n0.01\n5384\n4.77\n\n\n2014\n30471\n0.42\n7618\n-0.30\n17262\n-0.33\n5591\n3.84\n\n\n2015\n30607\n0.45\n7606\n-0.16\n17265\n0.02\n5736\n2.59\n\n\n2016\n31190\n1.90\n7777\n2.25\n17473\n1.20\n5940\n3.56\n\n\n2017\n31437\n0.79\n7776\n-0.01\n17538\n0.37\n6123\n3.08\n\n\n2018\n31676\n0.76\n7744\n-0.41\n17619\n0.46\n6313\n3.10\n\n\n2019\n31868\n0.61\n7753\n0.12\n17575\n-0.25\n6540\n3.60\n\n\n2020\n32214\n1.09\n7740\n-0.17\n17732\n0.89\n6742\n3.09\n\n\n2021\n32622\n1.27\n7757\n0.22\n18012\n1.58\n6853\n1.65\n\n\n2022\n32959\n1.03\n7766\n0.12\n18230\n1.21\n6963\n1.61\n\n\n2023\n33473\n1.56\n7770\n0.05\n18612\n2.10\n7091\n1.84\n\n\n\n\nLähde: \n\n 11re -- Väestö iän (1-v.) ja sukupuolen mukaan alueittain, 1972-2023 - (päivitetty: 2024-04-25T13:37:07)",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Verotus</span>"
+    ]
   },
   {
-    "objectID": "alue.html#kaupungin-maanomistus",
-    "href": "alue.html#kaupungin-maanomistus",
-    "title": "\n13  Alue\n",
-    "section": "\n13.6 Kaupungin maanomistus",
-    "text": "13.6 Kaupungin maanomistus\n\n\n\n\nKaupungin maanomistus (alueet hehtaareina)\n \n Vuosi \n    Kaava-alueet yht. \n    -asuinrakennus \n    -yleinen rakennus \n    -teollisuus ja varasto \n    -puisto ja urheilu \n    -muut \n    Kaava-alueiden ulkopuolella yht. \n    -rakennetut \n    -maa ja metsä \n    -urheilu ja uimaranta \n    Kunnan maanomistus yht. \n    Kunnan maapinta-ala \n    Kunnan osuus pinta-alasta \n  \n\n\n 2011 \n    542 \n    10 \n    44 \n    11 \n    339 \n    138 \n    2650 \n    294 \n    2327 \n    29 \n    3192 \n    65900 \n    4,8 \n  \n\n 2012 \n    559 \n    16 \n    43 \n    9 \n    348 \n    143 \n    2657 \n    286 \n    2342 \n    29 \n    3216 \n    65900 \n    4,9 \n  \n\n 2013 \n    562 \n    17 \n    44 \n    8 \n    362 \n    131 \n    2674 \n    303 \n    2342 \n    29 \n    3236 \n    65901 \n    4,9 \n  \n\n 2014 \n    626 \n    21 \n    45 \n    13 \n    413 \n    134 \n    2663 \n    303 \n    2331 \n    29 \n    3289 \n    65902 \n    5,0 \n  \n\n 2015 \n    627 \n    19 \n    45 \n    6 \n    418 \n    139 \n    2686 \n    312 \n    2345 \n    29 \n    3313 \n    65903 \n    5,0 \n  \n\n 2016 \n    630 \n    20 \n    49 \n    4 \n    418 \n    139 \n    2949 \n    312 \n    2338 \n    29 \n    3579 \n    65904 \n    5,4 \n  \n\n 2017 \n    758 \n    22 \n    49 \n    71 \n    457 \n    159 \n    2934 \n    312 \n    2593 \n    29 \n    3692 \n    65905 \n    5,6 \n  \n\n 2018 \n    1048 \n    69 \n    69 \n    40 \n    485 \n    385 \n    2685 \n    312 \n    2344 \n    29 \n    3733 \n    65906 \n    5,7 \n  \n\n 2019 \n    1109 \n    84 \n    72 \n    42 \n    502 \n    409 \n    2629 \n    312 \n    2288 \n    29 \n    3738 \n    65907 \n    5,7 \n  \n\n 2020 \n    1144 \n    89 \n    52 \n    41 \n    609 \n    353 \n    2626 \n    40 \n    2521 \n    65 \n    3770 \n    65908 \n    5,7 \n  \n\n 2021 \n    1163 \n    56 \n    63 \n    74 \n    628 \n    342 \n    2969 \n    83 \n    2820 \n    64 \n    4132 \n    65909 \n    5,7 \n  \n\n\nLähde:\n\n Paikkatietoa ja mittaus"
+    "objectID": "verotus.html#ansiotulot",
+    "href": "verotus.html#ansiotulot",
+    "title": "\n14  Verotus\n",
+    "section": "\n14.2 Ansiotulot",
+    "text": "14.2 Ansiotulot\nTilasto sisältää tuloverotuksen valmistumisen mukaiset tiedot kaikista henkilöasiakkaista. Tilastossa ei huomioida muutosverotuksen tietoja. Lähde: (Vero.fi 2024a)\n\n\n\n\n\n\nAnsiotulot\n\nVuosi\nPalkkatulot\nPM %\nEläketulot\nEM %\nTyottomyysturva\nTM %\nMuut sos.turva\nMM %\nMaa- ja metsätalous\nMTM %\nElinkeinotoiminta\nELM %\nAnsiotulot\nAM %\n\n\n\n2014\n470,138\n\n143,857\n\n23,148\n\n14,626\n\n2,497\n\n31,290\n\n685,558\n\n\n\n2015\n479,227\n1.93\n147,953\n2.85\n23,907\n3.28\n14,832\n1.41\n1,966\n-21.27\n30,734\n-1.78\n698,621\n1.91\n\n\n2016\n492,671\n2.81\n152,189\n2.86\n23,057\n-3.56\n15,176\n2.32\n2,091\n6.36\n31,289\n1.81\n716,476\n2.56\n\n\n2017\n506,440\n2.79\n158,081\n3.87\n20,839\n-9.62\n15,109\n-0.44\n1,952\n-6.65\n30,268\n-3.26\n732,691\n2.26\n\n\n2018\n533,503\n5.34\n162,819\n3.00\n17,031\n-18.27\n14,672\n-2.89\n1,709\n-12.45\n31,784\n5.01\n761,521\n3.93\n\n\n2019\n559,497\n4.87\n168,852\n3.71\n15,193\n-10.79\n15,069\n2.71\n1,967\n15.10\n31,771\n-0.04\n792,351\n4.05\n\n\n2020\n558,604\n-0.16\n175,781\n4.10\n22,485\n48.00\n15,962\n5.93\n1,924\n-2.19\n31,315\n-1.44\n806,074\n1.73\n\n\n2021\n594,535\n6.43\n180,617\n2.75\n20,646\n-8.18\n16,137\n1.10\n1,991\n3.48\n33,061\n5.58\n846,989\n5.08\n\n\n2022\n639,262\n7.52\n186,994\n3.53\n15,736\n-23.78\n18,551\n14.96\n2,142\n7.58\n34,036\n2.95\n896,724\n5.87\n\n\n\n\nLähde: \n\n 6.01 Yleisesti verovelvollisten merkittävimmät tuloerät alueittain)",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Verotus</span>"
+    ]
   },
   {
-    "objectID": "alue.html#muiden-kuin-kaupungin-maanomistus",
-    "href": "alue.html#muiden-kuin-kaupungin-maanomistus",
-    "title": "\n13  Alue\n",
-    "section": "\n13.7 Muiden kuin kaupungin maanomistus",
-    "text": "13.7 Muiden kuin kaupungin maanomistus\n\n\n\n\n\n \n Vuosi \n    Valtio \n    Seurakunnat \n    Muut kunnat \n    Muut yht. \n    Muiden kuin kunnan yht. \n    Kunnan maapinta ala \n    Muiden kuin kunnan maanomistus kunnan pinta.alasta \n  \n\n\n 2011 \n    391 \n    387 \n    49 \n    61881 \n    62708 \n    65900 \n    95,2 \n  \n\n 2012 \n    387 \n    597 \n    49 \n    61651 \n    62684 \n    65900 \n    95,1 \n  \n\n 2013 \n    387 \n    597 \n    49 \n    61631 \n    61664 \n    65900 \n    95,1 \n  \n\n 2014 \n    387 \n    597 \n    49 \n    61578 \n    62611 \n    65900 \n    95,0 \n  \n\n 2015 \n    387 \n    597 \n    49 \n    61554 \n    62587 \n    65900 \n    95,0 \n  \n\n 2016 \n    387 \n    597 \n    49 \n    61554 \n    62321 \n    65900 \n    94,6 \n  \n\n 2017 \n    431 \n    594 \n    49 \n    61134 \n    62208 \n    65900 \n    94,4 \n  \n\n 2018 \n    520 \n    594 \n    39 \n    61014 \n    62167 \n    65900 \n    94,3 \n  \n\n 2019 \n    462 \n    597 \n    40 \n    61063 \n    62162 \n    65900 \n    94,3 \n  \n\n 2020 \n    524 \n    605 \n    41 \n    60960 \n    62130 \n    65900 \n    94,3 \n  \n\n 2021 \n    508 \n    586 \n    34 \n    60640 \n    61768 \n    65900 \n    93,7 \n  \n\n\nLähde:\n\n Paikkatieto ja mittaus"
+    "objectID": "verotus.html#vähennykset",
+    "href": "verotus.html#vähennykset",
+    "title": "\n14  Verotus\n",
+    "section": "\n14.3 Vähennykset",
+    "text": "14.3 Vähennykset\nTilaston vähennyseristä yleisesti: Jos verovelvolliselle ei ole määrätty verotettavasta tulosta veroja tai niiden määrä on pienempi kuin verosta myönnetty vähennys, myönnettyä vähennystä ei ole voitu vähentää kokonaisuudessaan. Tällaisissa tilanteissa verotuksessa vähennetty määrä on pienempi kuin myönnetty määrä. Sama periaate pätee myös tuloista tehtävien vähennysten osalta.\nLyhenteet:\nPV % = Palkansaajan vakuutusmaksujen %-osuus palkoista\nE % = Eläketulovähennyksen %-osuus eläkkeistä\nA % = Vuosittainen muutos ansiotulot-vähennykset\nLähde: (Vero.fi 2024a)\n\n\n\n\n\n\nVähennykset\n\nVuosi\nPalkansaajan vak.maksut\nPV %\nVähennetyt matkakustan.\nMuut tulonhankk.vähenn.\nEläketulovähennys\nE %\nAnsiotulovähennys\nPerusvähennys\nMuut vähennykset\nVähennykset yht.\nVäh.aste\nAnsiotulot-vähennykset\nA %\n\n\n\n2014\n32,996\n7.02\n10,515\n14,740\n29,894\n20.78\n34,333\n13,521\n1,159\n137,158\n20.01\n548,401\n\n\n\n2015\n34,527\n7.20\n9,663\n15,031\n31,569\n21.34\n33,811\n14,496\n1,209\n140,305\n20.08\n558,317\n1.81\n\n\n2016\n37,558\n7.62\n9,287\n15,269\n31,180\n20.49\n33,660\n14,817\n1,096\n142,869\n19.94\n573,608\n2.74\n\n\n2017\n46,674\n9.22\n9,407\n17,463\n32,019\n20.25\n34,672\n15,623\n1,059\n156,917\n21.42\n575,774\n0.38\n\n\n2018\n51,373\n9.63\n10,193\n17,864\n31,643\n19.43\n35,250\n16,020\n1,076\n163,418\n21.46\n598,104\n3.88\n\n\n2019\n53,812\n9.62\n10,487\n18,326\n31,213\n18.49\n35,593\n17,848\n1,071\n168,349\n21.25\n624,002\n4.33\n\n\n2020\n52,738\n9.44\n9,383\n18,754\n31,925\n18.16\n34,895\n20,412\n1,174\n169,282\n21.00\n636,792\n2.05\n\n\n2021\n57,807\n9.72\n9,954\n19,457\n32,234\n17.85\n35,216\n21,438\n1,109\n177,215\n20.92\n669,775\n5.18\n\n\n2022\n61,446\n9.61\n12,921\n19,888\n34,528\n18.46\n36,330\n22,239\n1,101\n188,453\n21.02\n708,271\n5.75\n\n\n\n\nLähde: \n\n 5.4 (Verovuosi 2022) Tulot, vähennykset ja verot verovelvollisittain ja alueittain)",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Verotus</span>"
+    ]
   },
   {
-    "objectID": "alue.html#kaupungin-omistama-maa--ja-metsätalousmaa",
-    "href": "alue.html#kaupungin-omistama-maa--ja-metsätalousmaa",
-    "title": "\n13  Alue\n",
-    "section": "\n13.8 Kaupungin omistama maa- ja metsätalousmaa",
-    "text": "13.8 Kaupungin omistama maa- ja metsätalousmaa\n\n\n\n\n\n \n Vuosi \n    Viljeltyä peltoa (ha) \n    Kasvullista metsää (ha) \n    Metsän myynti kertomusvuonna, kiinto-m3 \n  \n\n\n 2011 \n    136 \n    1899 \n    1406 \n  \n\n 2012 \n    136 \n    1908 \n    2339 \n  \n\n 2013 \n    136 \n    2080 \n    4003 \n  \n\n 2014 \n    135 \n    2250 \n    7427 \n  \n\n 2015 \n    135 \n    2445 \n    8259 \n  \n\n 2016 \n    140 \n    2430 \n    7154 \n  \n\n 2017 \n    135 \n    2440 \n    9018 \n  \n\n 2018 \n    136 \n    2208 \n    11142 \n  \n\n 2019 \n    136 \n    2222 \n    14481 \n  \n\n 2020 \n    117 \n    2235 \n    14547 \n  \n\n 2021 \n    112 \n    2284 \n    8600 \n  \n\n\nLähde:\n\n Maataloushallintopalvelut"
+    "objectID": "verotus.html#maksettava-kunnallisvero",
+    "href": "verotus.html#maksettava-kunnallisvero",
+    "title": "\n14  Verotus\n",
+    "section": "\n14.4 Maksettava kunnallisvero",
+    "text": "14.4 Maksettava kunnallisvero",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Verotus</span>"
+    ]
+  },
+  {
+    "objectID": "verotus.html#kiinteistövero",
+    "href": "verotus.html#kiinteistövero",
+    "title": "\n14  Verotus\n",
+    "section": "\n14.5 Kiinteistövero",
+    "text": "14.5 Kiinteistövero\nKunnan alueella sijaitsevista kiinteistöistä maksuunpantu kiinteistövero tilitetään kokonaisuudessaan kyseiselle kunnalle. Tilaston avulla voi arvioida kunnan kiinteistöverotuottojen suuruutta. Tilastoluvut eivät kuitenkaan kerro aivan tarkasti kunnille todellisuudessa tilitetyistä kiinteistöverotuotoista, koska maksuunpannun kiinteistöveron määrä voi muuttua muutosverotuksen myötä ja nämä muutokset eivät päivity tilastolukuihin. Lisäksi maksuunpantua kiinteistöveroa ei välttämättä saada kokonaisuudessaan kerättyä. Lähde: (Vero.fi 2024b)\n\n\n\n\n\n\nKiinteistövero sijaintikunnan mukaan\n\nVuosi\nYhteensä\nLukumäärä\nMuutos %\n\n\n\n2014\n6,712,488\n16578\n\n\n\n2015\n6,803,319\n16709\n1.35\n\n\n2016\n6,920,309\n16884\n1.72\n\n\n2017\n7,135,598\n17025\n3.11\n\n\n2018\n7,169,943\n17166\n0.48\n\n\n2019\n7,307,511\n17261\n1.92\n\n\n2020\n7,450,591\n17411\n1.96\n\n\n2021\n7,682,217\n17580\n3.11\n\n\n2022\n8,142,336\n17841\n5.99\n\n\n2023\n8,722,965\n17981\n7.13\n\n\n2024 (ennakkotieto)\n9,871,440\n18091\n13.17\n\n\n\n\nLähde: \n\n 1.1 Maksuunpantu kiinteistövero: asiakkaan kiinteistöveron määrä oikeudellisen muodon, veron suuruuden ja kiinteistön sijaintikunnan mukaan)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVero.fi. 2024a. 6.01 Yleisesti verovelvollisten merkittävimmät tuloerät alueittain. Vero.fi. https://vero2.stat.fi/PXWeb/pxweb/fi/Vero/Vero__Henkiloasiakkaiden_tuloverot__lopulliset__alue/tulot_102.px/.\n\n\n———. 2024b. Kiinteistöverotilastojen sisältökuvaus ja lukuohje. Vero.fi. https://www.vero.fi/tietoa-verohallinnosta/tilastot/tilastotietokannan-sisaltokuvaus-ja-lukuohje/kiinteistoverotilastojen-lukuohje/#tilasto1.1.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Verotus</span>"
+    ]
   },
   {
     "objectID": "lahteet.html",
     "href": "lahteet.html",
     "title": "Lähteet",
     "section": "",
-    "text": "Kuntaliitto. 2014. Työpaikkaomavaraisuus Kuntien Tunnuslukuna.\nKuntaliitto. https://www.stat.fi/artikkelit/2014/art_2014-05-26_003.html?s=0#1.\n\n\n———. 2023. Kirjanpito Ja Tilinpäätös. Kuntaliitto. https://www.kuntaliitto.fi/talous/kirjanpito-ja-tilinpaatos.\n\n\nTilastokeskus. 2023a. Kasvihuonekaasujen Päästöjen Ja Poistumien\nRaportoinnissa Alkaa Uusi Kausi. Tilastokeskus. https://stat.fi/muutostiedote/cl3bhkztacwpy0gvt9m6ysc83.\n\n\n———. 2023b. Kasvihuonekaasut. Tilastokeskus. https://stat.fi/tilasto/khki.\n\n\nTutkihallintoa.fi. 2023. Kuntatalouden ABC. Tutkihallintoa.fi.\nhttps://www.tutkihallintoa.fi/kuntatalouden-abc/."
+    "text": "GNU.org. 2023. LGPL 2.1 Lisenssi. GNU.orgi. https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html.\n\n\nKuntaliitto. 2014. Työpaikkaomavaraisuus Kuntien Tunnuslukuna.\nKuntaliitto. https://www.stat.fi/artikkelit/2014/art_2014-05-26_003.html?s=0#1.\n\n\nTHL. 2023. HYTE-Kerroin. THL. https://sotkanet.fi/sotkanet/fi/metadata/indicators/5340.\n\n\nTilastokeskus. 2023a. Kasvihuonekaasujen Päästöjen Ja Poistumien\nRaportoinnissa Alkaa Uusi Kausi. Tilastokeskus. https://stat.fi/muutostiedote/cl3bhkztacwpy0gvt9m6ysc83.\n\n\n———. 2023b. Kasvihuonekaasut. Tilastokeskus. https://stat.fi/tilasto/khki.\n\n\nVero.fi. 2024a. 6.01 Yleisesti Verovelvollisten Merkittävimmät\nTuloerät Alueittain. Vero.fi. https://vero2.stat.fi/PXWeb/pxweb/fi/Vero/Vero__Henkiloasiakkaiden_tuloverot__lopulliset__alue/tulot_102.px/.\n\n\n———. 2024b. Kiinteistöverotilastojen Sisältökuvaus Ja Lukuohje.\nVero.fi. https://www.vero.fi/tietoa-verohallinnosta/tilastot/tilastotietokannan-sisaltokuvaus-ja-lukuohje/kiinteistoverotilastojen-lukuohje/#tilasto1.1.",
+    "crumbs": [
+      "Liitteet",
+      "Lähteet"
+    ]
   }
 ]
